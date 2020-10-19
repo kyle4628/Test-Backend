@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FEUNMLModelStoreContainer" CdmEntityContainer="FEUNMLEntities">
+    <EntitySetMapping Name="places">
+      <EntityTypeMapping TypeName="FEUNMLModel.place">
+        <MappingFragment StoreEntitySet="place">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="longitude" ColumnName="longitude" />
+          <ScalarProperty Name="latitude" ColumnName="latitude" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="type" ColumnName="type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="placeLists">
+      <EntityTypeMapping TypeName="FEUNMLModel.placeList">
+        <MappingFragment StoreEntitySet="placeList">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="privacy" ColumnName="privacy" />
+          <ScalarProperty Name="created" ColumnName="created" />
+          <ScalarProperty Name="updated" ColumnName="updated" />
+          <ScalarProperty Name="cover" ColumnName="cover" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tags">
+      <EntityTypeMapping TypeName="FEUNMLModel.tag">
+        <MappingFragment StoreEntitySet="tag">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="type" ColumnName="type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tagRelations">
+      <EntityTypeMapping TypeName="FEUNMLModel.tagRelation">
+        <MappingFragment StoreEntitySet="tagRelation">
+          <ScalarProperty Name="place_id" ColumnName="place_id" />
+          <ScalarProperty Name="tag_id" ColumnName="tag_id" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="FEUNMLModel.user">
+        <MappingFragment StoreEntitySet="user">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="authority" ColumnName="authority" />
+          <ScalarProperty Name="updated" ColumnName="updated" />
+          <ScalarProperty Name="created" ColumnName="created" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="placeRelation" TypeName="FEUNMLModel.placeRelation" StoreEntitySet="placeRelation">
+      <EndProperty Name="place">
+        <ScalarProperty Name="id" ColumnName="place_id" />
+      </EndProperty>
+      <EndProperty Name="placeList">
+        <ScalarProperty Name="id" ColumnName="placeList_id" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

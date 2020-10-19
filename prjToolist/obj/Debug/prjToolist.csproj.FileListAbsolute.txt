@@ -1,0 +1,1997 @@
+C:\Users\User\source\repos\slnToolist\prjToolist\obj\Debug\prjToolist.csprojAssemblyReference.cache
+C:\Users\User\source\repos\slnToolist\prjToolist\obj\Debug\prjToolist.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\prjToolist.dll.config
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\prjToolist.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\prjToolist.pdb
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\csc.exe
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\csc.exe.config
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\csc.rsp
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\csi.exe
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\csi.exe.config
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\csi.rsp
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\System.AppContext.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\System.Console.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\System.IO.Compression.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\System.IO.Pipes.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\System.Security.Claims.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\System.ValueTuple.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\System.Xml.XPath.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\vbc.exe
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\vbc.exe.config
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\vbc.rsp
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\Antlr3.Runtime.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\EntityFramework.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\EntityFramework.SqlServer.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\Newtonsoft.Json.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\System.Net.Http.Formatting.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\System.Web.Helpers.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\System.Web.Http.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\System.Web.Http.WebHost.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\System.Web.Mvc.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\System.Web.Optimization.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\System.Web.Razor.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\System.Web.WebPages.Deployment.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\System.Web.WebPages.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\System.Web.WebPages.Razor.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\WebGrease.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\EntityFramework.xml
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\EntityFramework.SqlServer.xml
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\Newtonsoft.Json.xml
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\System.Net.Http.Formatting.xml
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\System.Web.Helpers.xml
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\System.Web.Http.xml
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\System.Web.Http.WebHost.xml
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\System.Web.Mvc.xml
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\System.Web.Optimization.xml
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\System.Web.Razor.xml
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\System.Web.WebPages.xml
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\System.Web.WebPages.Deployment.xml
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\System.Web.WebPages.Razor.xml
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\Antlr3.Runtime.pdb
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\zh-Hant\EntityFramework.resources.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\zh-Hant\System.Net.Http.Formatting.resources.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\zh-Hant\System.Web.Helpers.resources.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\zh-Hant\System.Web.Http.resources.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\zh-Hant\System.Web.Http.WebHost.resources.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\zh-Hant\System.Web.Mvc.resources.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\zh-Hant\System.Web.Optimization.resources.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\zh-Hant\System.Web.Razor.resources.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\zh-Hant\System.Web.WebPages.resources.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\obj\Debug\prjToolist.csproj.CopyComplete
+C:\Users\User\source\repos\slnToolist\prjToolist\obj\Debug\prjToolist.dll
+C:\Users\User\source\repos\slnToolist\prjToolist\obj\Debug\prjToolist.pdb
+C:\Users\User\source\repos\slnToolist\prjToolist\bin\zh-Hant\EntityFramework.SqlServer.resources.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\prjToolist.dll.config
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\prjToolist.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\prjToolist.pdb
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\csc.exe
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\csc.exe.config
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\csc.rsp
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\csi.exe
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\csi.exe.config
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\csi.rsp
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\System.AppContext.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\System.Console.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\System.IO.Compression.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\System.IO.Pipes.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\System.Security.Claims.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\System.ValueTuple.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\System.Xml.XPath.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\vbc.exe
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\vbc.exe.config
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\vbc.rsp
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\Antlr3.Runtime.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\EntityFramework.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\Newtonsoft.Json.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\System.Net.Http.Formatting.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\System.Web.Helpers.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\System.Web.Http.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\System.Web.Http.WebHost.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\System.Web.Mvc.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\System.Web.Optimization.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\System.Web.Razor.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\System.Web.WebPages.Deployment.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\System.Web.WebPages.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\System.Web.WebPages.Razor.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\WebGrease.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\EntityFramework.xml
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\Newtonsoft.Json.xml
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\System.Net.Http.Formatting.xml
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\System.Web.Helpers.xml
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\System.Web.Http.xml
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\System.Web.Http.WebHost.xml
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\System.Web.Mvc.xml
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\System.Web.Optimization.xml
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\System.Web.Razor.xml
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\System.Web.WebPages.xml
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\System.Web.WebPages.Deployment.xml
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\System.Web.WebPages.Razor.xml
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\Antlr3.Runtime.pdb
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\zh-Hant\EntityFramework.resources.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\zh-Hant\EntityFramework.SqlServer.resources.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\zh-Hant\System.Net.Http.Formatting.resources.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\zh-Hant\System.Web.Helpers.resources.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\zh-Hant\System.Web.Http.resources.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\zh-Hant\System.Web.Http.WebHost.resources.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\zh-Hant\System.Web.Mvc.resources.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\zh-Hant\System.Web.Optimization.resources.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\zh-Hant\System.Web.Razor.resources.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\zh-Hant\System.Web.WebPages.resources.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\obj\Debug\prjToolist.csprojAssemblyReference.cache
+C:\Users\User\Desktop\III\slnToolist\prjToolist\obj\Debug\prjToolist.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\III\slnToolist\prjToolist\obj\Debug\prjToolist.csproj.CopyComplete
+C:\Users\User\Desktop\III\slnToolist\prjToolist\obj\Debug\prjToolist.dll
+C:\Users\User\Desktop\III\slnToolist\prjToolist\obj\Debug\prjToolist.pdb
+C:\slnToolist\prjToolist\bin\prjToolist.dll.config
+C:\slnToolist\prjToolist\bin\prjToolist.dll
+C:\slnToolist\prjToolist\bin\prjToolist.pdb
+C:\slnToolist\prjToolist\bin\roslyn\csc.exe
+C:\slnToolist\prjToolist\bin\roslyn\csc.exe.config
+C:\slnToolist\prjToolist\bin\roslyn\csc.rsp
+C:\slnToolist\prjToolist\bin\roslyn\csi.exe
+C:\slnToolist\prjToolist\bin\roslyn\csi.exe.config
+C:\slnToolist\prjToolist\bin\roslyn\csi.rsp
+C:\slnToolist\prjToolist\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\slnToolist\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\slnToolist\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\slnToolist\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\slnToolist\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\slnToolist\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\slnToolist\prjToolist\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\slnToolist\prjToolist\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\slnToolist\prjToolist\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\slnToolist\prjToolist\bin\roslyn\Microsoft.Managed.Core.targets
+C:\slnToolist\prjToolist\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\slnToolist\prjToolist\bin\roslyn\System.AppContext.dll
+C:\slnToolist\prjToolist\bin\roslyn\System.Collections.Immutable.dll
+C:\slnToolist\prjToolist\bin\roslyn\System.Console.dll
+C:\slnToolist\prjToolist\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\slnToolist\prjToolist\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\slnToolist\prjToolist\bin\roslyn\System.IO.Compression.dll
+C:\slnToolist\prjToolist\bin\roslyn\System.IO.FileSystem.dll
+C:\slnToolist\prjToolist\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\slnToolist\prjToolist\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\slnToolist\prjToolist\bin\roslyn\System.IO.Pipes.dll
+C:\slnToolist\prjToolist\bin\roslyn\System.Reflection.Metadata.dll
+C:\slnToolist\prjToolist\bin\roslyn\System.Security.AccessControl.dll
+C:\slnToolist\prjToolist\bin\roslyn\System.Security.Claims.dll
+C:\slnToolist\prjToolist\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\slnToolist\prjToolist\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\slnToolist\prjToolist\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\slnToolist\prjToolist\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\slnToolist\prjToolist\bin\roslyn\System.Security.Principal.Windows.dll
+C:\slnToolist\prjToolist\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\slnToolist\prjToolist\bin\roslyn\System.ValueTuple.dll
+C:\slnToolist\prjToolist\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\slnToolist\prjToolist\bin\roslyn\System.Xml.XmlDocument.dll
+C:\slnToolist\prjToolist\bin\roslyn\System.Xml.XPath.dll
+C:\slnToolist\prjToolist\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\slnToolist\prjToolist\bin\roslyn\vbc.exe
+C:\slnToolist\prjToolist\bin\roslyn\vbc.exe.config
+C:\slnToolist\prjToolist\bin\roslyn\vbc.rsp
+C:\slnToolist\prjToolist\bin\roslyn\VBCSCompiler.exe
+C:\slnToolist\prjToolist\bin\roslyn\VBCSCompiler.exe.config
+C:\slnToolist\prjToolist\bin\Antlr3.Runtime.dll
+C:\slnToolist\prjToolist\bin\EntityFramework.dll
+C:\slnToolist\prjToolist\bin\EntityFramework.SqlServer.dll
+C:\slnToolist\prjToolist\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\slnToolist\prjToolist\bin\Microsoft.Web.Infrastructure.dll
+C:\slnToolist\prjToolist\bin\Newtonsoft.Json.dll
+C:\slnToolist\prjToolist\bin\System.Net.Http.Formatting.dll
+C:\slnToolist\prjToolist\bin\System.Web.Helpers.dll
+C:\slnToolist\prjToolist\bin\System.Web.Http.dll
+C:\slnToolist\prjToolist\bin\System.Web.Http.WebHost.dll
+C:\slnToolist\prjToolist\bin\System.Web.Mvc.dll
+C:\slnToolist\prjToolist\bin\System.Web.Optimization.dll
+C:\slnToolist\prjToolist\bin\System.Web.Razor.dll
+C:\slnToolist\prjToolist\bin\System.Web.WebPages.Deployment.dll
+C:\slnToolist\prjToolist\bin\System.Web.WebPages.dll
+C:\slnToolist\prjToolist\bin\System.Web.WebPages.Razor.dll
+C:\slnToolist\prjToolist\bin\WebGrease.dll
+C:\slnToolist\prjToolist\bin\EntityFramework.xml
+C:\slnToolist\prjToolist\bin\EntityFramework.SqlServer.xml
+C:\slnToolist\prjToolist\bin\Newtonsoft.Json.xml
+C:\slnToolist\prjToolist\bin\System.Net.Http.Formatting.xml
+C:\slnToolist\prjToolist\bin\System.Web.Helpers.xml
+C:\slnToolist\prjToolist\bin\System.Web.Http.xml
+C:\slnToolist\prjToolist\bin\System.Web.Http.WebHost.xml
+C:\slnToolist\prjToolist\bin\System.Web.Mvc.xml
+C:\slnToolist\prjToolist\bin\System.Web.Optimization.xml
+C:\slnToolist\prjToolist\bin\System.Web.Razor.xml
+C:\slnToolist\prjToolist\bin\System.Web.WebPages.xml
+C:\slnToolist\prjToolist\bin\System.Web.WebPages.Deployment.xml
+C:\slnToolist\prjToolist\bin\System.Web.WebPages.Razor.xml
+C:\slnToolist\prjToolist\bin\Antlr3.Runtime.pdb
+C:\slnToolist\prjToolist\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\slnToolist\prjToolist\bin\zh-Hant\EntityFramework.resources.dll
+C:\slnToolist\prjToolist\bin\zh-Hant\EntityFramework.SqlServer.resources.dll
+C:\slnToolist\prjToolist\bin\zh-Hant\System.Net.Http.Formatting.resources.dll
+C:\slnToolist\prjToolist\bin\zh-Hant\System.Web.Helpers.resources.dll
+C:\slnToolist\prjToolist\bin\zh-Hant\System.Web.Http.resources.dll
+C:\slnToolist\prjToolist\bin\zh-Hant\System.Web.Http.WebHost.resources.dll
+C:\slnToolist\prjToolist\bin\zh-Hant\System.Web.Mvc.resources.dll
+C:\slnToolist\prjToolist\bin\zh-Hant\System.Web.Optimization.resources.dll
+C:\slnToolist\prjToolist\bin\zh-Hant\System.Web.Razor.resources.dll
+C:\slnToolist\prjToolist\bin\zh-Hant\System.Web.WebPages.resources.dll
+C:\slnToolist\prjToolist\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+C:\slnToolist\prjToolist\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+C:\slnToolist\prjToolist\obj\Debug\prjToolist.csprojAssemblyReference.cache
+C:\slnToolist\prjToolist\obj\Debug\prjToolist.csproj.CoreCompileInputs.cache
+C:\slnToolist\prjToolist\obj\Debug\prjToolist.csproj.CopyComplete
+C:\slnToolist\prjToolist\obj\Debug\prjToolist.dll
+C:\slnToolist\prjToolist\obj\Debug\prjToolist.pdb
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\prjToolist.dll.config
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\prjToolist.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\prjToolist.pdb
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\csc.exe
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\csc.exe.config
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\csc.rsp
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\csi.exe
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\csi.exe.config
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\csi.rsp
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\System.AppContext.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\System.Console.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\System.IO.Compression.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\System.IO.Pipes.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\System.Security.Claims.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\System.ValueTuple.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\System.Xml.XPath.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\vbc.exe
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\vbc.exe.config
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\vbc.rsp
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\Antlr3.Runtime.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\EntityFramework.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\Newtonsoft.Json.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Net.Http.Formatting.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Web.Helpers.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Web.Http.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Web.Http.WebHost.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Web.Mvc.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Web.Optimization.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Web.Razor.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Web.WebPages.Deployment.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Web.WebPages.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Web.WebPages.Razor.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\WebGrease.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\EntityFramework.xml
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\Newtonsoft.Json.xml
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Net.Http.Formatting.xml
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Web.Helpers.xml
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Web.Http.xml
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Web.Http.WebHost.xml
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Web.Mvc.xml
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Web.Optimization.xml
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Web.Razor.xml
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Web.WebPages.xml
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Web.WebPages.Deployment.xml
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Web.WebPages.Razor.xml
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\Antlr3.Runtime.pdb
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\zh-Hant\EntityFramework.resources.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\zh-Hant\EntityFramework.SqlServer.resources.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\zh-Hant\System.Net.Http.Formatting.resources.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\zh-Hant\System.Web.Helpers.resources.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\zh-Hant\System.Web.Http.resources.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\zh-Hant\System.Web.Http.WebHost.resources.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\zh-Hant\System.Web.Mvc.resources.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\zh-Hant\System.Web.Optimization.resources.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\zh-Hant\System.Web.Razor.resources.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\zh-Hant\System.Web.WebPages.resources.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\obj\Debug\prjToolist.csprojAssemblyReference.cache
+C:\Users\User\Desktop\slnToolist\prjToolist\obj\Debug\prjToolist.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\slnToolist\prjToolist\obj\Debug\prjToolist.csproj.CopyComplete
+C:\Users\User\Desktop\slnToolist\prjToolist\obj\Debug\prjToolist.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\obj\Debug\prjToolist.pdb
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\Microsoft.Win32.Primitives.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\netstandard.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.AppContext.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Collections.Concurrent.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Collections.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Collections.NonGeneric.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Collections.Specialized.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.ComponentModel.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.ComponentModel.Primitives.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Console.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Data.Common.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Diagnostics.Contracts.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Diagnostics.Debug.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Diagnostics.Process.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Diagnostics.StackTrace.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Diagnostics.Tools.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Diagnostics.TraceSource.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Diagnostics.Tracing.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Drawing.Primitives.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Dynamic.Runtime.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Globalization.Calendars.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Globalization.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Globalization.Extensions.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.IO.Compression.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.IO.Compression.ZipFile.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.IO.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.IO.FileSystem.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.IO.IsolatedStorage.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.IO.Pipes.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Linq.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Linq.Expressions.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Linq.Parallel.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Linq.Queryable.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Net.Http.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Net.NameResolution.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Net.NetworkInformation.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Net.Ping.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Net.Primitives.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Net.Requests.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Net.Security.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Net.Sockets.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Net.WebHeaderCollection.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Net.WebSockets.Client.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Net.WebSockets.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.ObjectModel.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Reflection.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Reflection.Extensions.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Reflection.Primitives.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Resources.Reader.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Resources.ResourceManager.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Resources.Writer.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Runtime.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Runtime.Extensions.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Runtime.Handles.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Runtime.InteropServices.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Runtime.Numerics.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Runtime.Serialization.Json.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Security.Claims.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Security.Cryptography.Csp.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Security.Principal.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Security.SecureString.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Text.Encoding.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Text.Encoding.Extensions.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Text.RegularExpressions.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Threading.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Threading.Overlapped.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Threading.Tasks.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Threading.Thread.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Threading.ThreadPool.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Threading.Timer.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.ValueTuple.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Xml.ReaderWriter.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Xml.XDocument.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Xml.XmlDocument.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Xml.XmlSerializer.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Xml.XPath.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Xml.XPath.XDocument.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\Microsoft.AspNetCore.Cors.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\Microsoft.Extensions.Options.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Buffers.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.ComponentModel.Annotations.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Memory.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Numerics.Vectors.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Text.Encodings.Web.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Web.Cors.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\Microsoft.AspNetCore.Cors.xml
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\Microsoft.Extensions.Options.xml
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Buffers.xml
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Memory.xml
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Numerics.Vectors.xml
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Text.Encodings.Web.xml
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Web.Http.Cors.dll
+C:\Users\User\Desktop\slnToolist\prjToolist\bin\System.Web.Http.Cors.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\obj\Debug\prjToolist.csprojAssemblyReference.cache
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\obj\Debug\prjToolist.csproj.CoreCompileInputs.cache
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\obj\Debug\prjToolist.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\obj\Debug\prjToolist.pdb
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\prjToolist.dll.config
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\prjToolist.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\prjToolist.pdb
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\XmlDocument.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\csc.exe
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\csc.exe.config
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\csc.rsp
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\csi.exe
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\csi.exe.config
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\csi.rsp
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\System.AppContext.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\System.Console.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\System.IO.Compression.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\System.Security.Claims.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\System.ValueTuple.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\vbc.exe
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\vbc.exe.config
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\vbc.rsp
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\VBCSCompiler.exe
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.Win32.Primitives.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\netstandard.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.AppContext.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Collections.Concurrent.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Collections.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Collections.NonGeneric.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Collections.Specialized.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.ComponentModel.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.ComponentModel.Primitives.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Console.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Data.Common.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Diagnostics.Contracts.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Diagnostics.Debug.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Diagnostics.Process.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Diagnostics.StackTrace.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Diagnostics.Tools.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Diagnostics.TraceSource.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Diagnostics.Tracing.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Drawing.Primitives.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Dynamic.Runtime.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Globalization.Calendars.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Globalization.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Globalization.Extensions.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.IO.Compression.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.IO.Compression.ZipFile.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.IO.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.IO.FileSystem.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.IO.IsolatedStorage.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.IO.Pipes.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Linq.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Linq.Expressions.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Linq.Parallel.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Linq.Queryable.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Net.Http.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Net.NameResolution.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Net.NetworkInformation.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Net.Ping.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Net.Primitives.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Net.Requests.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Net.Security.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Net.Sockets.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Net.WebHeaderCollection.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Net.WebSockets.Client.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Net.WebSockets.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.ObjectModel.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Reflection.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Reflection.Extensions.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Reflection.Primitives.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Resources.Reader.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Resources.ResourceManager.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Resources.Writer.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Runtime.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Runtime.Extensions.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Runtime.Handles.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Runtime.InteropServices.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Runtime.Numerics.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Runtime.Serialization.Json.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Security.Claims.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Security.Cryptography.Csp.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Security.Principal.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Security.SecureString.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Text.Encoding.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Text.Encoding.Extensions.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Text.RegularExpressions.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Threading.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Threading.Overlapped.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Threading.Tasks.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Threading.Thread.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Threading.ThreadPool.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Threading.Timer.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Xml.ReaderWriter.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Xml.XDocument.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Xml.XmlDocument.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Xml.XmlSerializer.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Xml.XPath.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Xml.XPath.XDocument.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Antlr3.Runtime.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\EntityFramework.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\EntityFramework.SqlServer.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Cors.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Http.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Routing.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.StaticFiles.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Localization.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.ObjectPool.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Options.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.WebEncoders.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.OpenApi.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Newtonsoft.Json.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Swashbuckle.Core.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Buffers.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.ComponentModel.Annotations.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Memory.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Net.Http.Formatting.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Numerics.Vectors.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Text.Encodings.Web.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Text.Json.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.ValueTuple.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Web.Cors.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Web.Helpers.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Web.Http.Cors.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Web.Http.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Web.Http.WebHost.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Web.Mvc.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Web.Optimization.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Web.Razor.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Web.WebPages.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Web.WebPages.Razor.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\WebActivatorEx.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\WebGrease.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\EntityFramework.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\EntityFramework.SqlServer.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Authentication.Core.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Authorization.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Cors.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Http.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Mvc.Core.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Mvc.DataAnnotations.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Routing.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.StaticFiles.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.FileProviders.Embedded.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Localization.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Localization.Abstractions.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.ObjectPool.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Options.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.WebEncoders.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.OpenApi.pdb
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.OpenApi.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Newtonsoft.Json.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Buffers.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Memory.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Net.Http.Formatting.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Numerics.Vectors.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Text.Encodings.Web.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Text.Json.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.ValueTuple.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Web.Http.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Web.Http.Cors.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Web.Helpers.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Web.Http.WebHost.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Web.Mvc.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Web.Optimization.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Web.Razor.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Web.WebPages.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\System.Web.WebPages.Razor.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Antlr3.Runtime.pdb
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\zh-Hant\EntityFramework.resources.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\zh-Hant\EntityFramework.SqlServer.resources.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\zh-Hant\System.Net.Http.Formatting.resources.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.Http.resources.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.Helpers.resources.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.Http.WebHost.resources.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.Mvc.resources.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.Optimization.resources.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.Razor.resources.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.WebPages.resources.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+C:\Users\Alan Ting\Documents\專案\Listoo-Backend\prjToolist\obj\Debug\prjToolist.csproj.CopyComplete
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\prjToolist.dll.config
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\prjToolist.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\prjToolist.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\prjToolist.pdb
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\csc.exe
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\csc.exe.config
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\csc.rsp
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\csi.exe
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\csi.exe.config
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\csi.rsp
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\System.AppContext.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\System.Console.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\System.IO.Compression.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\System.Security.Claims.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\System.ValueTuple.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\vbc.exe
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\vbc.exe.config
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\vbc.rsp
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\VBCSCompiler.exe
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Antlr3.Runtime.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\EntityFramework.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\EntityFramework.SqlServer.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Cors.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Http.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Routing.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.StaticFiles.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Localization.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.ObjectPool.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Options.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.WebEncoders.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.OpenApi.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Newtonsoft.Json.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Swashbuckle.Core.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Buffers.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.ComponentModel.Annotations.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Memory.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Net.Http.Formatting.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Numerics.Vectors.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Text.Encodings.Web.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Text.Json.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.ValueTuple.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Web.Cors.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Web.Helpers.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Web.Http.Cors.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Web.Http.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Web.Http.WebHost.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Web.Mvc.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Web.Optimization.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Web.Razor.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Web.WebPages.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Web.WebPages.Razor.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\WebActivatorEx.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\WebGrease.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\EntityFramework.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\EntityFramework.SqlServer.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Authentication.Core.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Authorization.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Cors.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Http.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Routing.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.StaticFiles.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.FileProviders.Embedded.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Localization.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Localization.Abstractions.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.ObjectPool.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Options.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.WebEncoders.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.OpenApi.pdb
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.OpenApi.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Newtonsoft.Json.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Buffers.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Memory.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Net.Http.Formatting.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Numerics.Vectors.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Text.Encodings.Web.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Text.Json.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.ValueTuple.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Web.Http.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Web.Http.Cors.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Web.Helpers.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Web.Http.WebHost.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Web.Mvc.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Web.Optimization.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Web.Razor.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Web.WebPages.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Web.WebPages.Razor.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Antlr3.Runtime.pdb
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\zh-Hant\EntityFramework.resources.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\zh-Hant\EntityFramework.SqlServer.resources.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\zh-Hant\System.Net.Http.Formatting.resources.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.Http.resources.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.Helpers.resources.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.Http.WebHost.resources.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.Mvc.resources.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.Optimization.resources.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.Razor.resources.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.WebPages.resources.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\obj\Debug\prjToolist.Properties.Resources.resources
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\obj\Debug\prjToolist.csproj.GenerateResource.cache
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\obj\Debug\prjToolist.csproj.CoreCompileInputs.cache
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\obj\Debug\prjToolist.csproj.CopyComplete
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\obj\Debug\prjToolist.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\obj\Debug\prjToolist.pdb
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\obj\Debug\prjToolist.csprojAssemblyReference.cache
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.Win32.Primitives.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\netstandard.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.AppContext.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Collections.Concurrent.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Collections.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Collections.NonGeneric.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Collections.Specialized.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.ComponentModel.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.ComponentModel.Primitives.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Console.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Data.Common.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Diagnostics.Contracts.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Diagnostics.Debug.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Diagnostics.Process.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Diagnostics.StackTrace.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Diagnostics.Tools.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Diagnostics.TraceSource.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Diagnostics.Tracing.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Drawing.Primitives.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Dynamic.Runtime.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Globalization.Calendars.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Globalization.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Globalization.Extensions.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.IO.Compression.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.IO.Compression.ZipFile.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.IO.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.IO.FileSystem.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.IO.IsolatedStorage.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.IO.Pipes.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Linq.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Linq.Expressions.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Linq.Parallel.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Linq.Queryable.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Net.Http.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Net.NameResolution.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Net.NetworkInformation.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Net.Ping.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Net.Primitives.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Net.Requests.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Net.Security.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Net.Sockets.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Net.WebHeaderCollection.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Net.WebSockets.Client.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Net.WebSockets.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.ObjectModel.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Reflection.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Reflection.Extensions.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Reflection.Primitives.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Resources.Reader.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Resources.ResourceManager.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Resources.Writer.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Runtime.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Runtime.Extensions.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Runtime.Handles.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Runtime.InteropServices.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Runtime.Numerics.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Runtime.Serialization.Json.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Security.Claims.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Security.Cryptography.Csp.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Security.Principal.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Security.SecureString.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Text.Encoding.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Text.Encoding.Extensions.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Text.RegularExpressions.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Threading.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Threading.Overlapped.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Threading.Tasks.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Threading.Thread.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Threading.ThreadPool.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Threading.Timer.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Xml.ReaderWriter.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Xml.XDocument.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Xml.XmlDocument.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Xml.XmlSerializer.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Xml.XPath.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\System.Xml.XPath.XDocument.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Mvc.Core.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Mvc.DataAnnotations.xml
+C:\Users\Alan Ting\Documents\Project\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\prjToolist.dll.config
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\prjToolist.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\prjToolist.pdb
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\csc.exe
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\csc.exe.config
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\csc.rsp
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\csi.exe
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\csi.exe.config
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\csi.rsp
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.Managed.Core.targets
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\System.AppContext.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\System.Collections.Immutable.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\System.Console.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\System.IO.Compression.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\System.IO.FileSystem.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\System.IO.Pipes.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\System.Reflection.Metadata.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\System.Security.AccessControl.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\System.Security.Claims.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\System.Security.Principal.Windows.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\System.ValueTuple.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\System.Xml.XmlDocument.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\System.Xml.XPath.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\vbc.exe
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\vbc.exe.config
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\vbc.rsp
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\VBCSCompiler.exe
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\roslyn\VBCSCompiler.exe.config
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.Win32.Primitives.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\netstandard.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.AppContext.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Collections.Concurrent.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Collections.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Collections.NonGeneric.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Collections.Specialized.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.ComponentModel.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.ComponentModel.EventBasedAsync.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.ComponentModel.Primitives.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.ComponentModel.TypeConverter.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Console.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Data.Common.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Diagnostics.Contracts.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Diagnostics.Debug.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Diagnostics.FileVersionInfo.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Diagnostics.Process.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Diagnostics.StackTrace.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Diagnostics.Tools.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Diagnostics.TraceSource.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Diagnostics.Tracing.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Drawing.Primitives.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Dynamic.Runtime.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Globalization.Calendars.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Globalization.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Globalization.Extensions.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.IO.Compression.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.IO.Compression.ZipFile.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.IO.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.IO.FileSystem.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.IO.FileSystem.DriveInfo.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.IO.FileSystem.Primitives.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.IO.FileSystem.Watcher.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.IO.IsolatedStorage.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.IO.MemoryMappedFiles.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.IO.Pipes.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.IO.UnmanagedMemoryStream.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Linq.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Linq.Expressions.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Linq.Parallel.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Linq.Queryable.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Net.Http.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Net.NameResolution.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Net.NetworkInformation.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Net.Ping.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Net.Primitives.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Net.Requests.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Net.Security.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Net.Sockets.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Net.WebHeaderCollection.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Net.WebSockets.Client.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Net.WebSockets.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.ObjectModel.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Reflection.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Reflection.Extensions.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Reflection.Primitives.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Resources.Reader.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Resources.ResourceManager.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Resources.Writer.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Runtime.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Runtime.Extensions.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Runtime.Handles.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Runtime.InteropServices.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Runtime.Numerics.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Runtime.Serialization.Formatters.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Runtime.Serialization.Json.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Runtime.Serialization.Primitives.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Runtime.Serialization.Xml.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Security.Claims.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Security.Cryptography.Algorithms.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Security.Cryptography.Csp.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Security.Cryptography.Encoding.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Security.Cryptography.Primitives.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Security.Cryptography.X509Certificates.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Security.Principal.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Security.SecureString.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Text.Encoding.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Text.Encoding.Extensions.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Text.RegularExpressions.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Threading.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Threading.Overlapped.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Threading.Tasks.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Threading.Tasks.Parallel.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Threading.Thread.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Threading.ThreadPool.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Threading.Timer.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Xml.ReaderWriter.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Xml.XDocument.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Xml.XmlDocument.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Xml.XmlSerializer.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Xml.XPath.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Xml.XPath.XDocument.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Antlr3.Runtime.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\EntityFramework.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\EntityFramework.SqlServer.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Authentication.Core.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Authorization.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Cors.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Http.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Mvc.Core.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Routing.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.StaticFiles.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.WebUtilities.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.DotNet.PlatformAbstractions.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.DependencyModel.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Localization.Abstractions.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Localization.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.ObjectPool.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Options.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Primitives.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.WebEncoders.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.Net.Http.Headers.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.OpenApi.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.Web.Infrastructure.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Newtonsoft.Json.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Swashbuckle.Core.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Buffers.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.ComponentModel.Annotations.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Diagnostics.DiagnosticSource.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Memory.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Net.Http.Formatting.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Numerics.Vectors.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Text.Encodings.Web.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Text.Json.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Threading.Tasks.Extensions.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.ValueTuple.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Web.Cors.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Web.Helpers.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Web.Http.Cors.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Web.Http.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Web.Http.WebHost.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Web.Mvc.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Web.Optimization.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Web.Razor.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Web.WebPages.Deployment.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Web.WebPages.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Web.WebPages.Razor.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\WebActivatorEx.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\WebGrease.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\EntityFramework.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\EntityFramework.SqlServer.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Authentication.Core.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Authorization.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Cors.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Http.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Mvc.Core.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Mvc.DataAnnotations.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Routing.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.StaticFiles.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.WebUtilities.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.FileProviders.Embedded.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Localization.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Localization.Abstractions.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.ObjectPool.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Options.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Primitives.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.WebEncoders.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.Net.Http.Headers.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.OpenApi.pdb
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.OpenApi.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Newtonsoft.Json.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Buffers.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Diagnostics.DiagnosticSource.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Memory.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Net.Http.Formatting.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Numerics.Vectors.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Text.Encodings.Web.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Text.Json.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Threading.Tasks.Extensions.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.ValueTuple.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Web.Http.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Web.Http.Cors.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Web.Helpers.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Web.Http.WebHost.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Web.Mvc.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Web.Optimization.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Web.Razor.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Web.WebPages.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Web.WebPages.Deployment.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\System.Web.WebPages.Razor.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Antlr3.Runtime.pdb
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\zh-Hant\EntityFramework.resources.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\zh-Hant\EntityFramework.SqlServer.resources.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\zh-Hant\System.Net.Http.Formatting.resources.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.Http.resources.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.Helpers.resources.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.Http.WebHost.resources.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.Mvc.resources.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.Optimization.resources.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.Razor.resources.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.WebPages.resources.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\obj\Debug\prjToolist.csprojAssemblyReference.cache
+C:\0803全端\git\Listoo-Backend\prjToolist\obj\Debug\prjToolist.Properties.Resources.resources
+C:\0803全端\git\Listoo-Backend\prjToolist\obj\Debug\prjToolist.csproj.GenerateResource.cache
+C:\0803全端\git\Listoo-Backend\prjToolist\obj\Debug\prjToolist.csproj.CoreCompileInputs.cache
+C:\0803全端\git\Listoo-Backend\prjToolist\obj\Debug\prjToolist.csproj.CopyComplete
+C:\0803全端\git\Listoo-Backend\prjToolist\obj\Debug\prjToolist.dll
+C:\0803全端\git\Listoo-Backend\prjToolist\obj\Debug\prjToolist.pdb
+C:\0803全端\git\Listoo-Backend\prjToolist\bin\XmlDocument.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\obj\Debug\prjToolist.csprojAssemblyReference.cache
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\obj\Debug\prjToolist.Properties.Resources.resources
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\obj\Debug\prjToolist.csproj.GenerateResource.cache
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\obj\Debug\prjToolist.csproj.CoreCompileInputs.cache
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\obj\Debug\prjToolist.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\obj\Debug\prjToolist.pdb
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\prjToolist.dll.config
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\prjToolist.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\prjToolist.pdb
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\XmlDocument.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\csc.exe
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\csc.exe.config
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\csc.rsp
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\csi.exe
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\csi.exe.config
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\csi.rsp
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\System.AppContext.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\System.Console.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\System.IO.Compression.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\System.Security.Claims.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\System.ValueTuple.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\vbc.exe
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\vbc.exe.config
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\vbc.rsp
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\VBCSCompiler.exe
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.Win32.Primitives.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\netstandard.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.AppContext.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Collections.Concurrent.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Collections.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Collections.NonGeneric.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Collections.Specialized.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.ComponentModel.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.ComponentModel.Primitives.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Console.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Data.Common.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Diagnostics.Contracts.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Diagnostics.Debug.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Diagnostics.Process.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Diagnostics.StackTrace.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Diagnostics.Tools.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Diagnostics.TraceSource.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Diagnostics.Tracing.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Drawing.Primitives.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Dynamic.Runtime.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Globalization.Calendars.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Globalization.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Globalization.Extensions.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.IO.Compression.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.IO.Compression.ZipFile.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.IO.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.IO.FileSystem.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.IO.IsolatedStorage.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.IO.Pipes.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Linq.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Linq.Expressions.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Linq.Parallel.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Linq.Queryable.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Net.Http.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Net.NameResolution.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Net.NetworkInformation.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Net.Ping.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Net.Primitives.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Net.Requests.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Net.Security.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Net.Sockets.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Net.WebHeaderCollection.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Net.WebSockets.Client.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Net.WebSockets.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.ObjectModel.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Reflection.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Reflection.Extensions.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Reflection.Primitives.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Resources.Reader.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Resources.ResourceManager.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Resources.Writer.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Runtime.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Runtime.Extensions.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Runtime.Handles.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Runtime.InteropServices.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Runtime.Numerics.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Runtime.Serialization.Json.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Security.Claims.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Security.Cryptography.Csp.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Security.Principal.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Security.SecureString.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Text.Encoding.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Text.Encoding.Extensions.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Text.RegularExpressions.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Threading.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Threading.Overlapped.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Threading.Tasks.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Threading.Thread.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Threading.ThreadPool.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Threading.Timer.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Xml.ReaderWriter.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Xml.XDocument.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Xml.XmlDocument.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Xml.XmlSerializer.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Xml.XPath.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Xml.XPath.XDocument.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Antlr3.Runtime.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\EntityFramework.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\EntityFramework.SqlServer.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Cors.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Http.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Routing.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.StaticFiles.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Localization.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.ObjectPool.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Options.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.WebEncoders.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.OpenApi.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Newtonsoft.Json.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Swashbuckle.Core.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Buffers.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.ComponentModel.Annotations.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Memory.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Net.Http.Formatting.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Numerics.Vectors.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Text.Encodings.Web.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Text.Json.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.ValueTuple.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Web.Cors.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Web.Helpers.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Web.Http.Cors.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Web.Http.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Web.Http.WebHost.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Web.Mvc.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Web.Optimization.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Web.Razor.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Web.WebPages.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Web.WebPages.Razor.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\WebActivatorEx.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\WebGrease.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\EntityFramework.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\EntityFramework.SqlServer.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Authentication.Core.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Authorization.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Cors.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Http.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Mvc.Core.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Mvc.DataAnnotations.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Routing.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.StaticFiles.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.FileProviders.Embedded.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Localization.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Localization.Abstractions.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.ObjectPool.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Options.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.WebEncoders.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.OpenApi.pdb
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.OpenApi.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Newtonsoft.Json.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Buffers.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Memory.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Net.Http.Formatting.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Numerics.Vectors.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Text.Encodings.Web.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Text.Json.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.ValueTuple.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Web.Http.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Web.Http.Cors.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Web.Helpers.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Web.Http.WebHost.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Web.Mvc.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Web.Optimization.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Web.Razor.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Web.WebPages.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\System.Web.WebPages.Razor.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Antlr3.Runtime.pdb
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\zh-Hant\EntityFramework.resources.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\zh-Hant\EntityFramework.SqlServer.resources.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\zh-Hant\System.Net.Http.Formatting.resources.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.Http.resources.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.Helpers.resources.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.Http.WebHost.resources.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.Mvc.resources.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.Optimization.resources.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.Razor.resources.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.WebPages.resources.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+C:\Users\Capoo\Desktop\專題\Listoo-Backend\prjToolist\obj\Debug\prjToolist.csproj.CopyComplete
+D:\Test Toolist\Listoo-Backend\prjToolist\obj\Debug\prjToolist.csprojAssemblyReference.cache
+D:\Test Toolist\Listoo-Backend\prjToolist\obj\Debug\prjToolist.Properties.Resources.resources
+D:\Test Toolist\Listoo-Backend\prjToolist\obj\Debug\prjToolist.csproj.GenerateResource.cache
+D:\Test Toolist\Listoo-Backend\prjToolist\obj\Debug\prjToolist.csproj.CoreCompileInputs.cache
+D:\Test Toolist\Listoo-Backend\prjToolist\obj\Debug\prjToolist.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\obj\Debug\prjToolist.pdb
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\prjToolist.dll.config
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\prjToolist.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\prjToolist.pdb
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\XmlDocument.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\csc.exe
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\csc.exe.config
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\csc.rsp
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\csi.exe
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\csi.exe.config
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\csi.rsp
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\System.AppContext.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\System.Collections.Immutable.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\System.Console.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\System.IO.Compression.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\System.IO.FileSystem.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\System.IO.Pipes.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\System.Reflection.Metadata.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\System.Security.AccessControl.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\System.Security.Claims.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\System.ValueTuple.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\System.Xml.XPath.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\vbc.exe
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\vbc.exe.config
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\vbc.rsp
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\VBCSCompiler.exe
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\roslyn\VBCSCompiler.exe.config
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.Win32.Primitives.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\netstandard.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.AppContext.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Collections.Concurrent.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Collections.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Collections.NonGeneric.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Collections.Specialized.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.ComponentModel.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.ComponentModel.EventBasedAsync.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.ComponentModel.Primitives.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.ComponentModel.TypeConverter.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Console.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Data.Common.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Diagnostics.Contracts.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Diagnostics.Debug.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Diagnostics.FileVersionInfo.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Diagnostics.Process.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Diagnostics.StackTrace.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Diagnostics.TextWriterTraceListener.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Diagnostics.Tools.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Diagnostics.TraceSource.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Diagnostics.Tracing.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Drawing.Primitives.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Dynamic.Runtime.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Globalization.Calendars.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Globalization.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Globalization.Extensions.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.IO.Compression.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.IO.Compression.ZipFile.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.IO.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.IO.FileSystem.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.IO.FileSystem.DriveInfo.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.IO.FileSystem.Primitives.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.IO.FileSystem.Watcher.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.IO.IsolatedStorage.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.IO.MemoryMappedFiles.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.IO.Pipes.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.IO.UnmanagedMemoryStream.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Linq.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Linq.Expressions.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Linq.Parallel.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Linq.Queryable.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Net.Http.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Net.NameResolution.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Net.NetworkInformation.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Net.Ping.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Net.Primitives.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Net.Requests.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Net.Security.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Net.Sockets.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Net.WebHeaderCollection.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Net.WebSockets.Client.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Net.WebSockets.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.ObjectModel.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Reflection.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Reflection.Extensions.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Reflection.Primitives.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Resources.Reader.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Resources.ResourceManager.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Resources.Writer.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Runtime.CompilerServices.VisualC.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Runtime.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Runtime.Extensions.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Runtime.Handles.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Runtime.InteropServices.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Runtime.Numerics.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Runtime.Serialization.Formatters.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Runtime.Serialization.Json.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Runtime.Serialization.Primitives.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Runtime.Serialization.Xml.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Security.Claims.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Security.Cryptography.Algorithms.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Security.Cryptography.Csp.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Security.Cryptography.Encoding.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Security.Cryptography.Primitives.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Security.Cryptography.X509Certificates.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Security.Principal.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Security.SecureString.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Text.Encoding.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Text.Encoding.Extensions.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Text.RegularExpressions.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Threading.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Threading.Overlapped.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Threading.Tasks.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Threading.Tasks.Parallel.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Threading.Thread.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Threading.ThreadPool.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Threading.Timer.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Xml.ReaderWriter.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Xml.XDocument.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Xml.XmlDocument.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Xml.XmlSerializer.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Xml.XPath.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Xml.XPath.XDocument.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Antlr3.Runtime.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\EntityFramework.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\EntityFramework.SqlServer.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Authentication.Core.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Authorization.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Cors.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Http.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Http.Extensions.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Mvc.Core.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Routing.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.StaticFiles.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.WebUtilities.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.DependencyInjection.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.DependencyModel.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Localization.Abstractions.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Localization.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.ObjectPool.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Options.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Primitives.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.WebEncoders.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.Net.Http.Headers.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.OpenApi.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.Web.Infrastructure.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Newtonsoft.Json.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Swashbuckle.Core.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Buffers.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.ComponentModel.Annotations.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Memory.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Net.Http.Formatting.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Numerics.Vectors.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Text.Encodings.Web.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Text.Json.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Threading.Tasks.Extensions.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.ValueTuple.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Web.Cors.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Web.Helpers.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Web.Http.Cors.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Web.Http.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Web.Http.WebHost.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Web.Mvc.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Web.Optimization.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Web.Razor.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Web.WebPages.Deployment.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Web.WebPages.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Web.WebPages.Razor.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\WebActivatorEx.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\WebGrease.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\EntityFramework.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\EntityFramework.SqlServer.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Authentication.Core.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Authorization.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Cors.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Http.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Http.Extensions.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Mvc.Core.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Mvc.DataAnnotations.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Routing.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.StaticFiles.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.AspNetCore.WebUtilities.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.DependencyInjection.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.FileProviders.Embedded.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Localization.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Localization.Abstractions.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.ObjectPool.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Options.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.Primitives.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.Extensions.WebEncoders.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.Net.Http.Headers.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.OpenApi.pdb
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.OpenApi.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Newtonsoft.Json.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Buffers.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Memory.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Net.Http.Formatting.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Numerics.Vectors.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Text.Encodings.Web.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Text.Json.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Threading.Tasks.Extensions.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.ValueTuple.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Web.Http.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Web.Http.Cors.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Web.Helpers.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Web.Http.WebHost.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Web.Mvc.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Web.Optimization.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Web.Razor.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Web.WebPages.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Web.WebPages.Deployment.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\System.Web.WebPages.Razor.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Antlr3.Runtime.pdb
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\zh-Hant\EntityFramework.resources.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\zh-Hant\EntityFramework.SqlServer.resources.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\zh-Hant\System.Net.Http.Formatting.resources.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.Http.resources.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.Helpers.resources.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.Http.WebHost.resources.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.Mvc.resources.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.Optimization.resources.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.Razor.resources.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.WebPages.resources.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+D:\Test Toolist\Listoo-Backend\prjToolist\obj\Debug\prjToolist.csproj.CopyComplete

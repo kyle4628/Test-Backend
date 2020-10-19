@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FUENMLModelStoreContainer" CdmEntityContainer="FUENMLEntities">
+    <EntitySetMapping Name="places">
+      <EntityTypeMapping TypeName="FUENMLModel.place">
+        <MappingFragment StoreEntitySet="place">
+          <ScalarProperty Name="gmap_id" ColumnName="gmap_id" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="latitude" ColumnName="latitude" />
+          <ScalarProperty Name="longitude" ColumnName="longitude" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="placeLists">
+      <EntityTypeMapping TypeName="FUENMLModel.placeList">
+        <MappingFragment StoreEntitySet="placeList">
+          <ScalarProperty Name="cover" ColumnName="cover" />
+          <ScalarProperty Name="updated" ColumnName="updated" />
+          <ScalarProperty Name="created" ColumnName="created" />
+          <ScalarProperty Name="privacy" ColumnName="privacy" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="placeRelations">
+      <EntityTypeMapping TypeName="FUENMLModel.placeRelation">
+        <MappingFragment StoreEntitySet="placeRelation">
+          <ScalarProperty Name="created" ColumnName="created" />
+          <ScalarProperty Name="placeList_id" ColumnName="placeList_id" />
+          <ScalarProperty Name="place_id" ColumnName="place_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tags">
+      <EntityTypeMapping TypeName="FUENMLModel.tag">
+        <MappingFragment StoreEntitySet="tag">
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tagEvents">
+      <EntityTypeMapping TypeName="FUENMLModel.tagEvent">
+        <MappingFragment StoreEntitySet="tagEvent">
+          <ScalarProperty Name="created" ColumnName="created" />
+          <ScalarProperty Name="event" ColumnName="event" />
+          <ScalarProperty Name="tag_id" ColumnName="tag_id" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tagRelations">
+      <EntityTypeMapping TypeName="FUENMLModel.tagRelation">
+        <MappingFragment StoreEntitySet="tagRelation">
+          <ScalarProperty Name="created" ColumnName="created" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="tag_id" ColumnName="tag_id" />
+          <ScalarProperty Name="place_id" ColumnName="place_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="FUENMLModel.user">
+        <MappingFragment StoreEntitySet="user">
+          <ScalarProperty Name="created" ColumnName="created" />
+          <ScalarProperty Name="updated" ColumnName="updated" />
+          <ScalarProperty Name="authority" ColumnName="authority" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
