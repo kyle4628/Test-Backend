@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Web.Http;
 using System.Web.Http.Cors;
 
@@ -14,43 +15,52 @@ namespace prjToolist.Controllers
     public class AuthController : ApiController
     {
         FUENMLEntities db = new FUENMLEntities();
-        
+
         [Route("login")]
         [HttpPost]
         [EnableCors("*", "*", "*")]
         public HttpResponseMessage loginPost([FromBody] memberLogin loginUser)
         {
+
+
             var verifyAccount = db.users.FirstOrDefault(P => P.email == loginUser.account && P.password == loginUser.password);
-            //var session = System.Web.HttpContext.Current.Session; //宣告Session
-            //session.Add("Auth", verifyAccount.id); //將認證資訊放入Session
-            //var temp = session["Auth"];
+            var cookie = new CookieHeaderValue("session-id", verifyAccount.id.ToString());
+            cookie.Expires = DateTimeOffset.Now.AddDays(1);
+            //cookie.Domain = Request.RequestUri.Host;
+            //cookie.Path = "/";
             var resultUsername = new
             {
-                username = loginUser.account,
-                userid = 0
+                username = verifyAccount.name
             };
             var result = new
             {
                 status = 0,
-                msg = $"fail, {loginUser.account} doesn't exist",
-                data= resultUsername
+                msg = $"fail, {verifyAccount.name} doesn't exist",
+                data = resultUsername
             };
-            
+            var resp = Request.CreateResponse(
+            HttpStatusCode.OK,
+            result
+            );
+
             if (verifyAccount != null)
             {
-                resultUsername = new
-                {
-                    username = loginUser.account,
-                    userid = verifyAccount.id
-                };
                 result = new
                 {
                     status = 1,
                     msg = "",
                     data = resultUsername
                 };
+                resp = Request.CreateResponse(
+                    HttpStatusCode.OK,
+                    result
+                );
+                resp.Headers.AddCookies(new CookieHeaderValue[] { cookie });
+                //resp.RequestMessage.Content = result;
+                //var reqResult = Request.CreateResponse(HttpStatusCode.OK, result);
             }
-            return Request.CreateResponse(HttpStatusCode.OK, result);
+            //return Request.CreateResponse(HttpStatusCode.OK, resp);
+            return resp;
         }
 
         [Route("logout")]
@@ -58,15 +68,34 @@ namespace prjToolist.Controllers
         [EnableCors("*", "*", "*")]
         public HttpResponseMessage logoutPost()
         {
-            var re = Request;
-            var headers = re.Headers;
+            var currentCookie = Request.Headers.GetCookies("session-id").FirstOrDefault();
             var result = new
             {
                 status = 1,
-                msg = "",
-                user_id = headers.GetValues("user").First()
+                msg = ""
             };
-            return Request.CreateResponse(HttpStatusCode.OK, result);
+            var resp = Request.CreateResponse(
+                HttpStatusCode.OK,
+                result
+            );
+            if (currentCookie != null)
+            {
+                var cookie = new CookieHeaderValue("session-id", "")
+                {
+                    Expires = DateTimeOffset.Now.AddDays(-1),
+                    Domain = currentCookie.Domain,
+                    Path = currentCookie.Path
+                };
+                resp.Headers.AddCookies(new[] { cookie });
+            }
+
+            //var result = new
+            //{
+            //    status = 1,
+            //    msg = ""
+            //};
+            //return Request.CreateResponse(HttpStatusCode.OK, result);
+            return resp;
         }
 
         [Route("register")]
@@ -83,7 +112,7 @@ namespace prjToolist.Controllers
             if (isnullormember == null)
             {
                 user newmember = new user();
-                newmember.name =x.name;
+                newmember.name = x.name;
                 newmember.password = x.password;
                 newmember.email = x.email;
                 newmember.created = DateTime.Now;
