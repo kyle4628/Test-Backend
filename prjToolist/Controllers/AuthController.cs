@@ -21,9 +21,13 @@ namespace prjToolist.Controllers
         public HttpResponseMessage loginPost([FromBody] memberLogin loginUser)
         {
             var verifyAccount = db.users.FirstOrDefault(P => P.email == loginUser.account && P.password == loginUser.password);
+            //var session = System.Web.HttpContext.Current.Session; //宣告Session
+            //session.Add("Auth", verifyAccount.id); //將認證資訊放入Session
+            //var temp = session["Auth"];
             var resultUsername = new
             {
-                username = loginUser.account
+                username = loginUser.account,
+                userid = 0
             };
             var result = new
             {
@@ -33,7 +37,12 @@ namespace prjToolist.Controllers
             };
             
             if (verifyAccount != null)
-            {   
+            {
+                resultUsername = new
+                {
+                    username = loginUser.account,
+                    userid = verifyAccount.id
+                };
                 result = new
                 {
                     status = 1,
@@ -49,10 +58,13 @@ namespace prjToolist.Controllers
         [EnableCors("*", "*", "*")]
         public HttpResponseMessage logoutPost()
         {
+            var re = Request;
+            var headers = re.Headers;
             var result = new
             {
                 status = 1,
-                msg = ""
+                msg = "",
+                user_id = headers.GetValues("user").First()
             };
             return Request.CreateResponse(HttpStatusCode.OK, result);
         }
