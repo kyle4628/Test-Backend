@@ -12,6 +12,7 @@
     <Property Name="address" Type="nvarchar" MaxLength="50" />
     <Property Name="type" Type="nvarchar(max)" />
     <Property Name="gmap_id" Type="nvarchar(max)" />
+    <Property Name="photo" Type="varbinary(max)" />
   </EntityType>
   <EntityType Name="placeList">
     <Key>
@@ -33,7 +34,7 @@
     </Key>
     <Property Name="place_id" Type="int" Nullable="false" />
     <Property Name="placeList_id" Type="int" Nullable="false" />
-    <Property Name="created" Type="nchar" MaxLength="10" />
+    <Property Name="created" Type="datetime" />
   </EntityType>
   <EntityType Name="tag">
     <Key>

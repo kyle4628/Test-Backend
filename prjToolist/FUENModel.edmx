@@ -17,6 +17,7 @@
           <Property Name="address" Type="nvarchar" MaxLength="50" />
           <Property Name="type" Type="nvarchar(max)" />
           <Property Name="gmap_id" Type="nvarchar(max)" />
+          <Property Name="photo" Type="varbinary(max)" />
         </EntityType>
         <EntityType Name="placeList">
           <Key>
@@ -38,7 +39,7 @@
           </Key>
           <Property Name="place_id" Type="int" Nullable="false" />
           <Property Name="placeList_id" Type="int" Nullable="false" />
-          <Property Name="created" Type="nchar" MaxLength="10" />
+          <Property Name="created" Type="datetime" />
         </EntityType>
         <EntityType Name="tag">
           <Key>
@@ -275,6 +276,7 @@
           <Property Name="address" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="type" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="gmap_id" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="photo" Type="Binary" MaxLength="Max" FixedLength="false" />
           <NavigationProperty Name="placeRelations" Relationship="FUENMLModel.fk_placeRelation_place_1" FromRole="place" ToRole="placeRelation" />
           <NavigationProperty Name="tagRelations" Relationship="FUENMLModel.fk_tagRelation_place_1" FromRole="place" ToRole="tagRelation" />
         </EntityType>
@@ -300,7 +302,7 @@
           </Key>
           <Property Name="place_id" Type="Int32" Nullable="false" />
           <Property Name="placeList_id" Type="Int32" Nullable="false" />
-          <Property Name="created" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="created" Type="DateTime" Precision="3" />
           <NavigationProperty Name="place" Relationship="FUENMLModel.fk_placeRelation_place_1" FromRole="placeRelation" ToRole="place" />
           <NavigationProperty Name="placeList" Relationship="FUENMLModel.fk_placeRelation_placeList_1" FromRole="placeRelation" ToRole="placeList" />
         </EntityType>
@@ -451,7 +453,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-      </Schema>
+        </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
     <edmx:Mappings>
@@ -460,6 +462,7 @@
           <EntitySetMapping Name="places">
             <EntityTypeMapping TypeName="FUENMLModel.place">
               <MappingFragment StoreEntitySet="place">
+                <ScalarProperty Name="photo" ColumnName="photo" />
                 <ScalarProperty Name="gmap_id" ColumnName="gmap_id" />
                 <ScalarProperty Name="type" ColumnName="type" />
                 <ScalarProperty Name="address" ColumnName="address" />

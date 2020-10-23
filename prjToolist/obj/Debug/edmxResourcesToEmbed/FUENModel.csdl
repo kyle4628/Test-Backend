@@ -53,6 +53,7 @@
     <Property Name="address" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
     <Property Name="type" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
     <Property Name="gmap_id" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="photo" Type="Binary" MaxLength="Max" FixedLength="false" />
     <NavigationProperty Name="placeRelations" Relationship="FUENMLModel.fk_placeRelation_place_1" FromRole="place" ToRole="placeRelation" />
     <NavigationProperty Name="tagRelations" Relationship="FUENMLModel.fk_tagRelation_place_1" FromRole="place" ToRole="tagRelation" />
   </EntityType>
@@ -78,7 +79,7 @@
     </Key>
     <Property Name="place_id" Type="Int32" Nullable="false" />
     <Property Name="placeList_id" Type="Int32" Nullable="false" />
-    <Property Name="created" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="created" Type="DateTime" Precision="3" />
     <NavigationProperty Name="place" Relationship="FUENMLModel.fk_placeRelation_place_1" FromRole="placeRelation" ToRole="place" />
     <NavigationProperty Name="placeList" Relationship="FUENMLModel.fk_placeRelation_placeList_1" FromRole="placeRelation" ToRole="placeList" />
   </EntityType>

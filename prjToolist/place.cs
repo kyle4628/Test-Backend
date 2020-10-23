@@ -29,6 +29,7 @@ namespace prjToolist
         public string address { get; set; }
         public string type { get; set; }
         public string gmap_id { get; set; }
+        public byte[] photo { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<placeRelation> placeRelations { get; set; }

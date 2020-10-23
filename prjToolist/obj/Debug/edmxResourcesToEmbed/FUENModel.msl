@@ -4,6 +4,7 @@
     <EntitySetMapping Name="places">
       <EntityTypeMapping TypeName="FUENMLModel.place">
         <MappingFragment StoreEntitySet="place">
+          <ScalarProperty Name="photo" ColumnName="photo" />
           <ScalarProperty Name="gmap_id" ColumnName="gmap_id" />
           <ScalarProperty Name="type" ColumnName="type" />
           <ScalarProperty Name="address" ColumnName="address" />

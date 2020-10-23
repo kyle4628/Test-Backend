@@ -16,7 +16,7 @@ namespace prjToolist
     {
         public int place_id { get; set; }
         public int placeList_id { get; set; }
-        public string created { get; set; }
+        public Nullable<System.DateTime> created { get; set; }
     
         public virtual place place { get; set; }
         public virtual placeList placeList { get; set; }
