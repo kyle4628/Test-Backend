@@ -16,4 +16,15 @@ namespace prjToolist.Models
         public Nullable<System.DateTime> updated { get; set; }
         public byte[] cover { get; set; }
     }
+
+    public class queryPlaceList
+    {
+        public int id { get; set; }
+        public int user_id { get; set; }
+        public string listName { get; set; }
+        public string description { get; set; }
+        public string privacy { get; set; }
+        public string createdTime { get; set; }
+        public string updatedTime { get; set; }
+    }
 }

@@ -91,6 +91,44 @@ namespace prjToolist.Controllers
 
             return Request.CreateResponse(HttpStatusCode.OK, result);
         }
+
+        [Route("tag_relation")]
+        [HttpPost]
+        [EnableCors("*", "*", "*")]
+        public HttpResponseMessage tagRelation([FromBody] tTagRelation tTag)
+        {
+            var verifyAccount = db.users.Where(u => u.id == tTag.user_id).FirstOrDefault();
+            var verifyGlePlace = db.places.Where(p => p.gmap_id == tTag.gmap_id).FirstOrDefault();
+
+            var result = new
+            {
+                status = 0,
+                msg = "fail"
+            };
+            if (verifyAccount != null)
+                if (verifyGlePlace != null)
+                {
+                    foreach (var i in tTag.tag_id)
+                    {
+                        var newTagRelation = new tagRelation();
+                        newTagRelation.place_id = verifyGlePlace.id;
+                        newTagRelation.user_id = verifyAccount.id;
+                        newTagRelation.tag_id = i;
+                        newTagRelation.created = DateTime.Now;
+                        db.tagRelations.Add(newTagRelation);
+                    }
+
+                    db.SaveChanges();
+                    result = new
+                    {
+                        status = 1,
+                        msg = ""
+                    };
+                }
+
+            return Request.CreateResponse(HttpStatusCode.OK, result);
+        }
+
     }
 
     public class tagFilter
@@ -124,5 +162,12 @@ namespace prjToolist.Controllers
     {
         public string name { get; set; }
         public int type { get; set; }
+    }
+
+    public class tTagRelation
+    {
+        public int user_id { get; set; }
+        public string gmap_id { get; set; }
+        public int[] tag_id { get; set; }
     }
 }

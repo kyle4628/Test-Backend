@@ -6,42 +6,65 @@ using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Cors;
 using Newtonsoft.Json.Linq;
+using prjToolist.Models;
 
 namespace prjToolist.Controllers {
-    [RoutePrefix("test")]
+    [RoutePrefix("query")]
     public class ValuesController : ApiController {
         private readonly FUENMLEntities db = new FUENMLEntities();
         public int str { get; set; }
 
-
-        [Route("tag_relation")]
+        [Route("get_user_list")]
         [HttpPost]
         [EnableCors("*", "*", "*")]
-        public HttpResponseMessage tagRelation([FromBody] tTag tTag) {
-            var verifyAccount = db.users.Where(u => u.id == tTag.user_id).FirstOrDefault();
-            var verifyGlePlace = db.places.Where(p => p.gmap_id == tTag.gmap_id).FirstOrDefault();
-
-            var result = new {
-                status = 0,
-                msg = "fail"
+        public HttpResponseMessage getUserList()
+        {
+            var intList = db.users.Select(p => p.id).ToList();
+            List<queryUserList> usersList = new List<queryUserList>();
+            foreach (int i in intList)
+            {
+                var userListItem = db.users.FirstOrDefault(p => p.id == i);
+                queryUserList listItem = new queryUserList();
+                listItem.id = userListItem.id;
+                listItem.name = userListItem.name;
+                listItem.email = userListItem.email;
+                listItem.authority = userListItem.authority;
+                listItem.password = userListItem.password;
+                listItem.createdTime = userListItem.created.ToString();
+                listItem.updatedTime = userListItem.updated.ToString();
+                usersList.Add(listItem);
+            }
+            var result = new
+            {
+                data = usersList,
+                total = usersList.Count()
             };
-            if (verifyAccount != null)
-                if (verifyGlePlace != null) {
-                    foreach (var i in tTag.tag_id) {
-                        var newTagRelation = new tagRelation();
-                        newTagRelation.place_id = verifyGlePlace.id;
-                        newTagRelation.user_id = verifyAccount.id;
-                        newTagRelation.tag_id = i;
-                        newTagRelation.created = DateTime.Now;
-                        db.tagRelations.Add(newTagRelation);
-                    }
 
-                    db.SaveChanges();
-                    result = new {
-                        status = 1,
-                        msg = ""
-                    };
-                }
+            return Request.CreateResponse(HttpStatusCode.OK, result);
+        }
+
+        [Route("get_tag_list")]
+        [HttpPost]
+        [EnableCors("*", "*", "*")]
+        public HttpResponseMessage getTagList()
+        {
+            var intList = db.tags.Select(p => p.id).ToList();
+            List<tTag> tagsList = new List<tTag>();
+            foreach (int i in intList)
+            {
+                var tagListItem = db.tags.FirstOrDefault(p => p.id == i);
+                tTag listItem = new tTag();
+                listItem.id = tagListItem.id;
+                listItem.name = tagListItem.name;
+                listItem.type = tagListItem.type;
+
+                tagsList.Add(listItem);
+            }
+            var result = new
+            {
+                data = tagsList,
+                total = tagsList.Count()
+            };
 
             return Request.CreateResponse(HttpStatusCode.OK, result);
         }
@@ -52,11 +75,11 @@ namespace prjToolist.Controllers {
         public HttpResponseMessage getPlaceList()
         {
             var intList = db.places.Select(p=>p.id).ToList();
-            List<placeList> placesList = new List<placeList>();
+            List<queryPlaceList> placesList = new List<queryPlaceList>();
             foreach (int i in intList)
             {
                 var placeListItem = db.placeLists.FirstOrDefault(p => p.id == i);
-                placeList listItem = new placeList();
+                queryPlaceList listItem = new queryPlaceList();
                 listItem.id = placeListItem.id;
                 listItem.listName = placeListItem.name;
                 listItem.description = placeListItem.description;
@@ -68,8 +91,6 @@ namespace prjToolist.Controllers {
             }
             var result = new
             {
-                status = 0,
-                msg = "fail",
                 data = placesList,
                 total = placesList.Count()
             };
@@ -186,27 +207,9 @@ namespace prjToolist.Controllers {
         public void Delete(int id) {
         }
 
-        public class tTag {
-            public int user_id { get; set; }
-            public string gmap_id { get; set; }
-            public int[] tag_id { get; set; }
-        }
-
-
         public class Student {
             public int Id { get; set; }
             public string Name { get; set; }
-        }
-
-        public class placeList
-        {
-            public int id { get; set; }
-            public int user_id { get; set; }
-            public string listName { get; set; }
-            public string description { get; set; }
-            public string privacy { get; set; }
-            public string createdTime { get; set; }
-            public string updatedTime { get; set; }
         }
     }
 }
