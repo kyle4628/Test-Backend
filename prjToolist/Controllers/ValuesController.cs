@@ -46,6 +46,36 @@ namespace prjToolist.Controllers {
             return Request.CreateResponse(HttpStatusCode.OK, result);
         }
 
+        [Route("get_place_list")]
+        [HttpPost]
+        [EnableCors("*", "*", "*")]
+        public HttpResponseMessage getPlaceList()
+        {
+            var intList = db.places.Select(p=>p.id).ToList();
+            List<placeList> placesList = new List<placeList>();
+            foreach (int i in intList)
+            {
+                var placeListItem = db.placeLists.FirstOrDefault(p => p.id == i);
+                placeList listItem = new placeList();
+                listItem.id = placeListItem.id;
+                listItem.listName = placeListItem.name;
+                listItem.description = placeListItem.description;
+                listItem.privacy = placeListItem.privacy;
+                listItem.user_id = placeListItem.user_id;
+                listItem.createdTime = placeListItem.created.ToString();
+                listItem.updatedTime = placeListItem.updated.ToString();
+                placesList.Add(listItem);
+            }
+            var result = new
+            {
+                status = 0,
+                msg = "fail",
+                data = placesList,
+                total = placesList.Count()
+            };
+
+            return Request.CreateResponse(HttpStatusCode.OK, result);
+        }
 
         [HttpPost]
         [Route("listPost")]
@@ -166,6 +196,17 @@ namespace prjToolist.Controllers {
         public class Student {
             public int Id { get; set; }
             public string Name { get; set; }
+        }
+
+        public class placeList
+        {
+            public int id { get; set; }
+            public int user_id { get; set; }
+            public string listName { get; set; }
+            public string description { get; set; }
+            public string privacy { get; set; }
+            public string createdTime { get; set; }
+            public string updatedTime { get; set; }
         }
     }
 }
