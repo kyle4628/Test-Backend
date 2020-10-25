@@ -109,45 +109,6 @@ namespace prjToolist.Controllers {
             return api.ToList();
         }
 
-
-        /// <summary>
-        ///     查詢USER
-        /// </summary>
-        /// <returns></returns>
-        // GET api/values
-        [HttpGet]
-        [Route("listGet")]
-        public IEnumerable<user> Get() {
-            //public List<Student> Get() {
-
-            var api = from p in db.users
-                select p;
-
-            //user.Add*()
-            return api.ToList();
-
-            /*
-            return new List<Student> {
-                new Student {
-                    Id = 100,
-                    Name = "小AAA明"
-                },
-                new Student {
-                    Id = 101,
-                    Name = "小華"
-                }
-            };
-            */
-        }
-
-        // GET api/values/5
-        public IEnumerable<user> Get(int id) {
-            var api = from p in db.users
-                where p.id == id
-                select p;
-            return api;
-        }
-
         [HttpPost]
         // POST api/values
         public HttpResponseMessage Post([FromBody] string createUser) {
@@ -201,10 +162,6 @@ namespace prjToolist.Controllers {
             };
 
             return Request.CreateResponse(HttpStatusCode.OK, result);
-        }
-
-        // DELETE api/values/5
-        public void Delete(int id) {
         }
 
         public class Student {
