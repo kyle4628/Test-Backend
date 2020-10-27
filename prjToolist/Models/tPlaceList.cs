@@ -17,6 +17,28 @@ namespace prjToolist.Models
         public byte[] cover { get; set; }
     }
 
+    public class viewModelPlaceList
+    {
+
+        public string name { get; set; }
+        public string description { get; set; }
+        public string privacy { get; set; }
+        //public string coverImageURL { get; set; }
+        public int[] places { get; set; }
+    }
+
+    public class viewModelEditListPlace
+    {
+        public int[] places { get; set; }
+    }
+
+    public class viewModelEditListInfo
+    {
+        public string name { get; set; }
+        public string description { get; set; }
+        public string privacy { get; set; }
+    }
+
     public class queryPlaceList
     {
         public int id { get; set; }
