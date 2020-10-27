@@ -75,5 +75,13 @@ namespace prjToolist.Models
             }
             return tag_id.Distinct().ToArray();
         }
+
+        public class tTagRelaforTable
+        {
+            public int id { get; set; }
+            public string place_name { get; set; }
+            public string tag_name { get; set; }
+            public string user_name { get; set; }
+        }
     }
 }
