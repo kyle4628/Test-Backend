@@ -24,11 +24,11 @@ namespace prjToolist.Controllers
         {
             var intList = db.users.Select(p => p.id).ToList();
             List<queryUserList> usersList = new List<queryUserList>();
-            foreach (int i in intList)
+            for (int i = 0; i < intList.Count(); i++)
             {
-                var userListItem = db.users.FirstOrDefault(p => p.id == i);
+                var userListItem = db.users.AsEnumerable().FirstOrDefault(p => p.id == intList[i]);
                 queryUserList listItem = new queryUserList();
-                listItem.id = userListItem.id;
+                listItem.id = i+1;
                 listItem.name = userListItem.name;
                 listItem.email = userListItem.email;
                 listItem.authority = userListItem.authority;
