@@ -6,6 +6,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
+using System.Web;
 using System.Web.Http;
 using System.Web.Http.Cors;
 using static prjToolist.Controllers.CommonController;
@@ -23,23 +24,27 @@ namespace prjToolist.Controllers
         [EnableCors("*", "*", "*")]
         public HttpResponseMessage get_user_lists([FromBody] tagString s)
         {
-
-
             int userlogin = 0;
-            int[] tFilterid = tagFactory.tagStringToId(s, db);
+            //int[] tFilterid = tagFactory.tagStringToId(s, db);
+            int[] tFilterid = new int[] { 1, 2 };
             List<int> userList = new List<int>();
             List<int> placesList = new List<int>();
             List<int> tagsList = new List<int>();
             List<int> intersectResult = new List<int>();
             List<placeListInfo> infoList = new List<placeListInfo>();
+            if (HttpContext.Current.Session["SK_login"] != null)
+            {
+                user x = HttpContext.Current.Session["SK_login"] as user;
+                Debug.WriteLine("userid" + x.id);
+                userlogin = x.id;
 
-
+            };
 
             var dataForm = new
             {
                 list = infoList,
                 tags = tagsList,
-                places = placesList
+                places = intersectResult
             };
 
             var result = new
@@ -51,20 +56,10 @@ namespace prjToolist.Controllers
 
 
             //var currentCookie = Request.Headers.GetCookies("session-id").FirstOrDefault();
-            if (Request.Headers.Contains("session-id"))
-            {
-                userlogin = int.Parse(Request.Headers.GetValues("session-id").FirstOrDefault());
-            }
+            //if (Request.Headers.Contains("session-id")) {
+            //userlogin = int.Parse(Request.Headers.GetValues("session-id").FirstOrDefault());
+            //}
 
-            //string sessionId = "";
-
-            //CookieHeaderValue currentCookie = Request.Headers.GetCookies("session-id").FirstOrDefault();
-
-
-            //if (currentCookie != null)
-            //{
-            //sessionId = currentCookie["session-id"].Value;
-            //userlogin = int.Parse(currentCookie.ToString());
             if (userlogin != 0)
             {
                 userList = db.placeLists.Where(p => p.user_id == userlogin).Select(q => q.id).ToList();//使用者建立的全部清單
@@ -90,6 +85,7 @@ namespace prjToolist.Controllers
                             //info.cover = Encoding.UTF8.GetString(binaryString);
                             infoList.Add(infoItem);
                         }
+                        intersectResult = intersectResult.Distinct().ToList();
                     }
                 }
                 result = new
@@ -106,6 +102,7 @@ namespace prjToolist.Controllers
                 foreach (int i in tFilterid)
                 {
                     var searchplacehastag = db.tagRelations.Where(P => P.tag_id == i).Select(q => q.place_id).ToList();
+                    searchplacehastag = searchplacehastag.Distinct().ToList();
                     intersectResult = intersectResult.Intersect(searchplacehastag).ToList();
 
 
@@ -115,10 +112,11 @@ namespace prjToolist.Controllers
             }
             if (intersectResult.Count > 0)
             {
+                Debug.WriteLine("有搜尋到交集地點");
                 foreach (int j in intersectResult)
                 {  //篩選出有共同標籤地點的清單
                     placesList.AddRange(db.placeRelations.Where(p => p.place_id == j).Select(q => q.placeList_id).ToList());
-                    Debug.WriteLine("1");
+
 
                     //篩選出這些地點的所有tag
                     tagsList.AddRange(db.tagRelations.Where(p => p.place_id == j).Select(q => q.tag_id).ToList());
@@ -130,7 +128,13 @@ namespace prjToolist.Controllers
                 {
                     list = infoList,
                     tags = tagsList,
-                    places = placesList
+                    places = intersectResult//地點編號
+                };
+                result = new
+                {
+                    status = 1,
+                    msg = "OK",
+                    data = dataForm
                 };
 
             }
@@ -178,8 +182,6 @@ namespace prjToolist.Controllers
         [EnableCors("*", "*", "*")]
         public HttpResponseMessage test_union()
         {
-
-
             List<int> searchallplaceinlist = new List<int> { 1, 2, 3, 4, 5, 6, 8, 9, 1, 0, 5, 6 };
             List<int> unionResult = searchallplaceinlist;
             List<int> intersectResult = searchallplaceinlist;
@@ -203,9 +205,6 @@ namespace prjToolist.Controllers
                 msg = "OK",
                 data = intersectResult
             };
-
-
-
             var resp = Request.CreateResponse(
           HttpStatusCode.OK,
           result
@@ -213,10 +212,6 @@ namespace prjToolist.Controllers
             return resp;
 
         }
-
-
-
-
 
         [Route("create_list")]
         [HttpPost]
@@ -241,8 +236,6 @@ namespace prjToolist.Controllers
                 msg = $"fail",
                 data = dataform
             };
-
-
             if (userlogin != 0)
             {
                 placeList newList = new placeList();
@@ -299,15 +292,11 @@ namespace prjToolist.Controllers
                     }
                 }
             }
-
-
-
             var resp = Request.CreateResponse(
             HttpStatusCode.OK,
             result
             );
             return resp;
-
         }
 
         [Route("list/{list_id:int}/add_place")]
@@ -406,7 +395,6 @@ namespace prjToolist.Controllers
                 msg = $"fail",
 
             };
-
             var list = db.placeLists.Where(p => p.id == list_id).Select(q => q).FirstOrDefault();
 
             if (list != null)
@@ -452,26 +440,9 @@ namespace prjToolist.Controllers
 
         }
 
-        public class placeId
-        {
-            public int[] place_id { get; set; }
-        }
 
-
-        public class placeNewName
-        {
-            public string name { get; set; }
-        }
-
-        public class placeNewDescription
-        {
-            public string description { get; set; }
-        }
 
 
 
     }
 }
-
-
-
