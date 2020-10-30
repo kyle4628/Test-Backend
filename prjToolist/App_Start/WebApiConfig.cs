@@ -21,18 +21,6 @@ namespace prjToolist {
                 "api/{controller}/get_id/{id}",
                 new {id = RouteParameter.Optional}
             );
-            /* swagger API錯誤原因：此routeTemplate尚未存在。
-            config.Routes.MapHttpRoute(
-
-                  name: "DefaultApi1",
-                  routeTemplate: "api/{controller}/get_hot_tags/{count}/{page}",
-                  defaults: new
-                  {
-                      count = RouteParameter.Optional,
-                      page = RouteParameter.Optional
-                  }
-              );
-            */
         }
     }
 }

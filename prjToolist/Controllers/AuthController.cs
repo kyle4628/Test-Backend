@@ -24,7 +24,8 @@ namespace prjToolist.Controllers
 
         [Route("login")]
         [HttpPost]
-        [EnableCors("*", "*", "*")]
+        [AllowAnonymous]
+        [EnableCors("*", "*", "*", SupportsCredentials = true)]
         public HttpResponseMessage loginPost([FromBody] memberLogin loginUser)
         {
             var verifyAccount = db.users.FirstOrDefault(P => P.email == loginUser.account && P.password == loginUser.password);
@@ -70,7 +71,8 @@ namespace prjToolist.Controllers
 
         [Route("logout")]
         [HttpPost]
-        [EnableCors("*", "*", "*")]
+        [AllowAnonymous]
+        [EnableCors("*", "*", "*", SupportsCredentials = true)]
         public HttpResponseMessage logoutPost()
         {
             //{
@@ -126,7 +128,8 @@ namespace prjToolist.Controllers
 
         [Route("register")]
         [HttpPost]
-        [EnableCors("*", "*", "*")]
+        [AllowAnonymous]
+        [EnableCors("*", "*", "*", SupportsCredentials = true)]
         public HttpResponseMessage createUser(createMember x)
         {
             var isnullormember = db.users.Where(p => p.email == x.email).FirstOrDefault();
@@ -157,7 +160,8 @@ namespace prjToolist.Controllers
 
         [Route("login2")]
         [HttpPost]
-        [EnableCors("*", "*", "*")]
+        [AllowAnonymous]
+        [EnableCors("*", "*", "*", SupportsCredentials = true)]
         public HttpResponseMessage loginPost2([FromBody] memberLogin loginUser)
         {
 
@@ -213,7 +217,8 @@ namespace prjToolist.Controllers
 
         [Route("test")]
         [HttpPost]
-        [EnableCors("*", "*", "*")]
+        [AllowAnonymous]
+        [EnableCors("*", "*", "*", SupportsCredentials = true)]
         public HttpResponseMessage testPost()
         {
 
