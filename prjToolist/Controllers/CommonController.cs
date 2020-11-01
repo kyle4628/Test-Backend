@@ -16,7 +16,7 @@ namespace prjToolist.Controllers
     {
         FUENMLEntities db = new FUENMLEntities();
 
-        [Route("get_list/{list_id:int}")]
+        [Route("get_list")]
         [HttpPost]
         [EnableCors("*", "*", "*")]
         public HttpResponseMessage GetList(int list_id, tagString s)
