@@ -17,6 +17,13 @@ namespace prjToolist.Models
         public float lat { get; set; }
     }
 
+    public class tGmap
+    {
+        public tStartPosition from { get; set; }
+        public tEndPosition to { get; set; }
+        public int[] filter { get; set; }
+    }
+
     public class tGMapId
     {
         public string gmap_id { get; set; }
@@ -28,6 +35,18 @@ namespace prjToolist.Models
         public string phone { get; set; }
         public string address { get; set; }
         public string type { get; set; }
+    }
+
+    public class location
+    {
+        public float lon { get; set; }
+        public float lat { get; set; }
+    }
+
+    public class tMapMark
+    {
+        public string gmap_id { get; set; }
+        public location location { get; set; }
     }
 
     //public List<tTag> placeTags(tGMapId gMapId)

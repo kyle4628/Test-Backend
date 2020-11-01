@@ -17,14 +17,40 @@ namespace prjToolist.Controllers
         [Route("get_marks")]
         [HttpPost]
         [EnableCors("*", "*", "*")]
-        public HttpResponseMessage getMarkInfo()
+        public HttpResponseMessage getMarkInfo(tGmap mapAOI)
         {
+            var areaId = db.places.Where(p => (double)p.longitude > mapAOI.from.lon && (double)p.longitude < mapAOI.to.lon &&
+                                             (double)p.latitude > mapAOI.from.lat && (double)p.latitude < mapAOI.to.lat
+                                       ).Select(p=>p.id).ToList();
+            List<tMapMark> Marks = new List<tMapMark>();
             var result = new
             {
-                status = 0,
+                status = 1,
+                data = Marks,
                 msg = "fail"
             };
-            
+            if (areaId != null)
+            {
+                foreach(int i in areaId)
+                {
+                    var placeInfo = db.places.FirstOrDefault(t => t.id == i);
+                    tMapMark markItem = new tMapMark();
+                    location location = new location();
+                    markItem.gmap_id = placeInfo.gmap_id;
+                    location.lat = (float)placeInfo.latitude;
+                    location.lon = (float)placeInfo.longitude;
+                    markItem.location = location;
+
+                    Marks.Add(markItem);
+                }
+                result = new
+                {
+                    status = 0,
+                    data = Marks,
+                    msg = ""
+                };
+            }
+
 
             return Request.CreateResponse(HttpStatusCode.OK, result);
         }
