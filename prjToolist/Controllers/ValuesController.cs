@@ -110,6 +110,35 @@ namespace prjToolist.Controllers
             return Request.CreateResponse(HttpStatusCode.OK, result);
         }
 
+        [Route("get_place_info")]
+        [HttpPost]
+        [EnableCors("*", "*", "*")]
+        public HttpResponseMessage getPlaceInfo()
+        {
+            var intList = db.places.Select(p => p.id).ToList();
+            List<queryPlaceInfo> placesInfoList = new List<queryPlaceInfo>();
+            foreach (int i in intList)
+            {
+                var placeInfoItem = db.places.FirstOrDefault(p => p.id == i);
+                queryPlaceInfo listItem = new queryPlaceInfo();
+                listItem.id = placeInfoItem.id;
+                listItem.name = placeInfoItem.name;
+                listItem.type = placeInfoItem.type;
+                listItem.phone = placeInfoItem.phone;
+                listItem.address = placeInfoItem.address;
+                listItem.longitude = placeInfoItem.longitude;
+                listItem.latitude = placeInfoItem.latitude;
+                placesInfoList.Add(listItem);
+            }
+            var result = new
+            {
+                data = placesInfoList,
+                total = placesInfoList.Count()
+            };
+
+            return Request.CreateResponse(HttpStatusCode.OK, result);
+        }
+
         [Route("update_placelist")]
         [HttpPost]
         [EnableCors("*", "*", "*")]
@@ -127,6 +156,36 @@ namespace prjToolist.Controllers
             {
                 msg = "success"
             };
+            return Request.CreateResponse(HttpStatusCode.OK, result);
+        }
+
+        [Route("update_tagRelation")]
+        [HttpPost]
+        [EnableCors("*", "*", "*")]
+        public HttpResponseMessage updateTagRelation(updateTagRelation updateItem)
+        {
+            var placeListItem = db.placeLists.FirstOrDefault(p => p.name == updateItem.place_name);
+            var userListItem = db.users.FirstOrDefault(u => u.name == updateItem.user_name);
+            var tagListItem = db.tags.FirstOrDefault(t=>t.name == updateItem.tag_name);
+            var tagRelationItem = db.tagRelations.Where(r => r.place_id == placeListItem.id
+                                                              && r.tag_id == tagListItem.id
+                                                              && r.user_id == userListItem.id)
+                                                           .FirstOrDefault();
+            var result = new
+            {
+                msg = "Error"
+            };
+            if (placeListItem != null && userListItem != null && tagListItem != null && tagRelationItem != null)
+            {
+                tagRelationItem.place_id = placeListItem.id;
+                tagRelationItem.tag_id = tagListItem.id;
+                tagRelationItem.user_id = userListItem.id;
+                db.SaveChanges();
+                result = new
+                {
+                    msg = ""
+                };
+            }
             return Request.CreateResponse(HttpStatusCode.OK, result);
         }
 

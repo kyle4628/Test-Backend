@@ -83,5 +83,12 @@ namespace prjToolist.Models
             public string tag_name { get; set; }
             public string user_name { get; set; }
         }
+
+        public class updateTagRelation
+        {
+            public string place_name { get; set; }
+            public string tag_name { get; set; }
+            public string user_name { get; set; }
+        }
     }
 }

@@ -20,8 +20,8 @@ namespace prjToolist.Controllers
         public HttpResponseMessage getMarkInfo(tGmap mapAOI)
         {
             var areaId = db.places.Where(p => (double)p.longitude > mapAOI.from.lon && (double)p.longitude < mapAOI.to.lon &&
-                                             (double)p.latitude > mapAOI.from.lat && (double)p.latitude < mapAOI.to.lat
-                                       ).Select(p=>p.id).ToList();
+                                              (double)p.latitude > mapAOI.from.lat && (double)p.latitude < mapAOI.to.lat
+                                 ).Select(p=>p.id).ToList();
             List<tMapMark> Marks = new List<tMapMark>();
             var result = new
             {
@@ -50,7 +50,6 @@ namespace prjToolist.Controllers
                     msg = ""
                 };
             }
-
 
             return Request.CreateResponse(HttpStatusCode.OK, result);
         }
