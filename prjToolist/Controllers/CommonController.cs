@@ -12,6 +12,7 @@ using static prjToolist.Models.tagFactory;
 namespace prjToolist.Controllers
 {
     [RoutePrefix("common")]
+    [JwtAuthActionFilter]
     public class CommonController : ApiController
     {
         FUENMLEntities db = new FUENMLEntities();

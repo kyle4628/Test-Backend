@@ -1,4 +1,5 @@
-﻿using System;
+﻿using prjToolist.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -7,6 +8,7 @@ using System.Web.Http;
 
 namespace prjToolist.Controllers
 {
+    [JwtAuthActionFilter]
     public class PlaceController : ApiController
     {
         /// <summary>

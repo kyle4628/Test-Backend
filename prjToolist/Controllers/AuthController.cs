@@ -18,6 +18,7 @@ namespace prjToolist.Controllers
 {
     // POST: api/Auth
     [RoutePrefix("auth")]
+    [JwtAuthActionFilter]
     public class AuthController : ApiController
     {
         FUENMLEntities db = new FUENMLEntities();

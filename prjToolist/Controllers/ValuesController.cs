@@ -12,6 +12,7 @@ using static prjToolist.Models.tagFactory;
 namespace prjToolist.Controllers
 {
     [RoutePrefix("query")]
+    [JwtAuthActionFilter]
     public class ValuesController : ApiController
     {
         private readonly FUENMLEntities db = new FUENMLEntities();

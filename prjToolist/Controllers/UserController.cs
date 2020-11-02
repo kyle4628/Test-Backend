@@ -15,6 +15,7 @@ using static prjToolist.Models.tagFactory;
 namespace prjToolist.Controllers
 {
     [RoutePrefix("user")]
+    [JwtAuthActionFilter]
     public class UserController : ApiController
     {
         FUENMLEntities db = new FUENMLEntities();

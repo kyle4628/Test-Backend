@@ -9,6 +9,7 @@ using System.Web.Http.Cors;
 
 namespace prjToolist.Controllers
 {
+    [JwtAuthActionFilter]
     [RoutePrefix("map")]
     public class MapController : ApiController
     {
