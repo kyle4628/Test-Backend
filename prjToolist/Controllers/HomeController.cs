@@ -8,7 +8,7 @@ namespace prjToolist.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Home()
+        public ActionResult Index()
         {
             ViewBag.Title = "Home Page";
 
