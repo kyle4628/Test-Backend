@@ -12,6 +12,24 @@ namespace prjToolist.Models
         public int type { get; set; }
     }
 
+    public class tagFilter
+    {
+        public int[] filter { get; set; }
+    }
+
+    public class tagInfo
+    {
+        public string name { get; set; }
+        public int type { get; set; }
+    }
+
+    public class tTagRelation
+    {
+        public int user_id { get; set; }
+        public string gmap_id { get; set; }
+        public int[] tag_id { get; set; }
+    }
+
     public static class tagFactory
     {
 

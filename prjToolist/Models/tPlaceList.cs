@@ -11,10 +11,22 @@ namespace prjToolist.Models
         public int user_id { get; set; }
         public string name { get; set; }
         public string description { get; set; }
+        public int privacy { get; set; }
+        public string createdTime { get; set; }
+        public string updatedTime { get; set; }
+        public string coverImageURL { get; set; }
+    }
+
+    //  for common/get_recommend_lists 
+    public class placeListInfo
+    {
+        public int userId { get; set; }
+        public string name { get; set; }
+        public string description { get; set; }
         public string privacy { get; set; }
-        public System.DateTime created { get; set; }
-        public Nullable<System.DateTime> updated { get; set; }
-        public byte[] cover { get; set; }
+        public string createdTime { get; set; }
+        public string updatedTime { get; set; }
+        public string cover { get; set; }
     }
 
     public class viewModelPlaceList

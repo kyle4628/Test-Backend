@@ -16,11 +16,6 @@ namespace prjToolist {
                 new {id = RouteParameter.Optional}
             );
 
-            config.Routes.MapHttpRoute(
-                "UserApiID",
-                "api/{controller}/get_id/{id}",
-                new {id = RouteParameter.Optional}
-            );
         }
     }
 }

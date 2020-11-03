@@ -12,10 +12,95 @@ using static prjToolist.Models.tagFactory;
 namespace prjToolist.Controllers
 {
     [RoutePrefix("common")]
-    [JwtAuthActionFilter]
+    //[JwtAuthActionFilter]
     public class CommonController : ApiController
     {
         FUENMLEntities db = new FUENMLEntities();
+
+        [Route("get_recommend_lists")]
+        [HttpGet]
+        [EnableCors("*", "*", "*")]
+        public HttpResponseMessage getRecommendList()
+        {
+            var list = db.placeLists.Select(p=>p.id).ToList();
+            List<tPlaceList> placeList = new List<tPlaceList>();
+            var result = new
+            {
+                status = 1,
+                data = placeList,
+                msg = ""
+            };
+            if (list.Count() > 0)
+            {
+                int[] idList = list.ToArray();
+                foreach(int i in idList)
+                {
+                    var placeListModel = db.placeLists.FirstOrDefault(p => p.id == i);
+                    tPlaceList placeListItem = new tPlaceList();
+                    placeListItem.id = placeListModel.id;
+                    placeListItem.user_id = placeListModel.user_id;
+                    placeListItem.privacy = int.Parse(placeListModel.privacy);
+                    placeListItem.name = placeListModel.name;
+                    placeListItem.description = placeListModel.description;
+                    //placeListItem.coverImageURL = placeListModel.cover.ToString();
+                    placeListItem.createdTime = placeListModel.created.ToString();
+                    placeListItem.updatedTime = placeListModel.updated.ToString();
+                    placeList.Add(placeListItem);
+                }
+                result = new
+                {
+                    status = 1,
+                    data = placeList,
+                    msg = ""
+                };
+            }
+            return Request.CreateResponse(HttpStatusCode.OK, result);
+        }
+
+        [Route("get_hot_tags")]
+        [HttpGet]
+        [EnableCors("*", "*", "*")]
+        public HttpResponseMessage getHotTag()
+        {
+            int[] idList = db.tags.Select(t => t.id).ToArray();
+            Array.Sort(idList); 
+            List<tTag> tagList = new List<tTag>();
+            var tagInfo = new
+            {
+                lists = tagList
+            };
+            var result = new
+            {
+                status = 0,
+                data = tagInfo,
+                msg = "fail"
+            };
+
+            if (idList.Count() > 0)
+            {
+                foreach(int i in idList)
+                {
+                    var tagModel = db.tags.FirstOrDefault(t => t.id == i);
+                    tTag tagItem = new tTag();
+                    tagItem.id = i;
+                    tagItem.name = tagModel.name;
+                    tagItem.type = tagModel.type;
+                    tagList.Add(tagItem);
+                    tagInfo = new
+                    {
+                        lists = tagList
+                    };
+                    result = new
+                    {
+                        status = 1,
+                        data = tagInfo,
+                        msg = ""
+                    };
+                }
+            }
+            return Request.CreateResponse(HttpStatusCode.OK, result);
+        }
+        
 
         [Route("get_list")]
         [HttpPost]
@@ -45,7 +130,7 @@ namespace prjToolist.Controllers
             var place = db.placeLists.Where(p => p.id == list_id).FirstOrDefault();
             var placeSpot = db.placeRelations.Where(p => p.placeList_id == list_id).Select(p => p.place_id).ToList();
             List<placeListInfo> infoList = new List<placeListInfo>();
-            List<placeInfo> relationPlace = new List<placeInfo>();
+            List<tPlaceInfo> relationPlace = new List<tPlaceInfo>();
             List<tagInfo> tagInfoList = new List<tagInfo>();
 
             List<int> idList = new List<int>();
@@ -71,7 +156,7 @@ namespace prjToolist.Controllers
             foreach (var i in terms)
             {
                 var tagId = db.tagRelations.Where(p => p.place_id == i).Select(p => p.tag_id).ToList();
-                var exportPlaceInfo = new placeInfo();
+                tPlaceInfo exportPlaceInfo = new tPlaceInfo();
                 var placeModel = db.places.FirstOrDefault(p => p.id == i);
                 for (int j = 0; j < tagId.Count(); j++)
                 {
@@ -150,46 +235,6 @@ namespace prjToolist.Controllers
                 }
 
             return Request.CreateResponse(HttpStatusCode.OK, result);
-        }
-
-        public class tagFilter
-        {
-            public int[] filter { get; set; }
-        }
-
-        public class placeListInfo
-        {
-            public int userId { get; set; }
-            public string name { get; set; }
-            public string description { get; set; }
-            public string privacy { get; set; }
-            public string createdTime { get; set; }
-            public string updatedTime { get; set; }
-            public string cover { get; set; }
-        }
-
-        public class placeInfo
-        {
-            public string name { get; set; }
-            public decimal longitude { get; set; }
-            public decimal latitude { get; set; }
-            public string phone { get; set; }
-            public string address { get; set; }
-            public string type { get; set; }
-            public string gmap_id { get; set; }
-        }
-
-        public class tagInfo
-        {
-            public string name { get; set; }
-            public int type { get; set; }
-        }
-
-        public class tTagRelation
-        {
-            public int user_id { get; set; }
-            public string gmap_id { get; set; }
-            public int[] tag_id { get; set; }
         }
     }
 }
