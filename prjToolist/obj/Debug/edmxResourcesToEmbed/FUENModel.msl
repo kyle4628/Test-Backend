@@ -52,7 +52,7 @@
       <EntityTypeMapping TypeName="FUENMLModel.tagEvent">
         <MappingFragment StoreEntitySet="tagEvent">
           <ScalarProperty Name="created" ColumnName="created" />
-          <ScalarProperty Name="event" ColumnName="event" />
+          <ScalarProperty Name="tagEvent1" ColumnName="tagEvent" />
           <ScalarProperty Name="tag_id" ColumnName="tag_id" />
           <ScalarProperty Name="user_id" ColumnName="user_id" />
           <ScalarProperty Name="id" ColumnName="id" />

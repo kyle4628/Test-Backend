@@ -17,6 +17,13 @@ namespace prjToolist.Models
         public int[] filter { get; set; }
     }
 
+    public class tTagEvent
+    {
+        public int user_id { get; set; }
+        public int tag_id { get; set; }
+        public int tagEvent { get; set; }
+    }
+
     public class tagInfo
     {
         public string name { get; set; }

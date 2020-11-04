@@ -100,7 +100,7 @@
     <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="user_id" Type="Int32" Nullable="false" />
     <Property Name="tag_id" Type="Int32" />
-    <Property Name="event" Type="Int32" />
+    <Property Name="tagEvent1" Type="Int32" />
     <Property Name="created" Type="DateTime" Nullable="false" Precision="3" />
     <NavigationProperty Name="tag" Relationship="FUENMLModel.fk_tagEvent_tag_1" FromRole="tagEvent" ToRole="tag" />
     <NavigationProperty Name="user" Relationship="FUENMLModel.fk_tagEvent_user_1" FromRole="tagEvent" ToRole="user" />

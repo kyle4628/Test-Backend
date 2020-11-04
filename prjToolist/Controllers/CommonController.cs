@@ -201,10 +201,40 @@ namespace prjToolist.Controllers
             return Request.CreateResponse(HttpStatusCode.OK, result);
         }
 
+        [Route("set_tag_event")]
+        [HttpPost]
+        [EnableCors("*", "*", "*")]
+        public HttpResponseMessage setEvent(tTagEvent tTagEvent)
+        {
+            var result = new
+            {
+                status = 0,
+                msg = "invalid event type",
+            };
+            if (tTagEvent.tagEvent == 1 || tTagEvent.tagEvent == 2)
+            {
+                tagEvent newEvent = new tagEvent();
+                newEvent.tag_id = tTagEvent.tag_id;
+                newEvent.user_id = tTagEvent.user_id;
+                newEvent.tagEvent1 = tTagEvent.tagEvent;
+                newEvent.created = DateTime.Now;
+                db.tagEvents.Add(newEvent);
+                db.SaveChanges();
+
+                result = new
+                {
+                    status = 1,
+                    msg = "",
+                };
+            }
+            
+            return Request.CreateResponse(HttpStatusCode.OK, result);
+        }
+
         [Route("tag_relation")]
         [HttpPost]
         [EnableCors("*", "*", "*")]
-        public HttpResponseMessage tagRelation([FromBody] tTagRelation tTag)
+        public HttpResponseMessage tagRelation(tTagRelation tTag)
         {
             var verifyAccount = db.users.Where(u => u.id == tTag.user_id).FirstOrDefault();
             var verifyGlePlace = db.places.Where(p => p.gmap_id == tTag.gmap_id).FirstOrDefault();

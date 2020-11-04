@@ -51,7 +51,7 @@
     <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="user_id" Type="int" Nullable="false" />
     <Property Name="tag_id" Type="int" />
-    <Property Name="event" Type="int" />
+    <Property Name="tagEvent" Type="int" />
     <Property Name="created" Type="datetime" Nullable="false" />
   </EntityType>
   <EntityType Name="tagRelation">

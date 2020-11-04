@@ -52,7 +52,6 @@ namespace prjToolist.Models
         public class JwtAuthObject
         {
             public string accId { get; set; }
-            public string pwdId { get; set; }
         }
     }
 }

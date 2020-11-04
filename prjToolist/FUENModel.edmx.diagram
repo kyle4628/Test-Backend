@@ -6,12 +6,12 @@
     <edmx:Diagrams>
       <Diagram DiagramId="f178d7e87db0467fa1eaee7f04917ef6" Name="Diagram1">
         <EntityTypeShape EntityType="FUENMLModel.place" Width="1.5" PointX="3.75" PointY="0.75" />
-        <EntityTypeShape EntityType="FUENMLModel.placeList" Width="1.5" PointX="3" PointY="8.875" />
-        <EntityTypeShape EntityType="FUENMLModel.placeRelation" Width="1.5" PointX="5.25" PointY="9.375" />
-        <EntityTypeShape EntityType="FUENMLModel.tag" Width="1.5" PointX="0.75" PointY="2.25" />
+        <EntityTypeShape EntityType="FUENMLModel.placeList" Width="1.5" PointX="3" PointY="10.875" />
+        <EntityTypeShape EntityType="FUENMLModel.placeRelation" Width="1.5" PointX="5.25" PointY="11.375" />
+        <EntityTypeShape EntityType="FUENMLModel.tag" Width="1.5" PointX="0.75" PointY="1.25" />
         <EntityTypeShape EntityType="FUENMLModel.tagEvent" Width="1.5" PointX="3" PointY="5.125" />
-        <EntityTypeShape EntityType="FUENMLModel.tagRelation" Width="1.5" PointX="6" PointY="6.125" />
-        <EntityTypeShape EntityType="FUENMLModel.user" Width="1.5" PointX="0.75" PointY="5.875" />
+        <EntityTypeShape EntityType="FUENMLModel.tagRelation" Width="1.5" PointX="6" PointY="5.125" />
+        <EntityTypeShape EntityType="FUENMLModel.user" Width="1.5" PointX="0.75" PointY="4.875" />
         <AssociationConnector Association="FUENMLModel.fk_placeRelation_place_1" />
         <AssociationConnector Association="FUENMLModel.fk_tagRelation_place_1" />
         <AssociationConnector Association="FUENMLModel.fk_placeList_user_1" />

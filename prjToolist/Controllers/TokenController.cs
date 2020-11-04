@@ -7,6 +7,7 @@ using System.Net.Http;
 using System.Text;
 using System.Web.Http;
 using System.Web.Http.Cors;
+using static prjToolist.Models.JwtAuthActionFilter;
 
 namespace prjToolist.Controllers
 {
@@ -30,7 +31,6 @@ namespace prjToolist.Controllers
                 var payload = new JwtAuthObject()
                 {
                     accId = verifyCount.email,
-                    pwdId = verifyCount.password
                 };
 
                 return new
@@ -53,12 +53,6 @@ namespace prjToolist.Controllers
         {
             public string account { get; set; }
             public string password { get; set; }
-        }
-
-        public class JwtAuthObject
-        {
-            public string accId { get; set; }
-            public string pwdId { get; set; }
         }
     }
 }
