@@ -11,6 +11,9 @@ using System.Web.Http;
 using System.Web.Http.Cors;
 using static prjToolist.Controllers.CommonController;
 using static prjToolist.Models.tagFactory;
+//using static prjToolist.Models.tagFactory;
+using static prjToolist.Models.tTagRelation;
+//using static prjToolist.Models.tTagRelation.tagFactory;
 
 namespace prjToolist.Controllers
 {
@@ -33,14 +36,14 @@ namespace prjToolist.Controllers
             List<int> tagsList = new List<int>();
             List<int> intersectResult = new List<int>();
             List<placeListInfo> infoList = new List<placeListInfo>();
-            if (HttpContext.Current.Session["SK_login"] != null)
-            {
-                user x = HttpContext.Current.Session["SK_login"] as user;
-                Debug.WriteLine("userid" + x.id);
-                userlogin = x.id;
+            //if (HttpContext.Current.Session["SK_login"] != null)
+            //{
+            //    user x = HttpContext.Current.Session["SK_login"] as user;
+            //    Debug.WriteLine("userid"+x.id);
+            //    userlogin = x.id;
 
-            };
-
+            //};
+            userlogin = userIsLoginSession(userlogin);
             var dataForm = new
             {
                 list = infoList,
@@ -55,11 +58,7 @@ namespace prjToolist.Controllers
                 data = dataForm
             };
 
-
-            //var currentCookie = Request.Headers.GetCookies("session-id").FirstOrDefault();
-            //if (Request.Headers.Contains("session-id")) {
-            //userlogin = int.Parse(Request.Headers.GetValues("session-id").FirstOrDefault());
-            //}
+            userlogin = userIsLoginCookie(userlogin);
 
             if (userlogin != 0)
             {
@@ -70,8 +69,6 @@ namespace prjToolist.Controllers
                     foreach (int r in userList)
                     {
                         intersectResult.AddRange(db.placeRelations.Where(p => p.placeList_id == r).Select(q => q.place_id).ToList());
-
-
                         placeListInfo infoItem = new placeListInfo();
                         var li = db.placeLists.Where(p => p.id == r && p.user_id == userlogin).Select(q => q).FirstOrDefault();
                         if (li != null)
@@ -92,11 +89,10 @@ namespace prjToolist.Controllers
                 result = new
                 {
                     status = 1,
-                    msg = "OK",
+                    msg = "",
                     data = dataForm
                 };
             }
-
 
             if (tFilterid != null)
             {
@@ -105,19 +101,15 @@ namespace prjToolist.Controllers
                     var searchplacehastag = db.tagRelations.Where(P => P.tag_id == i).Select(q => q.place_id).ToList();
                     searchplacehastag = searchplacehastag.Distinct().ToList();
                     intersectResult = intersectResult.Intersect(searchplacehastag).ToList();
-
-
-
                 }
-
             }
+
             if (intersectResult.Count > 0)
             {
                 Debug.WriteLine("有搜尋到交集地點");
                 foreach (int j in intersectResult)
                 {  //篩選出有共同標籤地點的清單
                     placesList.AddRange(db.placeRelations.Where(p => p.place_id == j).Select(q => q.placeList_id).ToList());
-
 
                     //篩選出這些地點的所有tag
                     tagsList.AddRange(db.tagRelations.Where(p => p.place_id == j).Select(q => q.tag_id).ToList());
@@ -134,10 +126,9 @@ namespace prjToolist.Controllers
                 result = new
                 {
                     status = 1,
-                    msg = "OK",
+                    msg = "",
                     data = dataForm
                 };
-
             }
 
             if (placesList.Count > 0 && userlogin != 0)
@@ -163,20 +154,17 @@ namespace prjToolist.Controllers
                 result = new
                 {
                     status = 1,
-                    msg = "OK",
+                    msg = "",
                     data = dataForm
                 };
             }
-
 
             var resp = Request.CreateResponse(
            HttpStatusCode.OK,
            result
            );
             return resp;
-
         }
-
 
         [Route("test_union")]
         [HttpPost]
@@ -202,8 +190,8 @@ namespace prjToolist.Controllers
 
             var result = new
             {
-                status = 0,
-                msg = "OK",
+                status = 1,
+                msg = "",
                 data = intersectResult
             };
             var resp = Request.CreateResponse(
@@ -211,7 +199,6 @@ namespace prjToolist.Controllers
           result
           );
             return resp;
-
         }
 
         [Route("create_list")]
@@ -221,20 +208,18 @@ namespace prjToolist.Controllers
         {
             int listId = 0;
             int userlogin = 0;
-            if (Request.Headers.Contains("session-id"))
+            if (Request.Headers.Contains("user-id"))
             {
-                userlogin = int.Parse(Request.Headers.GetValues("session-id").FirstOrDefault());
+                userlogin = int.Parse(Request.Headers.GetValues("user-id").FirstOrDefault());
             }
-
             var dataform = new
             {
                 id = listId
             };
-
             var result = new
             {
                 status = 0,
-                msg = $"fail",
+                msg = "fail",
                 data = dataform
             };
             if (userlogin != 0)
@@ -258,8 +243,6 @@ namespace prjToolist.Controllers
 
                 //listId = listId1[0];
                 //Debug.WriteLine(listId);
-
-
                 if (listId > 0)
                 {
                     //回傳newlistId
@@ -271,12 +254,12 @@ namespace prjToolist.Controllers
                     result = new
                     {
                         status = 1,
-                        msg = "OK",
+                        msg = "",
                         data = dataform
                     };
                 }
-
             }
+
             if (x.places.Length > 0 && listId > 0)
             {
                 foreach (int i in x.places)
@@ -293,6 +276,7 @@ namespace prjToolist.Controllers
                     }
                 }
             }
+
             var resp = Request.CreateResponse(
             HttpStatusCode.OK,
             result
@@ -300,28 +284,27 @@ namespace prjToolist.Controllers
             return resp;
         }
 
-        [Route("list/{list_id:int}/add_place")]
+        [Route("add_list_places")]
         [HttpPost]
         [EnableCors("*", "*", "*")]
-        public HttpResponseMessage list_add_place(int list_id, viewModelEditListPlace x)
+        public HttpResponseMessage list_add_place(viewModelEditListPlace x)
         {
             var result = new
             {
                 status = 0,
-                msg = $"fail",
-
+                msg = "fail",
             };
-            var hasList = db.placeLists.Where(p => p.id == list_id).Select(r => r).Any();
+            var hasList = db.placeLists.Where(p => p.id == x.list_id).Select(r => r).Any();
             if (x.places.Length > 0 && hasList)
             {
                 foreach (int i in x.places)
                 {
                     placeRelation newListPlaces = new placeRelation();
                     var q = db.places.Where(p => p.id == i).Select(r => r).Any();
-                    var t = db.placeRelations.Where(p => p.place_id == i && p.placeList_id == list_id).Select(r => r).Any();
+                    var t = db.placeRelations.Where(p => p.place_id == i && p.placeList_id == x.list_id).Select(r => r).Any();
                     if (q && (!t))
                     {
-                        newListPlaces.placeList_id = list_id;
+                        newListPlaces.placeList_id = x.list_id;
                         newListPlaces.place_id = i;
 
                         db.placeRelations.Add(newListPlaces);
@@ -332,60 +315,87 @@ namespace prjToolist.Controllers
                 result = new
                 {
                     status = 1,
-                    msg = "OK",
-
+                    msg = "",
                 };
             }
 
             var resp = Request.CreateResponse(
-          HttpStatusCode.OK,
-          result
-          );
+            HttpStatusCode.OK,
+            result
+            );
             return resp;
         }
 
-        [Route("list/{list_id:int}/remove_place")]
+        [Route("remove_list_places")]
         [HttpPost]
         [EnableCors("*", "*", "*")]
-        public HttpResponseMessage list_remove_place(int list_id, viewModelEditListPlace x)
+        public HttpResponseMessage list_remove_place(viewModelEditListPlace x)
         {
             var result = new
             {
                 status = 0,
-                msg = $"fail",
-
+                msg = "fail",
             };
-            var hasList = db.placeLists.Where(p => p.id == list_id).Select(r => r).Any();
+            var hasList = db.placeLists.Where(p => p.id == x.list_id).Select(r => r).Any();
             if (x.places.Length > 0 && hasList)
             {
                 foreach (int i in x.places)
                 {
-
-                    var t = db.placeRelations.Where(p => p.place_id == i && p.placeList_id == list_id).Select(r => r).FirstOrDefault();
+                    var t = db.placeRelations.Where(p => p.place_id == i && p.placeList_id == x.list_id).Select(r => r).FirstOrDefault();
                     if (t != null)
                     {
                         db.placeRelations.Remove(t);
-
                         db.SaveChanges();
                     }
                 }
-
                 result = new
                 {
                     status = 1,
-                    msg = "OK",
-
+                    msg = "",
                 };
             }
 
             var resp = Request.CreateResponse(
-          HttpStatusCode.OK,
-          result
-          );
+            HttpStatusCode.OK,
+            result
+            );
             return resp;
         }
 
-        [Route("list/{list_id:int}/list_edit_info")]
+        [Route("list_edit_info/{list_id:int}")]
+        [HttpGet]
+        [EnableCors("*", "*", "*")]
+        public HttpResponseMessage list_edit_info(int list_id)
+        {
+            var result = new
+            {
+                status = 0,
+                msg = new viewModelEditListInfo(),
+            };
+
+            var list = db.placeLists.Where(p => p.id == list_id).Select(q => q).FirstOrDefault();
+            if (list != null)
+            {
+                viewModelEditListInfo x = new viewModelEditListInfo();
+                x.name = list.name;
+                x.description = list.description;
+                x.privacy = list.privacy;
+
+                result = new
+                {
+                    status = 1,
+                    msg = x,
+                };
+            }
+
+            var resp = Request.CreateResponse(
+             HttpStatusCode.OK,
+             result
+             );
+            return resp;
+        }
+
+        [Route("list_edit_info/{list_id:int}")]
         [HttpPost]
         [EnableCors("*", "*", "*")]
         public HttpResponseMessage list_edit_info(int list_id, viewModelEditListInfo x)
@@ -393,8 +403,7 @@ namespace prjToolist.Controllers
             var result = new
             {
                 status = 0,
-                msg = $"fail",
-
+                msg = "fail",
             };
             var list = db.placeLists.Where(p => p.id == list_id).Select(q => q).FirstOrDefault();
 
@@ -403,12 +412,12 @@ namespace prjToolist.Controllers
                 list.name = x.name;
                 list.description = x.description;
                 list.privacy = x.privacy;
+                list.updated = DateTime.Now;
                 db.SaveChanges();
                 result = new
                 {
                     status = 1,
-                    msg = "OK",
-
+                    msg = "",
                 };
             }
 
@@ -419,31 +428,87 @@ namespace prjToolist.Controllers
             return resp;
         }
 
-
-        //TODO  modify_place_tag
-
-        [Route("modify_place_tag")]
+        [Route("user/modify_place_tag")]
         [HttpPost]
         [EnableCors("*", "*", "*")]
-        public HttpResponseMessage modify_place_tag([FromBody] tagString s)
+        public HttpResponseMessage modify_place_tag([FromBody] viewModelTagChange x)
         {
+            int userlogin = 0;
             var result = new
             {
                 status = 0,
-                msg = $"fail",
-                data = ""
+                msg = "fail",
             };
+            userlogin = userIsLoginSession(userlogin);
+
+            var place = db.places.Where(p => p.gmap_id == x.gmap_id).Select(q => q).FirstOrDefault();
+            if (place != null && userlogin != 0)
+            {
+                //若資料可沒有此地點要新增一個地點 並回傳新增的placeid
+                //if (place == null) {
+                //    place newPlace = new place();
+                //    newPlace.gmap_id = x.gmap_id;
+                //}
+                if (x.add.Length > 0)
+                {
+                    foreach (var i in x.add)
+                    {
+                        tagRelation t = new tagRelation();
+                        t.tag_id = i;
+                        t.place_id = place.id;
+                        t.user_id = userlogin;
+                        db.tagRelations.Add(t);
+                        db.SaveChanges();
+                    }
+                }
+                if (x.remove.Length > 0)
+                {
+                    foreach (var j in x.remove)
+                    {
+                        var d = db.tagRelations.Where(p => p.place_id == place.id && p.tag_id == j).Select(q => q).FirstOrDefault();
+                        db.tagRelations.Remove(d);
+                        db.SaveChanges();
+                    }
+                }
+                if (x.newTags.Length > 0)
+                {
+                    int[] newTagId = tagFactory.checktagString(new tagString { tag_str = x.newTags }, db);
+                }
+
+                result = new
+                {
+                    status = 1,
+                    msg = "",
+                };
+            }
+
             var resp = Request.CreateResponse(
           HttpStatusCode.OK,
           result
           );
             return resp;
-
         }
 
+        private static int userIsLoginSession(int userlogin)
+        {
+            if (HttpContext.Current.Session["SK_login"] != null)
+            {
+                user u = HttpContext.Current.Session["SK_login"] as user;
+                Debug.WriteLine("userid" + u.id);
+                userlogin = u.id;
+            };
+            return userlogin;
+        }
 
+        private int userIsLoginCookie(int userlogin)
+        {
+            var currentCookie = Request.Headers.GetCookies("session-id").FirstOrDefault();
+            if (Request.Headers.Contains("session-id"))
+            {
+                userlogin = int.Parse(Request.Headers.GetValues("session-id").FirstOrDefault());
+            }
 
-
-
+            return userlogin;
+        }
     }
 }

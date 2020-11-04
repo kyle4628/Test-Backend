@@ -8,6 +8,8 @@ using System.Web.Http.Cors;
 using Newtonsoft.Json.Linq;
 using prjToolist.Models;
 using static prjToolist.Models.tagFactory;
+//using static prjToolist.Models.tagFactory;
+//using static prjToolist.Models.tTagRelation.tagFactory;
 
 namespace prjToolist.Controllers
 {
@@ -149,6 +151,7 @@ namespace prjToolist.Controllers
             var userListItem = db.users.FirstOrDefault(u => u.id == updateItem.user_id);
             placeListItem.name = updateItem.listName;
             placeListItem.description = updateItem.description;
+            placeListItem.privacy = updateItem.privacy;
             placeListItem.updated = DateTime.Now;
             //placeListItem.cover = updateItem.cover;
             userListItem.name = updateItem.user_name;

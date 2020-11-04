@@ -22,7 +22,7 @@
     <Property Name="user_id" Type="int" Nullable="false" />
     <Property Name="name" Type="varchar" MaxLength="255" Nullable="false" />
     <Property Name="description" Type="varchar" MaxLength="255" />
-    <Property Name="privacy" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="privacy" Type="int" Nullable="false" />
     <Property Name="created" Type="datetime" Nullable="false" />
     <Property Name="updated" Type="datetime" />
     <Property Name="cover" Type="varbinary" MaxLength="1" />

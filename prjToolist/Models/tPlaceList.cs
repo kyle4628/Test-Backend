@@ -23,7 +23,7 @@ namespace prjToolist.Models
         public int userId { get; set; }
         public string name { get; set; }
         public string description { get; set; }
-        public string privacy { get; set; }
+        public int privacy { get; set; }
         public string createdTime { get; set; }
         public string updatedTime { get; set; }
         public string cover { get; set; }
@@ -31,10 +31,9 @@ namespace prjToolist.Models
 
     public class viewModelPlaceList
     {
-
         public string name { get; set; }
         public string description { get; set; }
-        public string privacy { get; set; }
+        public int privacy { get; set; }
         //public string coverImageURL { get; set; }
         public int[] places { get; set; }
     }
@@ -42,13 +41,13 @@ namespace prjToolist.Models
     public class viewModelEditListPlace
     {
         public int[] places { get; set; }
+        public int list_id { get; set; }
     }
-
     public class viewModelEditListInfo
     {
         public string name { get; set; }
         public string description { get; set; }
-        public string privacy { get; set; }
+        public int privacy { get; set; }
     }
 
     public class queryPlaceList
@@ -58,7 +57,7 @@ namespace prjToolist.Models
         public string user_name { get; set; }
         public string listName { get; set; }
         public string description { get; set; }
-        public string privacy { get; set; }
+        public int privacy { get; set; }
         public string createdTime { get; set; }
         public string updatedTime { get; set; }
     }

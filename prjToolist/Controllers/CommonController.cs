@@ -8,6 +8,7 @@ using System.Text;
 using System.Web.Http;
 using System.Web.Http.Cors;
 using static prjToolist.Models.tagFactory;
+//using static prjToolist.Models.tTagRelation;
 
 namespace prjToolist.Controllers
 {
@@ -39,7 +40,7 @@ namespace prjToolist.Controllers
                     tPlaceList placeListItem = new tPlaceList();
                     placeListItem.id = placeListModel.id;
                     placeListItem.user_id = placeListModel.user_id;
-                    placeListItem.privacy = int.Parse(placeListModel.privacy);
+                    placeListItem.privacy = placeListModel.privacy;
                     placeListItem.name = placeListModel.name;
                     placeListItem.description = placeListModel.description;
                     //placeListItem.coverImageURL = placeListModel.cover.ToString();

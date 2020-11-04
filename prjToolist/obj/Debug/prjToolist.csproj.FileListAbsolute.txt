@@ -2586,3 +2586,4 @@ C:\Users\User\Desktop\III\Test-Backend\prjToolist\obj\Debug\prjToolist.csproj.Co
 C:\Users\User\Desktop\III\Test-Backend\prjToolist\obj\Debug\prjToolist.dll
 C:\Users\User\Desktop\III\Test-Backend\prjToolist\obj\Debug\prjToolist.pdb
 D:\Test-Backend\prjToolist\bin\jose-jwt.dll
+C:\Users\User\Desktop\III\Test-Backend\prjToolist\bin\jose-jwt.dll

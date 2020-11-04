@@ -29,6 +29,14 @@ namespace prjToolist.Models
         public string gmap_id { get; set; }
         public int[] tag_id { get; set; }
     }
+    public class viewModelTagChange
+    {
+
+        public string gmap_id { get; set; }
+        public int[] add { get; set; }
+        public int[] remove { get; set; }
+        public string[] newTags { get; set; }
+    }
 
     public static class tagFactory
     {
@@ -108,5 +116,5 @@ namespace prjToolist.Models
             public string tag_name { get; set; }
             public string user_name { get; set; }
         }
-    }
+}
 }
