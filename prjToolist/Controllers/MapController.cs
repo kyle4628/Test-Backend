@@ -9,7 +9,7 @@ using System.Web.Http.Cors;
 
 namespace prjToolist.Controllers
 {
-    [JwtAuthActionFilter]
+    //[JwtAuthActionFilter]
     [RoutePrefix("map")]
     public class MapController : ApiController
     {
@@ -26,7 +26,7 @@ namespace prjToolist.Controllers
             List<tMapMark> Marks = new List<tMapMark>();
             var result = new
             {
-                status = 1,
+                status = 0,
                 data = Marks,
                 msg = "fail"
             };
@@ -46,7 +46,7 @@ namespace prjToolist.Controllers
                 }
                 result = new
                 {
-                    status = 0,
+                    status = 1,
                     data = Marks,
                     msg = ""
                 };
@@ -100,7 +100,7 @@ namespace prjToolist.Controllers
 
             var result = new
             {
-                status = 1,
+                status = 0,
                 data = tags,
                 msg = "fail"
             };
@@ -115,11 +115,64 @@ namespace prjToolist.Controllers
 
                 result = new
                 {
-                    status = 0,
+                    status = 1,
                     data = tags,
                     msg = ""
                 };
             }
+            return Request.CreateResponse(HttpStatusCode.OK, result);
+        }
+
+        [Route("candidate_tag")]
+        [HttpPost]
+        [EnableCors("*", "*", "*")]
+        public HttpResponseMessage getCandidatePlace(candidatePlacePara candidatePlacePara)
+        {
+            int cadidatePlaceId = db.places.FirstOrDefault(p => p.gmap_id == candidatePlacePara.gmap_id).id;
+            var cadidateTags = db.tagRelations.Where(t => t.place_id == cadidatePlaceId)
+                                              .Select(t => t.tag_id).ToList();
+
+            int[] tagIdList = cadidateTags.ToArray();
+            Array.Sort(tagIdList);
+            List<tTag> tagList = new List<tTag>();
+
+            var tagInfo = new
+            {
+                tags = tagList
+            };
+
+            var result = new
+            {
+                status = 0,
+                data = tagInfo,
+                msg = "fail"
+            };
+
+            if (tagIdList.Count() > 0)
+            {
+                foreach(int i in tagIdList)
+                {
+                    var tagModel = db.tags.Where(t => t.id == i).FirstOrDefault();
+                    tTag tagItem = new tTag();
+                    tagItem.id = tagModel.id;
+                    tagItem.name = tagModel.name;
+                    tagItem.type = tagModel.type;
+                    tagList.Add(tagItem);
+                }
+
+                tagInfo = new
+                {
+                    tags = tagList
+                };
+
+                result = new
+                {
+                    status = 1,
+                    data = tagInfo,
+                    msg = ""
+                };
+            }
+            
             return Request.CreateResponse(HttpStatusCode.OK, result);
         }
     }

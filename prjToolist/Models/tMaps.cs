@@ -49,6 +49,13 @@ namespace prjToolist.Models
         public location location { get; set; }
     }
 
+    public class candidatePlacePara
+    {
+        public string gmap_id { get; set; }
+        public string type { get; set; }
+        public int limit { get; set; }
+    }
+
     //public List<tTag> placeTags(tGMapId gMapId)
     //{
     //    FUENMLEntities db = new FUENMLEntities();
