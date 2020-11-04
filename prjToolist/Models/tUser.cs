@@ -40,4 +40,17 @@ namespace prjToolist.Models
         public string updatedTime { get; set; }
     }
 
+    public static class userFactory
+    {
+        public static int userIsLoginSession(int userlogin)
+        {
+            if (HttpContext.Current.Session["SK_login"] != null)
+            {
+                user u = HttpContext.Current.Session["SK_login"] as user;
+                userlogin = u.id;
+            };
+            return userlogin;
+        }
+    }
+
 }

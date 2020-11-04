@@ -20,6 +20,7 @@ namespace prjToolist.Models
     //  for common/get_recommend_lists 
     public class placeListInfo
     {
+        public int id { get; set; }
         public int userId { get; set; }
         public string name { get; set; }
         public string description { get; set; }

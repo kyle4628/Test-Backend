@@ -12,6 +12,11 @@ namespace prjToolist.Models
         public int type { get; set; }
     }
 
+    public class tagString
+    {
+        public string[] tag_str { get; set; }
+    }
+
     public class tagFilter
     {
         public int[] filter { get; set; }
@@ -36,92 +41,87 @@ namespace prjToolist.Models
         public string gmap_id { get; set; }
         public int[] tag_id { get; set; }
     }
+
     public class viewModelTagChange
     {
-
         public string gmap_id { get; set; }
         public int[] add { get; set; }
         public int[] remove { get; set; }
         public string[] newTags { get; set; }
     }
 
+    public class tTagRelaforTable
+    {
+        public int id { get; set; }
+        public string place_name { get; set; }
+        public string tag_name { get; set; }
+        public string user_name { get; set; }
+    }
+
+    public class updateTagRelation
+    {
+        public string place_name { get; set; }
+        public string tag_name { get; set; }
+        public string user_name { get; set; }
+    }
+
     public static class tagFactory
     {
 
-        public static int[] tagStringToId(tagString s, FUENMLEntities db)
+        public static int[] tagStringToId(string s, FUENMLEntities db)
         {
             //用於搜尋TAG
             List<int> tag_id = new List<int>();
-            foreach (string item in s.tag_str)
+
+            if (s != "" && (db.tags.Where(q => q.name.Contains(s))).Any())
             {
-                //if (!(db.tags.Where(q => q.name == item)).Any())
-                //{
 
-                //    tag newtag = new tag();
-                //    newtag.name = item;
-                //    newtag.type = 1;
-                //    db.tags.Add(newtag);
-
-                //}
-                if ((db.tags.Where(q => q.name.Contains(item))).Any())
+                var tagid = from p in db.tags
+                            where (p.name.Contains(s))
+                            select p;
+                foreach (tag t in tagid)
                 {
-
-                    var tagid = from p in db.tags
-                                where (p.name.Contains(item))
-                                select p;
-                    foreach (tag t in tagid)
-                    {
-                        tag_id.Add(t.id);
-                    }
-
+                    tag_id.Add(t.id);
                 }
-
-
             }
+
             return tag_id.Distinct().ToArray();
-        }
-
-        public class tagString
-        {
-            public string[] tag_str { get; set; }
-
         }
 
         public static int[] checktagString(tagString s, FUENMLEntities db)
         {   //用於新增TAG
             List<int> tag_id = new List<int>();
-            foreach (string item in s.tag_str)
+            if (s.tag_str.Length > 0)
             {
-                if (!(db.tags.Where(q => q.name == item)).Any())
+                foreach (string item in s.tag_str)
                 {
-
-                    tag newtag = new tag();
-                    newtag.name = item;
-                    newtag.type = 1;
-                    db.tags.Add(newtag);
-
+                    string trimString = item.Trim();
+                    if (!(db.tags.Where(q => q.name == trimString)).Any())
+                    {
+                        tag newtag = new tag();
+                        newtag.name = trimString;
+                        newtag.type = 2;
+                        db.tags.Add(newtag);
+                        db.SaveChanges();
+                    }
+                    tag_id.AddRange(db.tags.Where(p => p.name == trimString).Select(q => q.id).ToList());
                 }
-                tag_id.Add(int.Parse(db.tags.Where(p => p.name == item).Select(q => q.id).ToString()));
-
-
-
             }
             return tag_id.Distinct().ToArray();
         }
 
-        public class tTagRelaforTable
-        {
-            public int id { get; set; }
-            public string place_name { get; set; }
-            public string tag_name { get; set; }
-            public string user_name { get; set; }
-        }
 
-        public class updateTagRelation
+        public static List<int> searchTag(int userlogin, ref List<int> intersectResult, int i, FUENMLEntities db)
         {
-            public string place_name { get; set; }
-            public string tag_name { get; set; }
-            public string user_name { get; set; }
+            //用於自動完成 回傳相關tag autocomplete
+            var searchplacehastag = db.tagRelations.Where(P => P.tag_id == i).Select(q => q.place_id).ToList();
+            if (userlogin != 0)
+            {
+                searchplacehastag = db.tagRelations.Where(P => P.tag_id == i && P.user_id == userlogin).Select(q => q.place_id).ToList();
+            }
+            //searchplacehastag = searchplacehastag.Distinct().ToList();
+            intersectResult = intersectResult.Intersect(searchplacehastag).ToList();
+            return intersectResult;
         }
     }
 }

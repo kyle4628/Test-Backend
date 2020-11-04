@@ -16,17 +16,16 @@ using System.Web.Http.Cors;
 
 namespace prjToolist.Controllers
 {
-    // POST: api/Auth
+    //[EnableCors(origins: "http://localhost:9527",headers:"*",methods:"*", SupportsCredentials = true)]
+    [EnableCors(origins: "*", headers: "*", methods: "*", SupportsCredentials = true)]
     [RoutePrefix("auth")]
-    [JwtAuthActionFilter]
+    //[JwtAuthActionFilter]
     public class AuthController : ApiController
     {
         FUENMLEntities db = new FUENMLEntities();
 
         [Route("login")]
         [HttpPost]
-        [AllowAnonymous]
-        [EnableCors("*", "*", "*", SupportsCredentials = true)]
         public HttpResponseMessage loginPost([FromBody] memberLogin loginUser)
         {
             var verifyAccount = db.users.FirstOrDefault(P => P.email == loginUser.account && P.password == loginUser.password);
@@ -72,8 +71,6 @@ namespace prjToolist.Controllers
 
         [Route("logout")]
         [HttpPost]
-        [AllowAnonymous]
-        [EnableCors("*", "*", "*", SupportsCredentials = true)]
         public HttpResponseMessage logoutPost()
         {
             //{
@@ -129,8 +126,6 @@ namespace prjToolist.Controllers
 
         [Route("register")]
         [HttpPost]
-        [AllowAnonymous]
-        [EnableCors("*", "*", "*", SupportsCredentials = true)]
         public HttpResponseMessage createUser(createMember x)
         {
             var isnullormember = db.users.Where(p => p.email == x.email).FirstOrDefault();
@@ -158,81 +153,19 @@ namespace prjToolist.Controllers
             }
             return Request.CreateResponse(HttpStatusCode.OK, result);
         }
-
-        [Route("login2")]
-        [HttpPost]
-        [AllowAnonymous]
-        [EnableCors("*", "*", "*", SupportsCredentials = true)]
-        public HttpResponseMessage loginPost2([FromBody] memberLogin loginUser)
-        {
-
-            var verifyAccount = db.users.FirstOrDefault(P => P.email == loginUser.account && P.password == loginUser.password);
-            //var cookie = new CookieHeaderValue("session-id", verifyAccount.id.ToString());
-            //cookie.Expires = DateTimeOffset.Now.AddDays(1);
-            //cookie.Domain = Request.RequestUri.Host;
-            //cookie.Path = "/";
-            var resultUsername = new
-            {
-                username = ""
-            };
-            var result = new
-            {
-                status = 0,
-                msg = $"fail, {loginUser.account} doesn't exist",
-                data = resultUsername
-            };
-            var resp = Request.CreateResponse(
-            HttpStatusCode.OK,
-            result
-            );
-
-            if (verifyAccount != null)
-            {
-
-                HttpContext.Current.Session["SK_login"] = verifyAccount;
-
-                resultUsername = new
-                {
-                    username = verifyAccount.name
-                };
-
-
-                result = new
-                {
-                    status = 1,
-                    msg = "",
-                    data = resultUsername
-                };
-                resp = Request.CreateResponse(
-                    HttpStatusCode.OK,
-                    result
-                );
-                //resp.Headers.AddCookies(new CookieHeaderValue[] { cookie });
-                //resp.RequestMessage.Content = result;
-                //var reqResult = Request.CreateResponse(HttpStatusCode.OK, result);
-            }
-            //return Request.CreateResponse(HttpStatusCode.OK, resp);
-            return resp;
-        }
-
-
+        
         [Route("test")]
         [HttpPost]
-        [AllowAnonymous]
-        [EnableCors("*", "*", "*", SupportsCredentials = true)]
-        public HttpResponseMessage testPost()
+        public HttpResponseMessage testSession()
         {
-
+            //int userlogin = 0;
             var result = new
             {
                 status = 0,
                 msg = "fail",
-
             };
-            var resp = Request.CreateResponse(
-            HttpStatusCode.OK,
-            result
-            );
+            //userlogin = userFactory.userIsLoginSession(userlogin);
+            //userlogin = (new UserController()).userIsLoginCookie(userlogin);
             if (HttpContext.Current.Session["SK_login"] != null)
             {
                 user x = HttpContext.Current.Session["SK_login"] as user;
@@ -240,15 +173,13 @@ namespace prjToolist.Controllers
                 result = new
                 {
                     status = 1,
-                    msg = "Success" + x.id,
-
+                    msg = "Success" + " " + x.id,
                 };
-                resp = Request.CreateResponse(
-           HttpStatusCode.OK,
-           result
-           );
             }
-
+            var resp = Request.CreateResponse(
+            HttpStatusCode.OK,
+            result
+            );
             return resp;
         }
     }
