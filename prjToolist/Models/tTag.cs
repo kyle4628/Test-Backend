@@ -9,7 +9,6 @@ namespace prjToolist.Models
     {
         public int id { get; set; }
         public string name { get; set; }
-        public int type { get; set; }
     }
 
     public class tagString
@@ -123,5 +122,10 @@ namespace prjToolist.Models
             intersectResult = intersectResult.Intersect(searchplacehastag).ToList();
             return intersectResult;
         }
+
+        //public static List<int> listFilter(ref List<int> intersectPlaceList, int i, FUENMLEntities db)
+        //{
+        //    var 
+        //}
     }
 }

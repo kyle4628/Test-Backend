@@ -21,8 +21,8 @@ namespace prjToolist.Controllers
         public HttpResponseMessage getMarkInfo(tGmap mapAOI)
         {
             var areaId = db.places.Where(p => (double)p.longitude > mapAOI.from.lon && (double)p.longitude < mapAOI.to.lon &&
-                                             (double)p.latitude > mapAOI.from.lat && (double)p.latitude < mapAOI.to.lat
-                                       ).Select(p => p.id).ToList();
+                                              (double)p.latitude > mapAOI.from.lat && (double)p.latitude < mapAOI.to.lat)
+                                              .Select(p => p.id).ToList();
             List<tMapMark> Marks = new List<tMapMark>();
             List<int> intersectResult = new List<int>();
             int[] tFilterid = mapAOI.filter;
@@ -121,7 +121,7 @@ namespace prjToolist.Controllers
                 var tag = db.tags.FirstOrDefault(t => t.id == i);
                 tagItem.id = tag.id;
                 tagItem.name = tag.name;
-                tagItem.type = tag.type;
+                //tagItem.type = tag.type;
                 tags.Add(tagItem);
 
                 result = new
@@ -167,7 +167,7 @@ namespace prjToolist.Controllers
                     tTag tagItem = new tTag();
                     tagItem.id = tagModel.id;
                     tagItem.name = tagModel.name;
-                    tagItem.type = tagModel.type;
+                    //tagItem.type = tagModel.type;
                     tagList.Add(tagItem);
                 }
 

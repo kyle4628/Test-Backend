@@ -5,15 +5,21 @@ using System.Web;
 
 namespace prjToolist.Models
 {
+    //for common/get_recommend_lists
+    public class tFilter
+    {
+        public int[] filter { get; set; }
+    }
+
     public class tPlaceList
     {
         public int id { get; set; }
-        public int user_id { get; set; }
+        //public int user_id { get; set; }
         public string name { get; set; }
-        public string description { get; set; }
-        public int privacy { get; set; }
-        public string createdTime { get; set; }
-        public string updatedTime { get; set; }
+        //public string description { get; set; }
+        //public int privacy { get; set; }
+        //public string createdTime { get; set; }
+        //public string updatedTime { get; set; }
         public string coverImageURL { get; set; }
     }
 

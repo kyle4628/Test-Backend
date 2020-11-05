@@ -19,39 +19,103 @@ namespace prjToolist.Controllers
         FUENMLEntities db = new FUENMLEntities();
 
         [Route("get_recommend_lists")]
-        [HttpGet]
+        [HttpPost]
         [EnableCors("*", "*", "*")]
-        public HttpResponseMessage getRecommendList()
+        public HttpResponseMessage getRecommendList(tFilter filter)
         {
-            var list = db.placeLists.Select(p=>p.id).ToList();
             List<tPlaceList> placeList = new List<tPlaceList>();
+            List<int> intersectPlaceId = new List<int>();
+            List<int> intersectPlaceListId = new List<int>();
+
+            int[] tagIdList = db.tags.Select(t => t.id).ToArray();
+            string[] typeList = db.places.Select(p => p.type).Distinct().ToArray();
+            Array.Sort(tagIdList);
+            List<tTag> tagList = new List<tTag>();
+            foreach (int i in tagIdList)
+            {
+                var tagModel = db.tags.FirstOrDefault(t => t.id == i);
+                tTag tagItem = new tTag();
+                tagItem.id = i;
+                tagItem.name = tagModel.name;
+                tagList.Add(tagItem);
+            }
+            var tagInfo = new
+            {
+                lists = placeList,
+                user_tags = tagList,
+                system_tags = typeList
+            };
             var result = new
             {
                 status = 1,
-                data = placeList,
+                data = tagInfo,
                 msg = ""
             };
-            if (list.Count() > 0)
+
+            int userlogin = 0;
+            var entirePlaces = db.places.Select(p => p.id).ToList();
+            var entirePlaceLists = db.placeLists.Select(p => p.id).ToList();
+            int filterCount = filter.filter.Length;
+            intersectPlaceId = entirePlaces;
+            intersectPlaceListId = entirePlaceLists;
+
+            if (filterCount > 0)
             {
-                int[] idList = list.ToArray();
-                foreach(int i in idList)
+                foreach (int i in filter.filter)
+                {
+                    intersectPlaceId = tagFactory.searchTag(userlogin, ref intersectPlaceId, i, db);
+                }
+                Array.Sort(intersectPlaceId.Distinct().ToArray());
+                foreach (int i in intersectPlaceId)
+                {
+                    var listFilter = db.placeRelationships.Where(p => p.place_id == i).Select(p => p.placelist_id).ToList();
+                    intersectPlaceListId = intersectPlaceListId.Intersect(listFilter).ToList();
+                }
+                Array.Sort(intersectPlaceListId.Distinct().ToArray());
+                foreach(int i in intersectPlaceListId)
                 {
                     var placeListModel = db.placeLists.FirstOrDefault(p => p.id == i);
                     tPlaceList placeListItem = new tPlaceList();
                     placeListItem.id = placeListModel.id;
-                    placeListItem.user_id = placeListModel.user_id;
-                    placeListItem.privacy = placeListModel.privacy;
                     placeListItem.name = placeListModel.name;
-                    placeListItem.description = placeListModel.description;
                     //placeListItem.coverImageURL = placeListModel.cover.ToString();
-                    placeListItem.createdTime = placeListModel.created.ToString();
-                    placeListItem.updatedTime = placeListModel.updated.ToString();
                     placeList.Add(placeListItem);
                 }
+
+                tagInfo = new
+                {
+                    lists = placeList,
+                    user_tags = tagList,
+                    system_tags = typeList
+                };
                 result = new
                 {
                     status = 1,
-                    data = placeList,
+                    data = tagInfo,
+                    msg = ""
+                };
+            }
+            else
+            {
+                foreach(int i in entirePlaceLists)
+                {
+                    var placeListModel = db.placeLists.FirstOrDefault(p => p.id == i);
+                    tPlaceList placeListItem = new tPlaceList();
+                    placeListItem.id = placeListModel.id;
+                    placeListItem.name = placeListModel.name;
+                    //placeListItem.coverImageURL = placeListModel.cover.ToString();
+                    placeList.Add(placeListItem);
+                }
+                tagInfo = new
+                {
+                    lists = placeList,
+                    user_tags = tagList,
+                    system_tags = typeList
+                };
+                result = new
+                {
+                    status = 1,
+                    data = tagInfo,
                     msg = ""
                 };
             }
@@ -64,11 +128,13 @@ namespace prjToolist.Controllers
         public HttpResponseMessage getHotTag()
         {
             int[] idList = db.tags.Select(t => t.id).ToArray();
+            string[] typeList = db.places.Select(p => p.type).Distinct().ToArray();
             Array.Sort(idList); 
             List<tTag> tagList = new List<tTag>();
             var tagInfo = new
             {
-                lists = tagList
+                user_tags = tagList,
+                system_tags = typeList
             };
             var result = new
             {
@@ -85,11 +151,12 @@ namespace prjToolist.Controllers
                     tTag tagItem = new tTag();
                     tagItem.id = i;
                     tagItem.name = tagModel.name;
-                    tagItem.type = tagModel.type;
+                    //tagItem.type = tagModel.type;
                     tagList.Add(tagItem);
                     tagInfo = new
                     {
-                        lists = tagList
+                        user_tags = tagList,
+                        system_tags = typeList
                     };
                     result = new
                     {

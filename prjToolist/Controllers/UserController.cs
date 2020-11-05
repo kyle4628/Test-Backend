@@ -129,7 +129,7 @@ namespace prjToolist.Controllers
                             tTag t = new tTag();
                             t.id = rtag.id;
                             t.name = rtag.name;
-                            t.type = rtag.type;
+                            //t.type = rtag.type;
                             resultTagInfo.Add(t);
                         }
                     }
