@@ -14,13 +14,6 @@ namespace prjToolist
     
     public partial class place
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public place()
-        {
-            this.placeRelations = new HashSet<placeRelation>();
-            this.tagRelations = new HashSet<tagRelation>();
-        }
-    
         public int id { get; set; }
         public string name { get; set; }
         public decimal longitude { get; set; }
@@ -30,10 +23,5 @@ namespace prjToolist
         public string type { get; set; }
         public string gmap_id { get; set; }
         public byte[] photo { get; set; }
-    
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<placeRelation> placeRelations { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<tagRelation> tagRelations { get; set; }
     }
 }

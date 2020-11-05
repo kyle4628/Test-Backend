@@ -26,7 +26,7 @@ namespace prjToolist.Controllers
 
         [Route("login")]
         [HttpPost]
-        public HttpResponseMessage loginPost([FromBody] memberLogin loginUser)
+        public HttpResponseMessage loginPost(memberLogin loginUser)
         {
             var verifyAccount = db.users.FirstOrDefault(P => P.email == loginUser.account && P.password == loginUser.password);
             //var cookie = new CookieHeaderValue("session-id", verifyAccount.id.ToString());
@@ -61,11 +61,10 @@ namespace prjToolist.Controllers
                 //resp.RequestMessage.Content = result;
                 //var reqResult = Request.CreateResponse(HttpStatusCode.OK, result);
             }
-            //return Request.CreateResponse(HttpStatusCode.OK, resp);
             var resp = Request.CreateResponse(
-           HttpStatusCode.OK,
-           result
-           );
+               HttpStatusCode.OK,
+               result
+               );
             return resp;
         }
 
@@ -75,23 +74,18 @@ namespace prjToolist.Controllers
         {
             //{
             //    string sessionId = "";
-
             //    CookieHeaderValue cookie = Request.Headers.GetCookies("session-id").FirstOrDefault();
             //    if (cookie != null)
             //    {
-
             //        sessionId = cookie["session-id"].Value;
             //    }
-
             //============================================================
-
             //var currentCookie = Request.Headers.GetCookies("session-id").FirstOrDefault();
             var result = new
             {
                 status = 0,
                 msg = "fail"
             };
-
             //if (currentCookie != null)
             //{
             //    var cookie = new CookieHeaderValue("session-id", "")
@@ -111,6 +105,7 @@ namespace prjToolist.Controllers
                     msg = "logout success"
                 };
             }
+
             var resp = Request.CreateResponse(
                 HttpStatusCode.OK,
                 result
@@ -126,9 +121,9 @@ namespace prjToolist.Controllers
 
         [Route("register")]
         [HttpPost]
-        public HttpResponseMessage createUser(createMember x)
+        public HttpResponseMessage createUser(createMember createMemberModel)
         {
-            var isnullormember = db.users.Where(p => p.email == x.email).FirstOrDefault();
+            var isnullormember = db.users.Where(p => p.email == createMemberModel.email).FirstOrDefault();
             var result = new
             {
                 status = 0,
@@ -137,9 +132,9 @@ namespace prjToolist.Controllers
             if (isnullormember == null)
             {
                 user newmember = new user();
-                newmember.name = x.name;
-                newmember.password = x.password;
-                newmember.email = x.email;
+                newmember.name = createMemberModel.name;
+                newmember.password = createMemberModel.password;
+                newmember.email = createMemberModel.email;
                 newmember.created = DateTime.Now;
                 newmember.updated = DateTime.Now;
                 newmember.authority = 1;
@@ -148,7 +143,7 @@ namespace prjToolist.Controllers
                 result = new
                 {
                     status = 1,
-                    msg = "success register",
+                    msg = "Register success",
                 };
             }
             return Request.CreateResponse(HttpStatusCode.OK, result);

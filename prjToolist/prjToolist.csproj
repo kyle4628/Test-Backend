@@ -371,7 +371,7 @@
     <Compile Include="placeList.cs">
       <DependentUpon>FUENModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="placeRelation.cs">
+    <Compile Include="placeRelationship.cs">
       <DependentUpon>FUENModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -391,7 +391,7 @@
     <Compile Include="tagEvent.cs">
       <DependentUpon>FUENModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="tagRelation.cs">
+    <Compile Include="tagRelationship.cs">
       <DependentUpon>FUENModel.tt</DependentUpon>
     </Compile>
     <Compile Include="user.cs">

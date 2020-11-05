@@ -111,7 +111,7 @@ namespace prjToolist.Controllers
             //獲取某特定清單中含有標籤的地點id
             List<int> resultplaceid = new List<int>();
             int[] tFilterid = tagFactory.checktagString(s, db);
-            var searchallplaceinlist = db.placeRelations.Where(p => p.placeList_id == list_id)
+            var searchallplaceinlist = db.placeRelationships.Where(p => p.placelist_id == list_id)
                 .Select(q => q.place_id).ToList();
             //此結果為特定清單中篩選出的地點id
             List<int> intersectResult = searchallplaceinlist;
@@ -119,7 +119,7 @@ namespace prjToolist.Controllers
             {
                 foreach (int i in tFilterid)
                 {
-                    var searchplacehastag = db.tagRelations.Where(P => P.tag_id == i).Select(q => q.place_id).ToList();
+                    var searchplacehastag = db.tagRelationships.Where(P => P.tag_id == i).Select(q => q.place_id).ToList();
                     intersectResult = intersectResult.Intersect(searchplacehastag).ToList();
                     //foreach(int p in unionResult) {
                     //    resultplaceid.Add(p);
@@ -129,7 +129,7 @@ namespace prjToolist.Controllers
             //============================================
 
             var place = db.placeLists.Where(p => p.id == list_id).FirstOrDefault();
-            var placeSpot = db.placeRelations.Where(p => p.placeList_id == list_id).Select(p => p.place_id).ToList();
+            var placeSpot = db.placeRelationships.Where(p => p.placelist_id == list_id).Select(p => p.place_id).ToList();
             List<placeListInfo> infoList = new List<placeListInfo>();
             List<tPlaceInfo> relationPlace = new List<tPlaceInfo>();
             List<tagInfo> tagInfoList = new List<tagInfo>();
@@ -156,7 +156,7 @@ namespace prjToolist.Controllers
 
             foreach (var i in terms)
             {
-                var tagId = db.tagRelations.Where(p => p.place_id == i).Select(p => p.tag_id).ToList();
+                var tagId = db.tagRelationships.Where(p => p.place_id == i).Select(p => p.tag_id).ToList();
                 tPlaceInfo exportPlaceInfo = new tPlaceInfo();
                 var placeModel = db.places.FirstOrDefault(p => p.id == i);
                 for (int j = 0; j < tagId.Count(); j++)
@@ -249,12 +249,12 @@ namespace prjToolist.Controllers
                 {
                     foreach (var i in tTag.tag_id)
                     {
-                        var newTagRelation = new tagRelation();
+                        var newTagRelation = new tagRelationship();
                         newTagRelation.place_id = verifyGlePlace.id;
                         newTagRelation.user_id = verifyAccount.id;
                         newTagRelation.tag_id = i;
                         newTagRelation.created = DateTime.Now;
-                        db.tagRelations.Add(newTagRelation);
+                        db.tagRelationships.Add(newTagRelation);
                     }
 
                     db.SaveChanges();

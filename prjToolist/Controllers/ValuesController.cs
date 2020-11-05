@@ -54,7 +54,7 @@ namespace prjToolist.Controllers
         [EnableCors("*", "*", "*")]
         public HttpResponseMessage getTagList()
         {
-            var tag_List = db.tagRelations.ToList();
+            var tag_List = db.tagRelationships.ToList();
             List<tTagRelaforTable> tagsRelationList = new List<tTagRelaforTable>();
             for (int i = 0; i < tag_List.Count(); i++)
             {
@@ -171,7 +171,7 @@ namespace prjToolist.Controllers
             var placeListItem = db.placeLists.FirstOrDefault(p => p.name == updateItem.place_name);
             var userListItem = db.users.FirstOrDefault(u => u.name == updateItem.user_name);
             var tagListItem = db.tags.FirstOrDefault(t=>t.name == updateItem.tag_name);
-            var tagRelationItem = db.tagRelations.Where(r => r.place_id == placeListItem.id
+            var tagRelationItem = db.tagRelationships.Where(r => r.place_id == placeListItem.id
                                                               && r.tag_id == tagListItem.id
                                                               && r.user_id == userListItem.id)
                                                            .FirstOrDefault();

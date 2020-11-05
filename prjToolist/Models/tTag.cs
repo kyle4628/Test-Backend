@@ -114,10 +114,10 @@ namespace prjToolist.Models
         public static List<int> searchTag(int userlogin, ref List<int> intersectResult, int i, FUENMLEntities db)
         {
             //用於自動完成 回傳相關tag autocomplete
-            var searchplacehastag = db.tagRelations.Where(P => P.tag_id == i).Select(q => q.place_id).ToList();
+            var searchplacehastag = db.tagRelationships.Where(P => P.tag_id == i).Select(q => q.place_id).ToList();
             if (userlogin != 0)
             {
-                searchplacehastag = db.tagRelations.Where(P => P.tag_id == i && P.user_id == userlogin).Select(q => q.place_id).ToList();
+                searchplacehastag = db.tagRelationships.Where(P => P.tag_id == i && P.user_id == userlogin).Select(q => q.place_id).ToList();
             }
             //searchplacehastag = searchplacehastag.Distinct().ToList();
             intersectResult = intersectResult.Intersect(searchplacehastag).ToList();

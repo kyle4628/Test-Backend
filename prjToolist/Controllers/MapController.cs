@@ -21,18 +21,32 @@ namespace prjToolist.Controllers
         public HttpResponseMessage getMarkInfo(tGmap mapAOI)
         {
             var areaId = db.places.Where(p => (double)p.longitude > mapAOI.from.lon && (double)p.longitude < mapAOI.to.lon &&
-                                              (double)p.latitude > mapAOI.from.lat && (double)p.latitude < mapAOI.to.lat
-                                 ).Select(p=>p.id).ToList();
+                                             (double)p.latitude > mapAOI.from.lat && (double)p.latitude < mapAOI.to.lat
+                                       ).Select(p => p.id).ToList();
             List<tMapMark> Marks = new List<tMapMark>();
+            List<int> intersectResult = new List<int>();
+            int[] tFilterid = mapAOI.filter;
+            int userlogin = 0;
             var result = new
             {
-                status = 0,
+                status = 1,
                 data = Marks,
                 msg = "fail"
             };
-            if (areaId != null)
+            intersectResult = areaId;
+            if (tFilterid != null && tFilterid.Length > 0)
             {
-                foreach(int i in areaId)
+
+                foreach (int i in tFilterid)
+                {
+                    intersectResult = tagFactory.searchTag(userlogin, ref intersectResult, i, db);
+                }
+                intersectResult = intersectResult.Distinct().ToList();
+            }
+
+            if (intersectResult != null)
+            {
+                foreach (int i in intersectResult)
                 {
                     var placeInfo = db.places.FirstOrDefault(t => t.id == i);
                     tMapMark markItem = new tMapMark();
@@ -46,12 +60,11 @@ namespace prjToolist.Controllers
                 }
                 result = new
                 {
-                    status = 1,
+                    status = 0,
                     data = Marks,
                     msg = ""
                 };
             }
-
             return Request.CreateResponse(HttpStatusCode.OK, result);
         }
 
@@ -82,8 +95,6 @@ namespace prjToolist.Controllers
                     msg = ""
                 };
             }
-
-
             return Request.CreateResponse(HttpStatusCode.OK, result);
         }
 
@@ -93,7 +104,7 @@ namespace prjToolist.Controllers
         public HttpResponseMessage getPlaceTag(tGMapId gMapId)
         {
             var placeId = db.places.FirstOrDefault(p => p.gmap_id == gMapId.gmap_id).id;
-            var tagList = db.tagRelations.Where(t => t.place_id == placeId).Select(p=> p.tag_id).ToList();
+            var tagList = db.tagRelationships.Where(t => t.place_id == placeId).Select(p=> p.tag_id).ToList();
             List<tTag> tags = new List<tTag>();
             
             int[] item = tagList.Distinct().ToArray();
@@ -129,7 +140,7 @@ namespace prjToolist.Controllers
         public HttpResponseMessage getCandidatePlace(candidatePlacePara candidatePlacePara)
         {
             int cadidatePlaceId = db.places.FirstOrDefault(p => p.gmap_id == candidatePlacePara.gmap_id).id;
-            var cadidateTags = db.tagRelations.Where(t => t.place_id == cadidatePlaceId)
+            var cadidateTags = db.tagRelationships.Where(t => t.place_id == cadidatePlaceId)
                                               .Select(t => t.tag_id).ToList();
 
             int[] tagIdList = cadidateTags.ToArray();

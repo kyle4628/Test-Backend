@@ -12,13 +12,10 @@ namespace prjToolist
     using System;
     using System.Collections.Generic;
     
-    public partial class placeRelation
+    public partial class placeRelationship
     {
         public int place_id { get; set; }
-        public int placeList_id { get; set; }
+        public int placelist_id { get; set; }
         public Nullable<System.DateTime> created { get; set; }
-    
-        public virtual place place { get; set; }
-        public virtual placeList placeList { get; set; }
     }
 }

@@ -27,13 +27,13 @@
     <Property Name="updated" Type="datetime" />
     <Property Name="cover" Type="varbinary" MaxLength="1" />
   </EntityType>
-  <EntityType Name="placeRelation">
+  <EntityType Name="placeRelationship">
     <Key>
       <PropertyRef Name="place_id" />
-      <PropertyRef Name="placeList_id" />
+      <PropertyRef Name="placelist_id" />
     </Key>
     <Property Name="place_id" Type="int" Nullable="false" />
-    <Property Name="placeList_id" Type="int" Nullable="false" />
+    <Property Name="placelist_id" Type="int" Nullable="false" />
     <Property Name="created" Type="datetime" />
   </EntityType>
   <EntityType Name="tag">
@@ -48,13 +48,13 @@
     <Key>
       <PropertyRef Name="id" />
     </Key>
-    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="created" Type="datetime2" Precision="0" Nullable="false" />
     <Property Name="user_id" Type="int" Nullable="false" />
-    <Property Name="tag_id" Type="int" />
-    <Property Name="tagEvent" Type="int" />
-    <Property Name="created" Type="datetime" Nullable="false" />
+    <Property Name="tag_id" Type="int" Nullable="false" />
+    <Property Name="tagEvent" Type="int" Nullable="false" />
   </EntityType>
-  <EntityType Name="tagRelation">
+  <EntityType Name="tagRelationship">
     <Key>
       <PropertyRef Name="place_id" />
       <PropertyRef Name="tag_id" />
@@ -77,141 +77,13 @@
     <Property Name="updated" Type="datetime2" Precision="0" />
     <Property Name="created" Type="datetime2" Precision="0" />
   </EntityType>
-  <Association Name="fk_placeList_user_1">
-    <End Role="user" Type="Self.user" Multiplicity="1" />
-    <End Role="placeList" Type="Self.placeList" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="user">
-        <PropertyRef Name="id" />
-      </Principal>
-      <Dependent Role="placeList">
-        <PropertyRef Name="user_id" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
-  <Association Name="fk_placeRelation_place_1">
-    <End Role="place" Type="Self.place" Multiplicity="1" />
-    <End Role="placeRelation" Type="Self.placeRelation" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="place">
-        <PropertyRef Name="id" />
-      </Principal>
-      <Dependent Role="placeRelation">
-        <PropertyRef Name="place_id" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
-  <Association Name="fk_placeRelation_placeList_1">
-    <End Role="placeList" Type="Self.placeList" Multiplicity="1" />
-    <End Role="placeRelation" Type="Self.placeRelation" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="placeList">
-        <PropertyRef Name="id" />
-      </Principal>
-      <Dependent Role="placeRelation">
-        <PropertyRef Name="placeList_id" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
-  <Association Name="fk_tagEvent_tag_1">
-    <End Role="tag" Type="Self.tag" Multiplicity="0..1" />
-    <End Role="tagEvent" Type="Self.tagEvent" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="tag">
-        <PropertyRef Name="id" />
-      </Principal>
-      <Dependent Role="tagEvent">
-        <PropertyRef Name="tag_id" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
-  <Association Name="fk_tagEvent_user_1">
-    <End Role="user" Type="Self.user" Multiplicity="1" />
-    <End Role="tagEvent" Type="Self.tagEvent" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="user">
-        <PropertyRef Name="id" />
-      </Principal>
-      <Dependent Role="tagEvent">
-        <PropertyRef Name="user_id" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
-  <Association Name="fk_tagRelation_place_1">
-    <End Role="place" Type="Self.place" Multiplicity="1" />
-    <End Role="tagRelation" Type="Self.tagRelation" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="place">
-        <PropertyRef Name="id" />
-      </Principal>
-      <Dependent Role="tagRelation">
-        <PropertyRef Name="place_id" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
-  <Association Name="fk_tagRelation_tag_1">
-    <End Role="tag" Type="Self.tag" Multiplicity="1" />
-    <End Role="tagRelation" Type="Self.tagRelation" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="tag">
-        <PropertyRef Name="id" />
-      </Principal>
-      <Dependent Role="tagRelation">
-        <PropertyRef Name="tag_id" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
-  <Association Name="fk_tagRelation_user_1">
-    <End Role="user" Type="Self.user" Multiplicity="1" />
-    <End Role="tagRelation" Type="Self.tagRelation" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="user">
-        <PropertyRef Name="id" />
-      </Principal>
-      <Dependent Role="tagRelation">
-        <PropertyRef Name="user_id" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
   <EntityContainer Name="FUENMLModelStoreContainer">
     <EntitySet Name="place" EntityType="Self.place" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="placeList" EntityType="Self.placeList" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="placeRelation" EntityType="Self.placeRelation" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="placeRelationship" EntityType="Self.placeRelationship" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="tag" EntityType="Self.tag" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="tagEvent" EntityType="Self.tagEvent" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="tagRelation" EntityType="Self.tagRelation" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tagRelationship" EntityType="Self.tagRelationship" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="user" EntityType="Self.user" Schema="dbo" store:Type="Tables" />
-    <AssociationSet Name="fk_placeList_user_1" Association="Self.fk_placeList_user_1">
-      <End Role="user" EntitySet="user" />
-      <End Role="placeList" EntitySet="placeList" />
-    </AssociationSet>
-    <AssociationSet Name="fk_placeRelation_place_1" Association="Self.fk_placeRelation_place_1">
-      <End Role="place" EntitySet="place" />
-      <End Role="placeRelation" EntitySet="placeRelation" />
-    </AssociationSet>
-    <AssociationSet Name="fk_placeRelation_placeList_1" Association="Self.fk_placeRelation_placeList_1">
-      <End Role="placeList" EntitySet="placeList" />
-      <End Role="placeRelation" EntitySet="placeRelation" />
-    </AssociationSet>
-    <AssociationSet Name="fk_tagEvent_tag_1" Association="Self.fk_tagEvent_tag_1">
-      <End Role="tag" EntitySet="tag" />
-      <End Role="tagEvent" EntitySet="tagEvent" />
-    </AssociationSet>
-    <AssociationSet Name="fk_tagEvent_user_1" Association="Self.fk_tagEvent_user_1">
-      <End Role="user" EntitySet="user" />
-      <End Role="tagEvent" EntitySet="tagEvent" />
-    </AssociationSet>
-    <AssociationSet Name="fk_tagRelation_place_1" Association="Self.fk_tagRelation_place_1">
-      <End Role="place" EntitySet="place" />
-      <End Role="tagRelation" EntitySet="tagRelation" />
-    </AssociationSet>
-    <AssociationSet Name="fk_tagRelation_tag_1" Association="Self.fk_tagRelation_tag_1">
-      <End Role="tag" EntitySet="tag" />
-      <End Role="tagRelation" EntitySet="tagRelation" />
-    </AssociationSet>
-    <AssociationSet Name="fk_tagRelation_user_1" Association="Self.fk_tagRelation_user_1">
-      <End Role="user" EntitySet="user" />
-      <End Role="tagRelation" EntitySet="tagRelation" />
-    </AssociationSet>
   </EntityContainer>
 </Schema>

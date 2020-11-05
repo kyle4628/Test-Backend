@@ -12,15 +12,11 @@ namespace prjToolist
     using System;
     using System.Collections.Generic;
     
-    public partial class tagRelation
+    public partial class tagRelationship
     {
         public int place_id { get; set; }
         public int tag_id { get; set; }
         public int user_id { get; set; }
         public System.DateTime created { get; set; }
-    
-        public virtual place place { get; set; }
-        public virtual tag tag { get; set; }
-        public virtual user user { get; set; }
     }
 }

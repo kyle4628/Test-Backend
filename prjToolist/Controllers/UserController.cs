@@ -52,7 +52,7 @@ namespace prjToolist.Controllers
             userlogin = userFactory.userIsLoginSession(userlogin);
             if (userlogin != 0)
             {
-                intersectResult = db.tagRelations.Where(p => p.user_id == userlogin).Select(q => q.place_id).ToList();
+                intersectResult = db.tagRelationships.Where(p => p.user_id == userlogin).Select(q => q.place_id).ToList();
                 intersectResult = intersectResult.Distinct().ToList();
             }
             if (userlogin != 0 && tFilterid != null && tFilterid.Length > 0)
@@ -98,7 +98,7 @@ namespace prjToolist.Controllers
                         rPlace.latitude = placeItem.latitude;
                         resultPlaceInfo.Add(rPlace);
                     }
-                    tagsList.AddRange(db.tagRelations.Where(p => p.place_id == i && p.user_id == userlogin).Select(q => q.tag_id).ToList());
+                    tagsList.AddRange(db.tagRelationships.Where(p => p.place_id == i && p.user_id == userlogin).Select(q => q.tag_id).ToList());
 
                     dataForm = new
                     {
@@ -215,7 +215,7 @@ namespace prjToolist.Controllers
                         //    //info.cover = Encoding.UTF8.GetString(binaryString);
                         //    infoList.Add(infoItem);
                         //}
-                        intersectResult.AddRange(db.placeRelations.Where(p => p.placeList_id == r).Select(q => q.place_id).ToList());
+                        intersectResult.AddRange(db.placeRelationships.Where(p => p.placelist_id == r).Select(q => q.place_id).ToList());
                     }
                     intersectResult = intersectResult.Distinct().ToList();
                 }
@@ -272,7 +272,7 @@ namespace prjToolist.Controllers
                 foreach (int j in intersectResult)
                 {
                     //篩選出這些地點的所有tag
-                    tagsList.AddRange(db.tagRelations.Where(p => p.place_id == j).Select(q => q.tag_id).ToList());
+                    tagsList.AddRange(db.tagRelationships.Where(p => p.place_id == j).Select(q => q.tag_id).ToList());
                 }
                 tagsList = tagsList.Distinct().ToList();//最終tag結果
 
@@ -281,7 +281,7 @@ namespace prjToolist.Controllers
                     //若篩選出有共同標籤地點就更新清單  不然使使用原本清單
                     foreach (int j in intersectResult)
                     {
-                        placesList.AddRange(db.placeRelations.Where(p => p.place_id == j).Select(q => q.placeList_id).ToList());
+                        placesList.AddRange(db.placeRelationships.Where(p => p.place_id == j).Select(q => q.placelist_id).ToList());
                         userList = userList.Intersect(placesList).ToList();
                     }
                     userList = userList.Distinct().ToList();//最終清單結果
@@ -445,14 +445,14 @@ namespace prjToolist.Controllers
             {
                 foreach (int i in x.places)
                 {
-                    placeRelation newListPlaces = new placeRelation();
+                    placeRelationship newListPlaces = new placeRelationship();
                     var q = db.places.Where(p => p.id == i).Select(r => r).Any();
                     if (q)
                     {
-                        newListPlaces.placeList_id = listId;
+                        newListPlaces.placelist_id = listId;
                         newListPlaces.place_id = i;
 
-                        db.placeRelations.Add(newListPlaces);
+                        db.placeRelationships.Add(newListPlaces);
                         db.SaveChanges();
                     }
                 }
@@ -481,15 +481,15 @@ namespace prjToolist.Controllers
             {
                 foreach (int i in x.places)
                 {
-                    placeRelation newListPlaces = new placeRelation();
+                    placeRelationship newListPlaces = new placeRelationship();
                     var q = db.places.Where(p => p.id == i).Select(r => r).Any();
-                    var t = db.placeRelations.Where(p => p.place_id == i && p.placeList_id == x.list_id).Select(r => r).Any();
+                    var t = db.placeRelationships.Where(p => p.place_id == i && p.placelist_id == x.list_id).Select(r => r).Any();
                     if (q && (!t))
                     {
-                        newListPlaces.placeList_id = x.list_id;
+                        newListPlaces.placelist_id = x.list_id;
                         newListPlaces.place_id = i;
 
-                        db.placeRelations.Add(newListPlaces);
+                        db.placeRelationships.Add(newListPlaces);
                         db.SaveChanges();
                     }
                 }
@@ -523,10 +523,10 @@ namespace prjToolist.Controllers
             {
                 foreach (int i in x.places)
                 {
-                    var t = db.placeRelations.Where(p => p.place_id == i && p.placeList_id == x.list_id).Select(r => r).FirstOrDefault();
+                    var t = db.placeRelationships.Where(p => p.place_id == i && p.placelist_id == x.list_id).Select(r => r).FirstOrDefault();
                     if (t != null)
                     {
-                        db.placeRelations.Remove(t);
+                        db.placeRelationships.Remove(t);
                         db.SaveChanges();
                     }
                 }
@@ -583,7 +583,7 @@ namespace prjToolist.Controllers
         [Route("modify_place_tag")]
         [HttpPost]
         [EnableCors("*", "*", "*")]
-        public HttpResponseMessage modify_place_tag([FromBody] viewModelTagChange x)
+        public HttpResponseMessage modify_place_tag(viewModelTagChange x)
         {
             int userlogin = 0;
             var result = new
@@ -604,11 +604,11 @@ namespace prjToolist.Controllers
                 {
                     foreach (var i in x.add)
                     {
-                        tagRelation t = new tagRelation();
+                        tagRelationship t = new tagRelationship();
                         t.tag_id = i;
                         t.place_id = place.id;
                         t.user_id = userlogin;
-                        db.tagRelations.Add(t);
+                        db.tagRelationships.Add(t);
                         db.SaveChanges();
                     }
                 }
@@ -616,10 +616,10 @@ namespace prjToolist.Controllers
                 {
                     foreach (var j in x.remove)
                     {
-                        var d = db.tagRelations.Where(p => p.place_id == place.id && p.tag_id == j).Select(q => q).FirstOrDefault();
+                        var d = db.tagRelationships.Where(p => p.place_id == place.id && p.tag_id == j).Select(q => q).FirstOrDefault();
                         if (d != null)
                         {
-                            db.tagRelations.Remove(d);
+                            db.tagRelationships.Remove(d);
                             db.SaveChanges();
                         }
                     }
@@ -630,12 +630,12 @@ namespace prjToolist.Controllers
                     int[] newTagId = tagFactory.checktagString(new tagString { tag_str = x.newTags }, db);
                     foreach (var i in newTagId)
                     {
-                        tagRelation t = new tagRelation();
+                        tagRelationship t = new tagRelationship();
                         t.tag_id = i;
                         t.place_id = place.id;
                         t.user_id = userlogin;
                         t.created = DateTime.Now;
-                        db.tagRelations.Add(t);
+                        db.tagRelationships.Add(t);
                         db.SaveChanges();
                     }
                 }
@@ -646,7 +646,6 @@ namespace prjToolist.Controllers
                     msg = "",
                 };
             }
-
             var resp = Request.CreateResponse(
           HttpStatusCode.OK,
           result
