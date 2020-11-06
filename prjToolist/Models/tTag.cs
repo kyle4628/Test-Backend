@@ -41,6 +41,12 @@ namespace prjToolist.Models
         public int[] tag_id { get; set; }
     }
 
+    public class viewModelSerachTag
+    {
+        public string gmap_id { get; set; }
+        public string text { get; set; }
+    }
+
     public class viewModelTagChange
     {
         public string gmap_id { get; set; }
