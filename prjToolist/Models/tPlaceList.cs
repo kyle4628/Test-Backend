@@ -57,6 +57,12 @@ namespace prjToolist.Models
         public int privacy { get; set; }
     }
 
+    public class viewModelGetListPlace
+    {
+        public int list_id { get; set; }
+        public int[] filter { get; set; }
+    }
+
     public class queryPlaceList
     {
         public int id { get; set; }

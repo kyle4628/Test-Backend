@@ -14,7 +14,7 @@ using static prjToolist.Models.tagFactory;
 namespace prjToolist.Controllers
 {
     [RoutePrefix("query")]
-    [JwtAuthActionFilter]
+    //[JwtAuthActionFilter]
     public class ValuesController : ApiController
     {
         private readonly FUENMLEntities db = new FUENMLEntities();
@@ -27,11 +27,15 @@ namespace prjToolist.Controllers
         {
             var intList = db.users.Select(p => p.id).ToList();
             List<queryUserList> usersList = new List<queryUserList>();
-            for (int i = 0; i < intList.Count(); i++)
+            int[] userList = intList.ToArray();
+            Array.Sort(userList);
+            int listId = 0;
+            foreach(int i in userList)
             {
-                var userListItem = db.users.AsEnumerable().FirstOrDefault(p => p.id == intList[i]);
+                listId++;
+                var userListItem = db.users.AsEnumerable().FirstOrDefault(p => p.id == i);
                 queryUserList listItem = new queryUserList();
-                listItem.id = i+1;
+                listItem.id = listId;
                 listItem.name = userListItem.name;
                 listItem.email = userListItem.email;
                 listItem.authority = userListItem.authority;
@@ -55,12 +59,14 @@ namespace prjToolist.Controllers
         public HttpResponseMessage getTagList()
         {
             var tag_List = db.tagRelationships.ToList();
+            //int[] tagIdArray = tag_List.ToArray();
+            //Array.Sort(tagIdArray);
             List<tTagRelaforTable> tagsRelationList = new List<tTagRelaforTable>();
             for (int i = 0; i < tag_List.Count(); i++)
             {
-                var placeItem = db.places.AsEnumerable().Where(p => p.id == tag_List[i].place_id).FirstOrDefault();
-                var tagItem = db.tags.AsEnumerable().Where(t => t.id == tag_List[i].tag_id).FirstOrDefault();
-                var userItem = db.users.AsEnumerable().Where(u => u.id == tag_List[i].user_id).FirstOrDefault();
+                var placeItem = db.places.AsEnumerable().FirstOrDefault(p => p.id == tag_List[i].place_id);
+                var tagItem = db.tags.AsEnumerable().FirstOrDefault(t => t.id == tag_List[i].tag_id);
+                var userItem = db.users.AsEnumerable().FirstOrDefault(u => u.id == tag_List[i].user_id);
                 string placeName = placeItem.name;
                 string tagName = tagItem.name;
                 string userName = userItem.name;
@@ -87,10 +93,14 @@ namespace prjToolist.Controllers
         [EnableCors("*", "*", "*")]
         public HttpResponseMessage getPlaceList()
         {
-            var intList = db.places.Select(p => p.id).ToList();
+            var intList = db.placeLists.Select(p => p.id).ToList();
+            int[] placeListArray = intList.ToArray();
+            Array.Sort(placeListArray);
             List<queryPlaceList> placesList = new List<queryPlaceList>();
-            foreach (int i in intList)
+            foreach (int i in placeListArray)
             {
+                //var placeListItem = db.placeLists.AsEnumerable().FirstOrDefault(p => p.id == i);
+                //var userListItem = db.users.AsEnumerable().FirstOrDefault(u => u.id == placeListItem.id);
                 var placeListItem = db.placeLists.FirstOrDefault(p => p.id == i);
                 var userListItem = db.users.FirstOrDefault(u => u.id == placeListItem.user_id);
                 queryPlaceList listItem = new queryPlaceList();
@@ -139,6 +149,33 @@ namespace prjToolist.Controllers
                 total = placesInfoList.Count()
             };
 
+            return Request.CreateResponse(HttpStatusCode.OK, result);
+        }
+
+        [Route("update_member")]
+        [HttpPost]
+        [EnableCors("*", "*", "*")]
+        public HttpResponseMessage updateMember(updateMember updateItem)
+        {
+            var userModel = db.users.FirstOrDefault(u => u.email == updateItem.email && u.password == updateItem.password);
+            var result = new
+            {
+                status = 0,
+                msg = "fail"
+            };
+            if (userModel != null)
+            {
+                userModel.name = updateItem.name;
+                userModel.password = updateItem.password;
+                userModel.authority = updateItem.authority;
+                userModel.updated = DateTime.Now;
+                db.SaveChanges();
+                result = new
+                {
+                    status = 1,
+                    msg = "OK"
+                };
+            }
             return Request.CreateResponse(HttpStatusCode.OK, result);
         }
 
