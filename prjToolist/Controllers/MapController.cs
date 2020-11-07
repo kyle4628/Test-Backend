@@ -11,6 +11,7 @@ namespace prjToolist.Controllers
 {
     //[JwtAuthActionFilter]
     [RoutePrefix("map")]
+    [EnableCors(origins: "http://localhost:8080", headers: "*", methods: "*", SupportsCredentials = true)]
     public class MapController : ApiController
     {
         FUENMLEntities db = new FUENMLEntities();
@@ -136,7 +137,8 @@ namespace prjToolist.Controllers
             return Request.CreateResponse(HttpStatusCode.OK, result);
         }
 
-        [Route("get_place_tag")]
+        // Remove before final released
+        [Route("get_place_tags")]
         [HttpPost]
         [EnableCors("*", "*", "*")]
         public HttpResponseMessage getPlaceTag(tGMapId gMapId)

@@ -16,6 +16,33 @@ namespace prjToolist.Models
         public Nullable<int> type { get; set; }
     }
 
+    // for user/get_user_places
+    public class userPlace
+    {
+        public int id { get; set; }
+        public string name { get; set; }
+        public decimal longitude { get; set; }
+        public decimal latitude { get; set; }
+        public string phone { get; set; }
+        public string address { get; set; }
+        public string type { get; set; }
+        public string gmap_id { get; set; }
+        public string photo_url { get; set; }
+    }
+
+    // for user/get_user_lists
+    public class userListInfo
+    {
+        public int id { get; set; }
+        public int userId { get; set; }
+        public string name { get; set; }
+        public string description { get; set; }
+        public int privacy { get; set; }
+        public string createdTime { get; set; }
+        public string updatedTime { get; set; }
+        public string cover { get; set; }
+    }
+
     //for common/get_list_detail
     public class listDetailPlace
     {

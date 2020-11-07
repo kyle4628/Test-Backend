@@ -25,9 +25,9 @@ namespace prjToolist.Models
 
     public class tTagEvent
     {
-        public int user_id { get; set; }
+        //public int user_id { get; set; }
         public int tag_id { get; set; }
-        public int tagEvent { get; set; }
+        public int action { get; set; }
     }
 
     public class tagInfo
@@ -51,7 +51,7 @@ namespace prjToolist.Models
 
     public class viewModelTagChange
     {
-        public string gmap_id { get; set; }
+        public int place_id { get; set; }
         public int[] add { get; set; }
         public int[] remove { get; set; }
         public string[] newTags { get; set; }

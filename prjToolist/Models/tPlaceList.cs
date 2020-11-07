@@ -61,6 +61,7 @@ namespace prjToolist.Models
     }
     public class viewModelEditListInfo
     {
+        public int list_id { get; set; }
         public string name { get; set; }
         public string description { get; set; }
         public int privacy { get; set; }
@@ -77,6 +78,12 @@ namespace prjToolist.Models
     {
         public int list_id { get; set; }
         public string coverUrl { get; set; }
+    }
+
+    public class viewModelSetListCover
+    {
+        public int list_id { get; set; }
+        public string cover_image_url { get; set; }
     }
 
     public class queryPlaceList
