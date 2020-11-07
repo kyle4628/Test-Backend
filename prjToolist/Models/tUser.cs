@@ -16,12 +16,14 @@ namespace prjToolist.Models
         public Nullable<System.DateTime> created { get; set; }
     }
 
+    // for auth/login
     public class memberLogin
     {
-        public string account { get; set; }
+        public string email { get; set; }
         public string password { get; set; }
     }
 
+    // for auth/register
     public class createMember
     {
         public string name { get; set; }

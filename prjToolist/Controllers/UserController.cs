@@ -854,7 +854,7 @@ namespace prjToolist.Controllers
             return userlogin;
         }
 
-        private int userIsLoginCookie(int userlogin)
+        public int userIsLoginCookie(int userlogin)
         {
             var currentCookie = Request.Headers.GetCookies("session-id").FirstOrDefault();
             if (Request.Headers.Contains("session-id"))

@@ -5,6 +5,7 @@ using System.Web;
 
 namespace prjToolist.Models
 {
+    // for common/get_recommend_lists
     public class tTag
     {
         public int id { get; set; }
