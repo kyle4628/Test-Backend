@@ -14,7 +14,7 @@ namespace prjToolist.Models
     public class tPlaceList
     {
         public int id { get; set; }
-        //public int user_id { get; set; }
+        public int creator_id { get; set; }
         public string name { get; set; }
         //public string description { get; set; }
         //public int privacy { get; set; }
@@ -23,17 +23,18 @@ namespace prjToolist.Models
         public string coverImageURL { get; set; }
     }
 
-    //  for common/get_recommend_lists 
+    //  for common/get_list_detail 
     public class placeListInfo
     {
         public int id { get; set; }
-        public int userId { get; set; }
+        public int creator_id { get; set; }
         public string name { get; set; }
-        public string description { get; set; }
+        public string coverImageURL { get; set; }
+        public string creator_username { get; set; }
         public int privacy { get; set; }
+        public string description { get; set; }
         public string createdTime { get; set; }
         public string updatedTime { get; set; }
-        public string cover { get; set; }
     }
 
     public class viewModelPlaceList
@@ -57,6 +58,7 @@ namespace prjToolist.Models
         public int privacy { get; set; }
     }
 
+    //  for common/get_list_detail
     public class viewModelGetListPlace
     {
         public int list_id { get; set; }

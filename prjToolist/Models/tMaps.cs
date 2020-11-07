@@ -37,6 +37,8 @@ namespace prjToolist.Models
     //    public string type { get; set; }
     //}
 
+    //for map/get_marks 
+    //for map/get_place_info
     public class placeInfo
     {
         public int id { get; set; }

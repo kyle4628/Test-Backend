@@ -313,7 +313,7 @@ namespace prjToolist.Controllers
                     if (li != null)
                     {
                         infoItem.id = li.id;
-                        infoItem.userId = li.user_id;
+                        infoItem.creator_id = li.user_id;
                         infoItem.name = li.name;
                         infoItem.description = li.description;
                         infoItem.privacy = li.privacy;

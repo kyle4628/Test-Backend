@@ -37,14 +37,15 @@ namespace prjToolist.Controllers
                 var tagModel = db.tags.FirstOrDefault(t => t.id == i);
                 tTag tagItem = new tTag();
                 tagItem.id = i;
+                tagItem.type = tagModel.type;
                 tagItem.name = tagModel.name;
                 tagList.Add(tagItem);
             }
             var tagInfo = new
             {
                 lists = placeList,
-                user_tags = tagList,
-                system_tags = typeList
+                system_tags = typeList,
+                user_tags = tagList
             };
             var result = new
             {
@@ -78,6 +79,7 @@ namespace prjToolist.Controllers
                     var placeListModel = db.placeLists.FirstOrDefault(p => p.id == i);
                     tPlaceList placeListItem = new tPlaceList();
                     placeListItem.id = placeListModel.id;
+                    placeListItem.creator_id = placeListModel.user_id;
                     placeListItem.name = placeListModel.name;
                     //placeListItem.coverImageURL = placeListModel.cover.ToString();
                     placeList.Add(placeListItem);
@@ -86,8 +88,8 @@ namespace prjToolist.Controllers
                 tagInfo = new
                 {
                     lists = placeList,
-                    user_tags = tagList,
-                    system_tags = typeList
+                    system_tags = typeList,
+                    user_tags = tagList
                 };
                 result = new
                 {
@@ -103,6 +105,7 @@ namespace prjToolist.Controllers
                     var placeListModel = db.placeLists.FirstOrDefault(p => p.id == i);
                     tPlaceList placeListItem = new tPlaceList();
                     placeListItem.id = placeListModel.id;
+                    placeListItem.creator_id = placeListModel.user_id;
                     placeListItem.name = placeListModel.name;
                     //placeListItem.coverImageURL = placeListModel.cover.ToString();
                     placeList.Add(placeListItem);
@@ -110,8 +113,8 @@ namespace prjToolist.Controllers
                 tagInfo = new
                 {
                     lists = placeList,
-                    user_tags = tagList,
-                    system_tags = typeList
+                    system_tags = typeList,
+                    user_tags = tagList
                 };
                 result = new
                 {
@@ -152,7 +155,7 @@ namespace prjToolist.Controllers
                     tTag tagItem = new tTag();
                     tagItem.id = i;
                     tagItem.name = tagModel.name;
-                    //tagItem.type = tagModel.type;
+                    tagItem.type = tagModel.type;
                     tagList.Add(tagItem);
                     tagInfo = new
                     {
@@ -171,7 +174,7 @@ namespace prjToolist.Controllers
         }
         
 
-        [Route("get_list")]
+        [Route("get_list_detail")]
         [HttpPost]
         [EnableCors("*", "*", "*")]
         public HttpResponseMessage GetList(viewModelGetListPlace getListInfo)
@@ -181,11 +184,11 @@ namespace prjToolist.Controllers
             List<int> searchallplaceinlist = new List<int>();
             List<int> intersectResult = new List<int>();
             List<int> tagsList = new List<int>();
-            List<placeInfo> resultPlaceInfo = new List<placeInfo>();
+            List<listDetailPlace> resultPlaceInfo = new List<listDetailPlace>();
             List<tTag> resultTagInfo = new List<tTag>();
             placeListInfo infoItem = new placeListInfo();
             int[] tFilterid = getListInfo.filter;
-            int list_creater = 0;
+            int list_createrId = 0;
             var dataForm = new
             {
                 info = infoItem,
@@ -199,22 +202,22 @@ namespace prjToolist.Controllers
                 msg = "fail",
                 data = dataForm
             };
-            var li = db.placeLists.Where(p => p.id == getListInfo.list_id).Select(q => q).FirstOrDefault();
+            var listModel = db.placeLists.Where(p => p.id == getListInfo.list_id).FirstOrDefault();
             //此結果為特定清單中全部的地點id
             //無論公開或私人都會用此功能 所以要找創建清單的userid非登入者的userid
-            if (li != null)
+            if (listModel != null)
             {
-                searchallplaceinlist = db.placeRelationships.Where(p => p.placelist_id == li.id)
-                .Select(q => q.place_id).ToList();
-                list_creater = db.placeLists.Where(p => p.id == getListInfo.list_id).Select(q => q.user_id).FirstOrDefault();
-
-                infoItem.id = li.id;
-                infoItem.userId = li.user_id;
-                infoItem.name = li.name;
-                infoItem.description = li.description;
-                infoItem.privacy = li.privacy;
-                infoItem.createdTime = li.created != null ? li.created.ToString().Substring(0, 10) : "";
-                infoItem.updatedTime = li.updated != null ? li.updated.ToString().Substring(0, 10) : "";
+                searchallplaceinlist = db.placeRelationships.Where(p => p.placelist_id == listModel.id).Select(q => q.place_id).ToList();
+                list_createrId = db.placeLists.Where(p => p.id == getListInfo.list_id).Select(q => q.user_id).FirstOrDefault();
+                var listCreator = db.users.Where(u => u.id == list_createrId).FirstOrDefault();
+                infoItem.id = listModel.id;
+                infoItem.creator_id = listModel.user_id;
+                infoItem.name = listModel.name;
+                infoItem.creator_username = listCreator.name;
+                infoItem.description = listModel.description;
+                infoItem.privacy = listModel.privacy;
+                infoItem.createdTime = listModel.created != null ? listModel.created.ToString().Substring(0, 10) : "";
+                infoItem.updatedTime = listModel.updated != null ? listModel.updated.ToString().Substring(0, 10) : "";
 
                 dataForm = new
                 {
@@ -231,12 +234,12 @@ namespace prjToolist.Controllers
                 };
             }
             //此結果為特定清單中篩選出有標籤的地點id
-            if (tFilterid != null && list_creater != 0)
+            if (tFilterid != null && list_createrId != 0)
             {
                 intersectResult = searchallplaceinlist;
                 foreach (int i in tFilterid)
                 {
-                    intersectResult = tagFactory.searchTag(list_creater, ref intersectResult, i, db);
+                    intersectResult = tagFactory.searchTag(list_createrId, ref intersectResult, i, db);
                     //var searchplacehastag = db.tagRelationships.Where(P => P.tag_id == i).Select(q => q.place_id).ToList();
                     //intersectResult = intersectResult.Intersect(searchplacehastag).ToList();
                     //foreach(int p in unionResult) {
@@ -252,18 +255,19 @@ namespace prjToolist.Controllers
                     var placeItem = db.places.Where(p => p.id == i).Select(q => q).FirstOrDefault();
                     if (placeItem != null)
                     {
-                        if (placeItem.type != null) { systemTagResult.Add(placeItem.type); }
+                        if (placeItem.type != null)  systemTagResult.Add(placeItem.type); 
 
-                        placeInfo rPlace = new placeInfo();
-                        rPlace.name = placeItem.name;
-                        rPlace.phone = placeItem.phone;
-                        rPlace.address = placeItem.address;
-                        rPlace.type = placeItem.type;
-                        rPlace.longitude = placeItem.longitude;
-                        rPlace.latitude = placeItem.latitude;
-                        resultPlaceInfo.Add(rPlace);
+                        listDetailPlace placeDetail = new listDetailPlace();
+                        placeDetail.id = placeItem.id;
+                        placeDetail.gmap_id = placeItem.gmap_id;
+                        placeDetail.name = placeItem.name;
+                        placeDetail.phone = placeItem.phone;
+                        placeDetail.address = placeItem.address;
+                        placeDetail.type = placeItem.type;
+                        //placeDetail.photo_url = placeItem.photo.ToString(); // photo type in db is byte[]
+                        resultPlaceInfo.Add(placeDetail);
                     }
-                    tagsList.AddRange(db.tagRelationships.Where(p => p.place_id == i && p.user_id == list_creater).Select(q => q.tag_id).ToList());
+                    tagsList.AddRange(db.tagRelationships.Where(p => p.place_id == i && p.user_id == list_createrId).Select(q => q.tag_id).ToList());
                     //var test = from p in db.tagRelations where p.place_id == i group p.tag_id by p.user_id == userlogin ?"userTag":"othersTag" into g select new {g.Key } ;
                 }
                 tagsList = tagsList.Distinct().ToList();
