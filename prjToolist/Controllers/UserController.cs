@@ -418,7 +418,7 @@ namespace prjToolist.Controllers
         [Route("create_list")]
         [HttpPost]
         [EnableCors("*", "*", "*")]
-        public HttpResponseMessage create_list([FromBody]viewModelPlaceList x)
+        public HttpResponseMessage create_list(viewModelPlaceList x)
         {
             int listId = 0;
             int userlogin = 0;

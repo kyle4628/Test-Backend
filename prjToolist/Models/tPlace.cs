@@ -17,6 +17,7 @@ namespace prjToolist.Models
     }
 
     // for user/get_user_places
+    // for user/search_user_places
     public class userPlace
     {
         public int id { get; set; }
@@ -55,6 +56,7 @@ namespace prjToolist.Models
         public string photo_url { get; set; }
     }
     
+    //for query/get_place_info
     public class queryPlaceInfo
     {
         public int id { get; set; }
@@ -66,6 +68,7 @@ namespace prjToolist.Models
         public string type { get; set; }
     }
 
+    //for user/search_user_places
     public class queryPocketPlaceInfo
     {
         public int list_id { get; set; }

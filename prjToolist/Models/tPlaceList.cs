@@ -45,6 +45,7 @@ namespace prjToolist.Models
         public string updatedTime { get; set; }
     }
 
+    //for user/create_list
     public class viewModelPlaceList
     {
         public string name { get; set; }
@@ -54,6 +55,8 @@ namespace prjToolist.Models
         public int[] places { get; set; }
     }
 
+    //for user/add_list_places
+    //for user/remove_list_places
     public class viewModelEditListPlace
     {
         public int[] places { get; set; }
@@ -80,12 +83,14 @@ namespace prjToolist.Models
         public string coverUrl { get; set; }
     }
 
+    //for user/set_list_photo
     public class viewModelSetListCover
     {
         public int list_id { get; set; }
         public string cover_image_url { get; set; }
     }
 
+    //for query/get_place_list
     public class queryPlaceList
     {
         public int id { get; set; }
