@@ -111,7 +111,7 @@ namespace prjToolist.Controllers
         public HttpResponseMessage getGooglePlaces(tGMapId gMapId)
         {
             var placeItem = db.places.FirstOrDefault(p => p.id == gMapId.place_id);
-            placeInfo placeInfo = new placeInfo();
+            placeInfoData placeInfo = new placeInfoData();
             var result = new
             {
                 status = 0,
@@ -124,6 +124,7 @@ namespace prjToolist.Controllers
                 placeInfo.phone = placeItem.phone;
                 placeInfo.address = placeItem.address;
                 placeInfo.type = placeItem.type;
+                //placeInfo.phone = placeItem.photo.ToString();
 
                 result = new
                 {
@@ -204,134 +205,6 @@ namespace prjToolist.Controllers
                     };
                 }
             }
-            return Request.CreateResponse(HttpStatusCode.OK, result);
-        }
-
-        [Route("search_tag")]
-        [HttpPost]
-        [EnableCors("*", "*", "*")]
-        public HttpResponseMessage searchTag(viewModelSerachTag searchText)
-        {
-            int userlogin = 0;
-            List<tTag> tags = new List<tTag>();
-            List<int> tagid = new List<int>();
-            userlogin = userFactory.userIsLoginSession(userlogin);
-            var result = new
-            {
-                status = 0,
-                data = tags,
-                msg = "fail"
-            };
-            if (userlogin != 0 && searchText.text == "")
-            {
-                tagid = db.tagRelationships.Where(p => p.user_id == userlogin).Select(q => q.tag_id).ToList();
-                tagid = tagid.Distinct().ToList();
-                result = new
-                {
-                    status = 1,
-                    data = tags,
-                    msg = "使用者登入但未有常用標籤"
-                };
-            }
-            else if (searchText.text == "")
-            {
-                result = new
-                {
-                    status = 1,
-                    data = tags,
-                    msg = "使用者未登入且未輸入搜尋字串"
-                };
-
-            }
-            else
-            {
-                searchText.text = searchText.text.Trim();
-                tagid = tagFactory.tagStringToId(searchText.text, db).ToList();
-                if (tagid.Count == 0)
-                {
-                    result = new
-                    {
-                        status = 1,
-                        data = tags,
-                        msg = "未有符合條件之結果"
-                    };
-                }
-            }
-
-            if (tagid.Count > 0)
-            {
-                foreach (int i in tagid)
-                {
-                    tTag tagItem = new tTag();
-                    var tag = db.tags.FirstOrDefault(t => t.id == i);
-                    if (tag != null)
-                    {
-                        tagItem.id = tag.id;
-                        tagItem.name = tag.name;
-                        //tagItem.type = tag.type;
-                        tags.Add(tagItem);
-                    }
-                }
-                result = new
-                {
-                    status = 1,
-                    data = tags,
-                    msg = ""
-                };
-            }
-            return Request.CreateResponse(HttpStatusCode.OK, result);
-        }
-
-        [Route("candidate_tag")]
-        [HttpPost]
-        [EnableCors("*", "*", "*")]
-        public HttpResponseMessage getCandidatePlace(candidatePlacePara candidatePlacePara)
-        {
-            int cadidatePlaceId = db.places.FirstOrDefault(p => p.gmap_id == candidatePlacePara.gmap_id).id;
-            var cadidateTags = db.tagRelationships.Where(t => t.place_id == cadidatePlaceId)
-                                              .Select(t => t.tag_id).ToList();
-
-            int[] tagIdList = cadidateTags.ToArray();
-            Array.Sort(tagIdList);
-            List<tTag> tagList = new List<tTag>();
-
-            var tagInfo = new
-            {
-                tags = tagList
-            };
-
-            var result = new
-            {
-                status = 0,
-                data = tagInfo,
-                msg = "fail"
-            };
-
-            if (tagIdList.Count() > 0)
-            {
-                foreach(int i in tagIdList)
-                {
-                    var tagModel = db.tags.Where(t => t.id == i).FirstOrDefault();
-                    tTag tagItem = new tTag();
-                    tagItem.id = tagModel.id;
-                    tagItem.name = tagModel.name;
-                    //tagItem.type = tagModel.type;
-                    tagList.Add(tagItem);
-                }
-
-                tagInfo = new
-                {
-                    tags = tagList
-                };
-
-                result = new
-                {
-                    status = 1,
-                    data = tagInfo,
-                    msg = ""
-                };
-            }
-            
             return Request.CreateResponse(HttpStatusCode.OK, result);
         }
     }

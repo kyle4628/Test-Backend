@@ -40,7 +40,6 @@ namespace prjToolist.Models
     //}
 
     //for map/get_marks 
-    //for map/get_place_info
     public class placeInfo
     {
         public int id { get; set; }
@@ -53,7 +52,15 @@ namespace prjToolist.Models
         public string gmap_id { get; set; }
     }
 
-    //public class 
+    //for map/get_place_info
+    public class placeInfoData
+    {
+        public string name { get; set; }
+        public string phone { get; set; }
+        public string address { get; set; }
+        public string type { get; set; }
+        public string photo_url { get; set; }
+    }
 
     /*******---for map/get_marks---*******/
     public class location
