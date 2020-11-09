@@ -67,6 +67,12 @@ namespace prjToolist.Models
         public string address { get; set; }
         public string type { get; set; }
     }
+    
+    //for query/get_place_selectoin
+    public class placeSelection
+    {
+        public string name { get; set; }
+    }
 
     //for user/search_user_places
     public class queryPocketPlaceInfo

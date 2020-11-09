@@ -252,7 +252,26 @@ namespace prjToolist.Controllers
                 data = placesInfoList,
                 total = placesInfoList.Count()
             };
+            return Request.CreateResponse(HttpStatusCode.OK, result);
+        }
 
+        [Route("get_place_selection")]
+        [HttpPost]
+        [EnableCors("*", "*", "*")]
+        public HttpResponseMessage getPlaceSelection()
+        {
+            string[] placeArray = db.places.Select(p => p.name).ToArray();
+            //List<placeSelection> placesSelectionList = new List<placeSelection>();
+            //foreach(string p in placeArray)
+            //{
+            //    placeSelection placeItem = new placeSelection();
+            //    placeItem.name = p;
+            //    placesSelectionList.Add(placeItem);
+            //}
+            var result = new
+            {
+                data = placeArray
+            };
             return Request.CreateResponse(HttpStatusCode.OK, result);
         }
 

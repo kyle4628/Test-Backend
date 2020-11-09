@@ -26,6 +26,7 @@ namespace prjToolist.Models
     }
 
     //for map/get_place_info
+    //for user/get_place_tags
     public class tGMapId
     {
         public int place_id { get; set; }
