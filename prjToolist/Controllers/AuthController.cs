@@ -99,10 +99,10 @@ namespace prjToolist.Controllers
             //    resp.Headers.AddCookies(new CookieHeaderValue[] { cookie });
             //}
             int userlogin = 0;
-            userlogin = (new UserController()).userIsLoginCookie(userlogin);
-            if (HttpContext.Current.Session["SK_login"] != null || userlogin != 0)
+            // userlogin = (new UserController()).userIsLoginCookie(userlogin);
+            if (userlogin == 0)
             {
-                HttpContext.Current.Session["SK_login"] = null;
+                // HttpContext.Current.Session["SK_login"] = null;
                 result = new
                 {
                     status = 1,
@@ -160,7 +160,7 @@ namespace prjToolist.Controllers
             }
             return Request.CreateResponse(HttpStatusCode.OK, result);
         }
-        
+
         //TODO: remove befor final released
         [Route("test")]
         [HttpPost]
