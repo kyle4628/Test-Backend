@@ -260,17 +260,31 @@ namespace prjToolist.Controllers
         [EnableCors("*", "*", "*")]
         public HttpResponseMessage getPlaceSelection()
         {
-            string[] placeArray = db.places.Select(p => p.name).ToArray();
-            //List<placeSelection> placesSelectionList = new List<placeSelection>();
-            //foreach(string p in placeArray)
-            //{
-            //    placeSelection placeItem = new placeSelection();
-            //    placeItem.name = p;
-            //    placesSelectionList.Add(placeItem);
-            //}
+            int[] placeArray = db.places.Select(p => p.id).ToArray();
+            List<placeSelection> placesSelectionList = new List<placeSelection>();
+            foreach (int i in placeArray)
+            {
+                var placeModel = db.places.FirstOrDefault(p => p.id == i);
+                placeSelection placeItem = new placeSelection();
+                placeItem.place_id = placeModel.id;
+                placeItem.name = placeModel.name;
+                placesSelectionList.Add(placeItem);
+            }
             var result = new
             {
-                data = placeArray
+                data = placesSelectionList
+            };
+            return Request.CreateResponse(HttpStatusCode.OK, result);
+        }
+
+        [Route("create_list")]
+        [HttpPost]
+        [EnableCors("*", "*", "*")]
+        public HttpResponseMessage createList(updateMember updateItem)
+        {
+            var result = new
+            {
+                //data = placeArray
             };
             return Request.CreateResponse(HttpStatusCode.OK, result);
         }

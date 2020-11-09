@@ -71,6 +71,7 @@ namespace prjToolist.Models
     //for query/get_place_selectoin
     public class placeSelection
     {
+        public int place_id { get; set; }
         public string name { get; set; }
     }
 
