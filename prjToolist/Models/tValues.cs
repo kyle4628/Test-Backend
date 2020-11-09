@@ -10,4 +10,11 @@ namespace prjToolist.Models
         public int count { get; set; }
         public string key { get; set; }
     }
+
+    public class vmCountDataValuesTwoKey
+    {
+        public int count { get; set; }
+        public string key { get; set; }
+        public string key2 { get; set; }
+    }
 }

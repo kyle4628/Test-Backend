@@ -12,7 +12,7 @@
     <Property Name="address" Type="nvarchar" MaxLength="50" />
     <Property Name="type" Type="nvarchar(max)" />
     <Property Name="gmap_id" Type="nvarchar(max)" />
-    <Property Name="photo" Type="varbinary(max)" />
+    <Property Name="photo" Type="nvarchar(max)" />
   </EntityType>
   <EntityType Name="placeList">
     <Key>
@@ -20,12 +20,12 @@
     </Key>
     <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="user_id" Type="int" Nullable="false" />
-    <Property Name="name" Type="varchar" MaxLength="255" Nullable="false" />
-    <Property Name="description" Type="varchar" MaxLength="255" />
+    <Property Name="name" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="description" Type="nvarchar(max)" />
     <Property Name="privacy" Type="int" Nullable="false" />
     <Property Name="created" Type="datetime" Nullable="false" />
     <Property Name="updated" Type="datetime" />
-    <Property Name="cover" Type="varbinary" MaxLength="1" />
+    <Property Name="cover" Type="nvarchar(max)" />
   </EntityType>
   <EntityType Name="placeRelationship">
     <Key>
@@ -48,7 +48,7 @@
     <Key>
       <PropertyRef Name="id" />
     </Key>
-    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="created" Type="datetime2" Precision="0" Nullable="false" />
     <Property Name="user_id" Type="int" Nullable="false" />
     <Property Name="tag_id" Type="int" Nullable="false" />
