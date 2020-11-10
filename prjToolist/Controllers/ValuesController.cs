@@ -340,7 +340,8 @@ namespace prjToolist.Controllers
         [EnableCors("*", "*", "*")]
         public HttpResponseMessage getPlaceInfo()
         {
-            var intList = db.places.Select(p => p.id).ToList();
+            int[] intList = db.places.Select(p => p.id).ToArray();
+            Array.Sort(intList);
             List<queryPlaceInfo> placesInfoList = new List<queryPlaceInfo>();
             foreach (int i in intList)
             {
