@@ -19,7 +19,7 @@ namespace prjToolist.Controllers
     {
         FUENMLEntities db = new FUENMLEntities();
 
-        [Route("get_recommend_lists")]
+        [Route("get_recommand_lists")]
         [HttpPost]
         [EnableCors("*", "*", "*")]
         public HttpResponseMessage getRecommendList(tFilter filter)
