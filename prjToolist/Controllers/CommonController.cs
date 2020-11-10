@@ -32,7 +32,7 @@ namespace prjToolist.Controllers
             //string[] typeList = db.places.Select(p => p.type).Distinct().ToArray();
             Array.Sort(tagIdList);
             List<tTag> tagList = new List<tTag>();
-            List<int> tagsList = new List<int>();
+            List<int> tagIDList = new List<int>();
             List<string> typeList = new List<string>();
             var tagInfo = new
             {
@@ -60,16 +60,16 @@ namespace prjToolist.Controllers
                 {
                     intersectPlaceId = tagFactory.searchTag(userlogin, ref intersectPlaceId, i, db);
                 }
-                //intersectPlaceId = intersectPlaceId.Distinct().ToArray();
-                Array.Sort(intersectPlaceId.Distinct().ToArray());
+                intersectPlaceId = intersectPlaceId.Distinct().ToList();
+                Array.Sort(intersectPlaceId.ToArray());
                 foreach (int i in intersectPlaceId)
                 {
                     var listFilter = db.placeRelationships.Where(p => p.place_id == i).Select(p => p.placelist_id).ToList();
-                    tagsList.AddRange(db.tagRelationships.Where(p => p.place_id == i).Select(q => q.tag_id).ToList());
+                    tagIDList.AddRange(db.tagRelationships.Where(p => p.place_id == i).Select(q => q.tag_id).ToList());
                     intersectPlaceListId = intersectPlaceListId.Intersect(listFilter).ToList();
                 }
-                tagsList = tagsList.Distinct().ToList();
-                Array.Sort(tagsList.ToArray());
+                tagIDList = tagIDList.Distinct().ToList();
+                Array.Sort(tagIDList.ToArray());
                 Array.Sort(intersectPlaceListId.Distinct().ToArray());
                 foreach(int i in intersectPlaceListId)
                 {
@@ -81,9 +81,9 @@ namespace prjToolist.Controllers
                     placeListItem.coverImageURL = placeListModel.cover;
                     placeList.Add(placeListItem);
                 }
-                if (tagsList.Count > 0)
+                if (tagIDList.Count > 0)
                 {
-                    foreach (int i in tagsList)
+                    foreach (int i in tagIDList)
                     {
                         var tagModel = db.tags.FirstOrDefault(p => p.id == i && p.type == 2);
                         if (tagModel != null)
@@ -115,7 +115,6 @@ namespace prjToolist.Controllers
                 foreach(int i in entirePlaceLists)
                 {
                     var placeListModel = db.placeLists.FirstOrDefault(p => p.id == i);
-                    //var placeModel = db.placeRelationships.
                     if(placeListModel != null)
                     {
                         tPlaceList placeListItem = new tPlaceList();
@@ -135,6 +134,8 @@ namespace prjToolist.Controllers
                     tagItem.name = tagModel.name;
                     tagList.Add(tagItem);
                 }
+                //typeList = db.places.Select(p => p.type).Distinct().ToArray();
+                //typeList = typeList.Distinct();
                 tagInfo = new
                 {
                     lists = placeList,

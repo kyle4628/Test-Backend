@@ -383,6 +383,7 @@ namespace prjToolist.Controllers
                             infoItem.privacy = li.privacy;
                             infoItem.createdTime = li.created != null ? li.created.ToString().Substring(0, 10) : "";
                             infoItem.updatedTime = li.updated != null ? li.updated.ToString().Substring(0, 10) : "";
+                            infoItem.coverImageURL = li.cover;
                             //byte[] binaryString = (byte[])place.cover;
                             //info.cover = Encoding.UTF8.GetString(binaryString);
                             infoList.Add(infoItem);
