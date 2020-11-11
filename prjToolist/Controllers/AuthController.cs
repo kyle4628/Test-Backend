@@ -171,7 +171,7 @@ namespace prjToolist.Controllers
                     }
                     result = new
                     {
-                        status = 1,
+                        status = 0,
                         msg = "註冊會員資料不完整",
                     };
                 }

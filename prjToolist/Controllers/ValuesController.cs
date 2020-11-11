@@ -345,6 +345,36 @@ namespace prjToolist.Controllers
             List<queryPlaceInfo> placesInfoList = new List<queryPlaceInfo>();
             foreach (int i in intList)
             {
+                List<placeRelationTag> tagInfo = new List<placeRelationTag>();
+                List<placeRelationList> listInfo = new List<placeRelationList>();
+                var tagRelationItem = db.tagRelationships.Where(t => t.place_id == i).ToList();
+                var listRelationItem = db.placeRelationships.Where(p => p.place_id == i).ToList();
+                //int[] listRelationId = db.placeRelationships.Where(p => p.place_id == i).Select(p=>p.place_id).ToArray();
+                //Array.Sort(listRelationId);
+                for (int t = 0; t < tagRelationItem.Count(); t++)
+                {
+                    int tagCreatorId = tagRelationItem[t].user_id;
+                    int tagId = tagRelationItem[t].tag_id;
+                    var tagCreator = db.users.FirstOrDefault(u => u.id == tagCreatorId);
+                    var tagModel = db.tags.FirstOrDefault(tag => tag.id == tagId);
+                    placeRelationTag tagItem = new placeRelationTag();
+                    tagItem.tagCreatorName = tagCreator.name;
+                    tagItem.tagName = tagModel.name;
+                    tagItem.tagCreatedTime = tagRelationItem[t].created.ToString();
+                    tagInfo.Add(tagItem);
+                }
+                for(int j = 0; j < listRelationItem.Count(); j++)
+                {
+                    int listId = listRelationItem[j].placelist_id;
+                    var listModel = db.placeLists.FirstOrDefault(p => p.id == listId);
+                    int listCreatorId = listModel.user_id;
+                    var creator = db.users.FirstOrDefault(u => u.id == listCreatorId);
+                    placeRelationList listInfoItem = new placeRelationList();
+                    listInfoItem.placeListName = listModel.name;
+                    listInfoItem.listCreatorName = creator.name;
+                    listInfoItem.listCreatedTime = listRelationItem[j].created.ToString();
+                    listInfo.Add(listInfoItem);
+                }
                 var placeInfoItem = db.places.FirstOrDefault(p => p.id == i);
                 queryPlaceInfo listItem = new queryPlaceInfo();
                 listItem.id = placeInfoItem.id;
@@ -354,6 +384,8 @@ namespace prjToolist.Controllers
                 listItem.address = placeInfoItem.address;
                 listItem.longitude = placeInfoItem.longitude;
                 listItem.latitude = placeInfoItem.latitude;
+                listItem.tagInfo = tagInfo;
+                listItem.listInfo = listInfo;
                 placesInfoList.Add(listItem);
             }
             var result = new

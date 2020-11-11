@@ -56,7 +56,7 @@ namespace prjToolist.Models
         public string photo_url { get; set; }
     }
     
-    //for query/get_place_info
+    /*---for query/get_place_info---*/
     public class queryPlaceInfo
     {
         public int id { get; set; }
@@ -66,8 +66,25 @@ namespace prjToolist.Models
         public string phone { get; set; }
         public string address { get; set; }
         public string type { get; set; }
+        public List<placeRelationTag> tagInfo { get; set; }
+        public List<placeRelationList> listInfo { get; set; }
     }
-    
+
+    public class placeRelationTag
+    {
+        public string tagName { get; set; }
+        public string tagCreatorName { get; set; }
+        public string tagCreatedTime { get; set; }
+    }
+
+    public class placeRelationList
+    {
+        public string placeListName { get; set; }
+        public string listCreatorName { get; set; }
+        public string listCreatedTime { get; set; }
+    }
+    /*---for query/get_place_info---*/
+
     //for query/get_place_selectoin
     public class placeSelection
     {
