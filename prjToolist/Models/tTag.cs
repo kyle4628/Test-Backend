@@ -110,8 +110,8 @@ namespace prjToolist.Models
                         newtag.type = 2;
                         db.tags.Add(newtag);
                         db.SaveChanges();
+                        tag_id.AddRange(db.tags.Where(p => p.name == trimString).Select(q => q.id).ToList());
                     }
-                    tag_id.AddRange(db.tags.Where(p => p.name == trimString).Select(q => q.id).ToList());
                 }
             }
             return tag_id.Distinct().ToArray();

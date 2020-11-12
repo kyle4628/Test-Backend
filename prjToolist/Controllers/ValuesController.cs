@@ -145,6 +145,8 @@ namespace prjToolist.Controllers
                                     where te.tagEvent1 == 1 || te.tagEvent1 == 3
                                     group te by (te.tag_id) into g
                                     select new vmCountDataValues { key = g.Key.ToString(), count = g.Count() }).OrderByDescending(g1 => g1.count).ToList().Take(5);
+
+
             if (tagEventCountTop != null)
             {
                 foreach (var tagItem in tagEventCountTop)

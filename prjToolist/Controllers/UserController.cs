@@ -890,13 +890,14 @@ namespace prjToolist.Controllers
                     foreach (var i in vm_tagChange.add)
                     {
                         var hastag = db.tags.Where(p => p.id == i).Any();
-                        var placehastag = db.tagRelationships.Where(p => p.tag_id == i && p.place_id == place.id).Any();
+                        var placehastag = db.tagRelationships.Where(p => p.tag_id == i && p.place_id == place.id && p.user_id == userlogin).Any();
                         if (hastag && !placehastag)
                         {
                             tagRelationship t = new tagRelationship();
                             t.tag_id = i;
                             t.place_id = place.id;
                             t.user_id = userlogin;
+                            t.created = DateTime.Now;
                             db.tagRelationships.Add(t);
                             db.SaveChanges();
 
@@ -907,6 +908,11 @@ namespace prjToolist.Controllers
                             newEvent.created = DateTime.Now;
                             db.tagEvents.Add(newEvent);
                             db.SaveChanges();
+                            result = new
+                            {
+                                status = 1,
+                                msg = "OK",
+                            };
                         }
                     }
                 }
@@ -915,7 +921,7 @@ namespace prjToolist.Controllers
                     foreach (var j in vm_tagChange.remove)
                     {
                         var hastag = db.tags.Where(p => p.id == j).Any();
-                        var d = db.tagRelationships.Where(p => p.place_id == place.id && p.tag_id == j).Select(q => q).FirstOrDefault();
+                        var d = db.tagRelationships.Where(p => p.place_id == place.id && p.tag_id == j && p.user_id == userlogin).Select(q => q).FirstOrDefault();
                         if (hastag && d != null)
                         {
                             db.tagRelationships.Remove(d);
@@ -928,7 +934,11 @@ namespace prjToolist.Controllers
                             newEvent.created = DateTime.Now;
                             db.tagEvents.Add(newEvent);
                             db.SaveChanges();
-
+                            result = new
+                            {
+                                status = 1,
+                                msg = "OK",
+                            };
                         }
                     }
                 }
@@ -948,14 +958,13 @@ namespace prjToolist.Controllers
                             db.tagRelationships.Add(t);
                             db.SaveChanges();
                         }
+                        result = new
+                        {
+                            status = 1,
+                            msg = "OK",
+                        };
                     }
                 }
-
-                result = new
-                {
-                    status = 1,
-                    msg = "OK",
-                };
             }
             var resp = Request.CreateResponse(
           HttpStatusCode.OK,
