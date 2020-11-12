@@ -129,7 +129,7 @@ namespace prjToolist.Controllers
                             placeModel.type = placeItem.type;
                             placeModel.longitude = placeItem.longitude;
                             placeModel.latitude = placeItem.latitude;
-                            placeModel.photo_url = "";
+                            placeModel.photo_url =placeItem.photo!=null? placeItem.photo:"";
                             resultPlaceInfo.Add(placeModel);
                         }
                         tagsList.AddRange(db.tagRelationships.Where(p => p.place_id == i && p.user_id == userlogin).Select(q => q.tag_id).ToList());
@@ -383,7 +383,7 @@ namespace prjToolist.Controllers
                             infoItem.privacy = li.privacy;
                             infoItem.createdTime = li.created != null ? li.created.ToString().Substring(0, 10) : "";
                             infoItem.updatedTime = li.updated != null ? li.updated.ToString().Substring(0, 10) : "";
-                            infoItem.coverImageURL = li.cover;
+                            infoItem.coverImageURL = li.cover != null ? li.cover:"";
                             //byte[] binaryString = (byte[])place.cover;
                             //info.cover = Encoding.UTF8.GetString(binaryString);
                             infoList.Add(infoItem);

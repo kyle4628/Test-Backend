@@ -60,6 +60,7 @@ namespace prjToolist.Models
     public class tTagRelaforTable
     {
         public int id { get; set; }
+        public int place_id { get; set; }
         public string place_name { get; set; }
         public string tag_name { get; set; }
         public string user_name { get; set; }

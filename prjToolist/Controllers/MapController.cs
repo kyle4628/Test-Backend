@@ -125,7 +125,7 @@ namespace prjToolist.Controllers
                 placeInfo.phone = placeItem.phone;
                 placeInfo.address = placeItem.address;
                 placeInfo.type = placeItem.type;
-                //placeInfo.phone = placeItem.photo.ToString();
+                placeInfo.photo_url = placeItem.photo != null ? placeItem.photo : "";
 
                 result = new
                 {

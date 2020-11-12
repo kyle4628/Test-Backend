@@ -312,12 +312,14 @@ namespace prjToolist.Controllers
                 var placeItem = db.places.AsEnumerable().FirstOrDefault(p => p.id == tag_List[i].place_id);
                 var tagItem = db.tags.AsEnumerable().FirstOrDefault(t => t.id == tag_List[i].tag_id);
                 var userItem = db.users.AsEnumerable().FirstOrDefault(u => u.id == tag_List[i].user_id);
+                int placeId = placeItem.id;
                 string placeName = placeItem.name;
                 string tagName = tagItem.name;
                 string userName = userItem.name;
 
                 tTagRelaforTable listItem = new tTagRelaforTable();
                 listItem.id = i + 1;
+                listItem.place_id = placeId;
                 listItem.place_name = placeName;
                 listItem.tag_name = tagName;
                 listItem.user_name = userName;
