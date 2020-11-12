@@ -152,14 +152,19 @@ namespace prjToolist.Controllers
                 };
                 if (isnullormember == null)
                 {
-                    if (createMemberModel.name != null && createMemberModel.password != null)
+                    result = new
+                    {
+                        status = 0,
+                        msg = "註冊會員資料不完整",
+                    };
+                    if (createMemberModel.username != null && createMemberModel.password != null)
                     {
                         user newmember = new user();
-                        newmember.name = createMemberModel.name;
+                        newmember.name = createMemberModel.username;
                         newmember.password = createMemberModel.password;
                         newmember.email = createMemberModel.email;
                         newmember.created = DateTime.Now;
-                        //newmember.updated = DateTime.Now; // -->register need updated time?
+                        newmember.updated = DateTime.Now; // -->register need updated time?
                         newmember.authority = 1;
                         db.users.Add(newmember);
                         db.SaveChanges();
@@ -169,11 +174,6 @@ namespace prjToolist.Controllers
                             msg = "Register success",
                         };
                     }
-                    result = new
-                    {
-                        status = 0,
-                        msg = "註冊會員資料不完整",
-                    };
                 }
                 return Request.CreateResponse(HttpStatusCode.OK, result);
             }
