@@ -407,6 +407,19 @@ namespace prjToolist.Controllers
             {
                 //var placeListItem = db.placeLists.AsEnumerable().FirstOrDefault(p => p.id == i);
                 //var userListItem = db.users.AsEnumerable().FirstOrDefault(u => u.id == placeListItem.id);
+                var intPlaceRelation = db.placeRelationships.Where(p => p.placelist_id == i).Select(p => p.place_id).ToList();
+                int[] placeIdArray = intPlaceRelation.ToArray();
+                Array.Sort(placeIdArray);
+                List<placeTimelineItem> placeTimelineList = new List<placeTimelineItem>();
+                foreach(int j in placeIdArray)
+                {
+                    var placeModel = db.places.Where(p => p.id == j).FirstOrDefault();
+                    var placeRelationModel = db.placeRelationships.Where(p => p.place_id == j && p.placelist_id == i).FirstOrDefault();
+                    placeTimelineItem placeItem = new placeTimelineItem();
+                    placeItem.placeName = placeModel.name;
+                    placeItem.createdTime = placeRelationModel.created.ToString();
+                    placeTimelineList.Add(placeItem);
+                }
                 var placeListItem = db.placeLists.FirstOrDefault(p => p.id == i);
                 var userListItem = db.users.FirstOrDefault(u => u.id == placeListItem.user_id);
                 queryPlaceList listItem = new queryPlaceList();
@@ -418,6 +431,7 @@ namespace prjToolist.Controllers
                 listItem.user_name = userListItem.name;
                 listItem.createdTime = placeListItem.created.ToString();
                 listItem.updatedTime = placeListItem.updated.ToString();
+                listItem.timelineItmes = placeTimelineList;
                 placesList.Add(listItem);
             }
             var result = new

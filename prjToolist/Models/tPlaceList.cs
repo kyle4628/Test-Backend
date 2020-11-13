@@ -90,7 +90,7 @@ namespace prjToolist.Models
         public string cover_image_url { get; set; }
     }
 
-    //for query/get_place_list
+    /*----------for query/get_place_list----------*/
     public class queryPlaceList
     {
         public int id { get; set; }
@@ -101,5 +101,12 @@ namespace prjToolist.Models
         public int privacy { get; set; }
         public string createdTime { get; set; }
         public string updatedTime { get; set; }
+        public List<placeTimelineItem> timelineItmes { get; set; }
+    }
+
+    public class placeTimelineItem
+    {
+        public string placeName { get; set; }
+        public string createdTime { get; set; }
     }
 }
