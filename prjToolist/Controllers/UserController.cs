@@ -671,7 +671,7 @@ namespace prjToolist.Controllers
                                 placeinfo.phone = pocketPlace.phone;
                                 placeinfo.address = pocketPlace.address;
                                 placeinfo.type = pocketPlace.type;
-                                placeinfo.photo_url = "";
+                                placeinfo.photo_url = pocketPlace.photo != null ? pocketPlace.photo : "";
                                 resultPlaceInfo.Add(placeinfo);
                             }
                         }
@@ -864,6 +864,71 @@ namespace prjToolist.Controllers
             return resp;
         }
 
+        [Route("add_new_place")]
+        [HttpPost]
+        [EnableCors("*", "*", "*")]
+        public HttpResponseMessage add_new_place(addNewPlaceInfo newPlace)
+        {
+            int placeId = 0;
+            var dataForm = new
+            {
+                place_id = placeId
+            };
+            var result = new
+            {
+                status = 0,
+                msg = "fail",
+                data = dataForm
+            };
+            if (newPlace.gmap_id != null)
+            {
+                var hasPlace = db.places.FirstOrDefault(p => p.gmap_id == newPlace.gmap_id);
+                if (hasPlace == null)
+                {
+                    try
+                    {
+                        place np = new place();
+                        np.gmap_id = newPlace.gmap_id;
+                        np.name = newPlace.name;
+                        np.latitude = newPlace.lat;
+                        np.longitude = newPlace.lon;
+                        np.phone = newPlace.phone;
+                        np.address = newPlace.address;
+                        np.type = newPlace.type;
+                        np.photo = newPlace.photo_url;
+                        db.places.Add(np);
+                        db.SaveChanges();
+                        var newplace = db.places.FirstOrDefault(p => p.gmap_id == newPlace.gmap_id);
+                        if (newplace != null)
+                        {
+                            placeId = newplace.id;
+                        }
+                        dataForm = new
+                        {
+                            place_id = placeId
+                        };
+                        result = new
+                        {
+                            status = 1,
+                            msg = "地點新增成功",
+                            data = dataForm
+                        };
+                    }
+                    catch
+                    {
+                        result = new
+                        {
+                            status = 0,
+                            msg = "地點新增失敗，資訊欄不完整或有誤",
+                            data = dataForm
+                        };
+                    }
+                }
+            }
+            var resp = Request.CreateResponse(HttpStatusCode.OK, result);
+            return resp;
+        }
+
         [Route("modify_place_tag")]
         [HttpPost]
         [EnableCors("*", "*", "*")]
@@ -966,10 +1031,7 @@ namespace prjToolist.Controllers
                     }
                 }
             }
-            var resp = Request.CreateResponse(
-          HttpStatusCode.OK,
-          result
-          );
+            var resp = Request.CreateResponse(HttpStatusCode.OK, result);
             return resp;
         }
 

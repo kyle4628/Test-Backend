@@ -56,7 +56,7 @@ namespace prjToolist.Controllers
             }
 
             //get place information by intersectResult or all tags filter
-            if (intersectResult != null) 
+            if (intersectResult != null)
             {
                 foreach (int i in intersectResult)
                 {
@@ -119,14 +119,13 @@ namespace prjToolist.Controllers
                 data = placeInfo,
                 msg = "fail"
             };
-            if(placeItem != null)
+            if (placeItem != null)
             {
                 placeInfo.name = placeItem.name;
                 placeInfo.phone = placeItem.phone;
                 placeInfo.address = placeItem.address;
                 placeInfo.type = placeItem.type;
                 placeInfo.photo_url = placeItem.photo != null ? placeItem.photo : "";
-
                 result = new
                 {
                     status = 1,

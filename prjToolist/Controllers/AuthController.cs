@@ -61,6 +61,21 @@ namespace prjToolist.Controllers
                         msg = "",
                         data = resultUsername
                     };
+
+                    if (verifyAccount.authority == 2)
+                    {
+                        resultUsername = new
+                        {
+                            username = "",
+                            user_id = ""
+                        };
+                        result = new
+                        {
+                            status = 0,
+                            msg = "此帳戶已由管理員限制權限",
+                            data = resultUsername
+                        };
+                    }
                     //resp.Headers.AddCookies(new CookieHeaderValue[] { cookie });
                     //resp.RequestMessage.Content = result;
                     //var reqResult = Request.CreateResponse(HttpStatusCode.OK, result);
@@ -112,7 +127,6 @@ namespace prjToolist.Controllers
                 if (userlogin != 0)
                 {
                     // HttpContext.Current.Session["SK_login"] = null;
-                    Debug.WriteLine("logout success");
                     result = new
                     {
                         status = 1,
@@ -164,7 +178,7 @@ namespace prjToolist.Controllers
                         newmember.password = createMemberModel.password;
                         newmember.email = createMemberModel.email;
                         newmember.created = DateTime.Now;
-                        newmember.updated = DateTime.Now; // -->register need updated time?
+                        newmember.updated = DateTime.Now;
                         newmember.authority = 1;
                         db.users.Add(newmember);
                         db.SaveChanges();
@@ -181,7 +195,7 @@ namespace prjToolist.Controllers
             {
                 throw ex;
             }
-         }
+        }
 
         //TODO: remove befor final released
         [Route("test")]

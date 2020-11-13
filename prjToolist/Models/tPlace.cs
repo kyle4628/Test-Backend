@@ -16,6 +16,19 @@ namespace prjToolist.Models
         public Nullable<int> type { get; set; }
     }
 
+    // for user/add_new_place
+    public class addNewPlaceInfo
+    {
+        public string gmap_id { get; set; }
+        public decimal lon { get; set; }
+        public decimal lat { get; set; }
+        public string name { get; set; }
+        public string phone { get; set; }
+        public string address { get; set; }
+        public string type { get; set; }
+        public string photo_url { get; set; }
+    }
+
     // for user/get_user_places
     // for user/search_user_places
     public class userPlace
