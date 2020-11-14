@@ -111,4 +111,11 @@ namespace prjToolist.Models
         public int list_id { get; set; }
         public string text { get; set; }
     }
+
+    //for user/invite_edit_together
+    public class vmInvitedEmail
+    {
+        //public int list_id { get; set; }
+        public string invitedEmail { get; set; }
+    }
 }

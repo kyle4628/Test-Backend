@@ -883,7 +883,20 @@ namespace prjToolist.Controllers
             if (newPlace.gmap_id != null)
             {
                 var hasPlace = db.places.FirstOrDefault(p => p.gmap_id == newPlace.gmap_id);
-                if (hasPlace == null)
+                if (hasPlace != null)
+                {
+                    dataForm = new
+                    {
+                        place_id = hasPlace.id
+                    };
+                    result = new
+                    {
+                        status = 1,
+                        msg = "資料庫已有此地點",
+                        data = dataForm
+                    };
+                }
+                else if (hasPlace == null)
                 {
                     try
                     {
@@ -1223,6 +1236,52 @@ namespace prjToolist.Controllers
             return Request.CreateResponse(HttpStatusCode.OK, result);
         }
 
+        [Route("invite_edit_together")]
+        [HttpPost]
+        [EnableCors("*", "*", "*")]
+        public HttpResponseMessage invite_edit_together(vmInvitedEmail vmEmail)
+        {
+            var dataForm = new
+            {
+                username = "",
+                user_id = ""
+            };
+            var result = new
+            {
+                status = 0,
+                msg = "fail",
+                data = dataForm
+            };
+            if (vmEmail.invitedEmail != null)
+            {
+                result = new
+                {
+                    status = 0,
+                    msg = vmEmail.invitedEmail + " 輸入值非有效會員",
+                    data = dataForm
+                };
+                vmEmail.invitedEmail = vmEmail.invitedEmail.Trim();
+                var hasUser = db.users.FirstOrDefault(p => p.email == vmEmail.invitedEmail);
+                if (hasUser != null)
+                {
+                    dataForm = new
+                    {
+                        username = hasUser.name,
+                        user_id = hasUser.id.ToString()
+                    };
+                    result = new
+                    {
+                        status = 1,
+                        msg = "success",
+                        data = dataForm
+                    };
+                }
+            }
+            var resp = Request.CreateResponse(HttpStatusCode.OK, result);
+            return resp;
+
+        }
+
         [Route("save_list_photo")]
         [HttpPost]
         [EnableCors("*", "*", "*")]
@@ -1269,11 +1328,7 @@ namespace prjToolist.Controllers
                 };
             }
 
-            var resp = Request.CreateResponse(
-          HttpStatusCode.OK,
-          result
-          );
-            return resp;
+            return Request.CreateResponse(HttpStatusCode.OK, result);
         }
 
         private static int userIsLoginSession(int userlogin)

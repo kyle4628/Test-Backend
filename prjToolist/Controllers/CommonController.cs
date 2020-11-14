@@ -243,6 +243,7 @@ namespace prjToolist.Controllers
                 infoItem.privacy = listModel.privacy;
                 infoItem.createdTime = listModel.created != null ? listModel.created.ToString().Substring(0, 10) : "";
                 infoItem.updatedTime = listModel.updated != null ? listModel.updated.ToString().Substring(0, 10) : "";
+                infoItem.coverImageURL = listModel.cover != null ? listModel.cover : null;
 
                 dataForm = new
                 {
@@ -289,7 +290,7 @@ namespace prjToolist.Controllers
                         placeDetail.phone = placeItem.phone;
                         placeDetail.address = placeItem.address;
                         placeDetail.type = placeItem.type;
-                        //placeDetail.photo_url = placeItem.photo.ToString(); // photo type in db is byte[]
+                        placeDetail.photo_url = placeItem.photo != null ? placeItem.photo : null; // photo type in db is byte[]
                         resultPlaceInfo.Add(placeDetail);
                     }
                     tagsList.AddRange(db.tagRelationships.Where(p => p.place_id == i && p.user_id == list_createrId).Select(q => q.tag_id).ToList());

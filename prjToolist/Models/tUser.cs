@@ -65,5 +65,4 @@ namespace prjToolist.Models
             return userlogin;
         }
     }
-
 }
