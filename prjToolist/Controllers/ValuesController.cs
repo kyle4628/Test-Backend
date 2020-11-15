@@ -418,6 +418,9 @@ namespace prjToolist.Controllers
                     placeTimelineItem placeItem = new placeTimelineItem();
                     placeItem.placeName = placeModel.name;
                     placeItem.createdTime = placeRelationModel.created.ToString();
+                    placeItem.icon = "el-icon-place";
+                    placeItem.size = "large";
+                    placeItem.type = "success";
                     placeTimelineList.Add(placeItem);
                 }
                 var placeListItem = db.placeLists.FirstOrDefault(p => p.id == i);

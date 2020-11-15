@@ -108,5 +108,8 @@ namespace prjToolist.Models
     {
         public string placeName { get; set; }
         public string createdTime { get; set; }
+        public string icon { get; set; }
+        public string size { get; set; }
+        public string type { get; set; }
     }
 }
