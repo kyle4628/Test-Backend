@@ -609,6 +609,7 @@ namespace prjToolist.Controllers
                                 editTogrther.placelist_id = listId;
                                 editTogrther.created = DateTime.Now;
                                 db.placeListRelationships.Add(editTogrther);
+                                db.SaveChanges();
                             }
 
                         }
@@ -1072,6 +1073,7 @@ namespace prjToolist.Controllers
             };
             userlogin = userFactory.userIsLoginSession(userlogin);
             userlogin = userIsLoginCookie(userlogin);
+            userFactory.userEventRecord(userlogin, 3, db);
             var place = db.places.Where(p => p.id == vm_tagChange.place_id).Select(q => q).FirstOrDefault();
             if (place != null && userlogin != 0)
             {
@@ -1094,7 +1096,7 @@ namespace prjToolist.Controllers
                             t.user_id = userlogin;
                             t.created = DateTime.Now;
                             db.tagRelationships.Add(t);
-                            db.SaveChanges();
+                            //db.SaveChanges();
 
                             tagEvent newEvent = new tagEvent();
                             newEvent.tag_id = i;
