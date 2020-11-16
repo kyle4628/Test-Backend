@@ -11,7 +11,7 @@
     <Property Name="phone" Type="nvarchar" MaxLength="50" />
     <Property Name="address" Type="nvarchar" MaxLength="50" />
     <Property Name="type" Type="nvarchar(max)" />
-    <Property Name="gmap_id" Type="nvarchar(max)" />
+    <Property Name="gmap_id" Type="nvarchar(max)" Nullable="false" />
     <Property Name="photo" Type="nvarchar(max)" />
   </EntityType>
   <EntityType Name="placeList">
@@ -26,6 +26,15 @@
     <Property Name="created" Type="datetime" Nullable="false" />
     <Property Name="updated" Type="datetime" />
     <Property Name="cover" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="placeListRelationship">
+    <Key>
+      <PropertyRef Name="placelist_id" />
+      <PropertyRef Name="user_id" />
+    </Key>
+    <Property Name="placelist_id" Type="int" Nullable="false" />
+    <Property Name="user_id" Type="int" Nullable="false" />
+    <Property Name="created" Type="datetime2" Precision="0" />
   </EntityType>
   <EntityType Name="placeRelationship">
     <Key>
@@ -77,13 +86,24 @@
     <Property Name="updated" Type="datetime2" Precision="0" />
     <Property Name="created" Type="datetime2" Precision="0" />
   </EntityType>
+  <EntityType Name="userEvent">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="user_id" Type="int" Nullable="false" />
+    <Property Name="userEvent" Type="int" Nullable="false" />
+    <Property Name="created" Type="datetime2" Precision="0" />
+  </EntityType>
   <EntityContainer Name="FUENMLModelStoreContainer">
     <EntitySet Name="place" EntityType="Self.place" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="placeList" EntityType="Self.placeList" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="placeListRelationship" EntityType="Self.placeListRelationship" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="placeRelationship" EntityType="Self.placeRelationship" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="tag" EntityType="Self.tag" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="tagEvent" EntityType="Self.tagEvent" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="tagRelationship" EntityType="Self.tagRelationship" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="user" EntityType="Self.user" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="userEvent" EntityType="Self.userEvent" Schema="dbo" store:Type="Tables" />
   </EntityContainer>
 </Schema>

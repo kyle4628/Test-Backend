@@ -134,17 +134,7 @@ namespace prjToolist.Controllers
                     };
                 }
 
-                var resp = Request.CreateResponse(
-                    HttpStatusCode.OK,
-                    result
-                );
-                //var result = new
-                //{
-                //    status = 1,
-                //    msg = ""
-                //};
-                //return Request.CreateResponse(HttpStatusCode.OK, result);
-                return resp;
+                return Request.CreateResponse(HttpStatusCode.OK, result);
             }
             catch (Exception ex)
             {

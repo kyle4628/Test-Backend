@@ -3,11 +3,13 @@
   <EntityContainer Name="FUENMLEntities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="places" EntityType="FUENMLModel.place" />
     <EntitySet Name="placeLists" EntityType="FUENMLModel.placeList" />
+    <EntitySet Name="placeListRelationships" EntityType="FUENMLModel.placeListRelationship" />
     <EntitySet Name="placeRelationships" EntityType="FUENMLModel.placeRelationship" />
     <EntitySet Name="tags" EntityType="FUENMLModel.tag" />
     <EntitySet Name="tagEvents" EntityType="FUENMLModel.tagEvent" />
     <EntitySet Name="tagRelationships" EntityType="FUENMLModel.tagRelationship" />
     <EntitySet Name="users" EntityType="FUENMLModel.user" />
+    <EntitySet Name="userEvents" EntityType="FUENMLModel.userEvent" />
   </EntityContainer>
   <EntityType Name="place">
     <Key>
@@ -20,7 +22,7 @@
     <Property Name="phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
     <Property Name="address" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
     <Property Name="type" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-    <Property Name="gmap_id" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="gmap_id" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
     <Property Name="photo" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
   </EntityType>
   <EntityType Name="placeList">
@@ -35,6 +37,15 @@
     <Property Name="created" Type="DateTime" Nullable="false" Precision="3" />
     <Property Name="updated" Type="DateTime" Precision="3" />
     <Property Name="cover" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="placeListRelationship">
+    <Key>
+      <PropertyRef Name="placelist_id" />
+      <PropertyRef Name="user_id" />
+    </Key>
+    <Property Name="placelist_id" Type="Int32" Nullable="false" />
+    <Property Name="user_id" Type="Int32" Nullable="false" />
+    <Property Name="created" Type="DateTime" Precision="0" />
   </EntityType>
   <EntityType Name="placeRelationship">
     <Key>
@@ -84,6 +95,15 @@
     <Property Name="password" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
     <Property Name="authority" Type="Int32" Nullable="false" />
     <Property Name="updated" Type="DateTime" Precision="0" />
+    <Property Name="created" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="userEvent">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="user_id" Type="Int32" Nullable="false" />
+    <Property Name="userEvent1" Type="Int32" Nullable="false" />
     <Property Name="created" Type="DateTime" Precision="0" />
   </EntityType>
 </Schema>

@@ -372,6 +372,9 @@
     <Compile Include="placeList.cs">
       <DependentUpon>FUENModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="placeListRelationship.cs">
+      <DependentUpon>FUENModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="placeRelationship.cs">
       <DependentUpon>FUENModel.tt</DependentUpon>
     </Compile>
@@ -396,6 +399,9 @@
       <DependentUpon>FUENModel.tt</DependentUpon>
     </Compile>
     <Compile Include="user.cs">
+      <DependentUpon>FUENModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="userEvent.cs">
       <DependentUpon>FUENModel.tt</DependentUpon>
     </Compile>
   </ItemGroup>

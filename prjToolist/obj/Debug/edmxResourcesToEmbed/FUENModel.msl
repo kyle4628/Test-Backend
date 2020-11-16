@@ -30,6 +30,15 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="placeListRelationships">
+      <EntityTypeMapping TypeName="FUENMLModel.placeListRelationship">
+        <MappingFragment StoreEntitySet="placeListRelationship">
+          <ScalarProperty Name="created" ColumnName="created" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="placelist_id" ColumnName="placelist_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
     <EntitySetMapping Name="placeRelationships">
       <EntityTypeMapping TypeName="FUENMLModel.placeRelationship">
         <MappingFragment StoreEntitySet="placeRelationship">
@@ -78,6 +87,16 @@
           <ScalarProperty Name="password" ColumnName="password" />
           <ScalarProperty Name="email" ColumnName="email" />
           <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="userEvents">
+      <EntityTypeMapping TypeName="FUENMLModel.userEvent">
+        <MappingFragment StoreEntitySet="userEvent">
+          <ScalarProperty Name="created" ColumnName="created" />
+          <ScalarProperty Name="userEvent1" ColumnName="userEvent" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
           <ScalarProperty Name="id" ColumnName="id" />
         </MappingFragment>
       </EntityTypeMapping>

@@ -95,6 +95,38 @@ namespace prjToolist.Controllers
             return Request.CreateResponse(HttpStatusCode.OK, result);
         }
 
+        [Route("get_user_event_count")]
+        [HttpPost]
+        [EnableCors("*", "*", "*")]
+        public HttpResponseMessage get_user_event_count()
+        {
+
+            List<vmCountDataValues> allUserEventCount = new List<vmCountDataValues>();
+            var result = new
+            {
+                status = 0,
+                msg = "fail",
+                data = allUserEventCount
+
+            };
+
+            var userEventTotal = (from userEventsCount in db.userEvents
+                                  group userEventsCount by userEventsCount.userEvent1 into g
+                                  select new vmCountDataValues { key = g.Key.ToString(), count = g.Count() }).ToList();
+
+            if (userEventTotal != null)
+            {
+                result = new
+                {
+                    status = 1,
+                    msg = "OK",
+                    data = userEventTotal
+
+                };
+            }
+            return Request.CreateResponse(HttpStatusCode.OK, result);
+        }
+
         [Route("get_all_data_count")]
         [HttpPost]
         [EnableCors("*", "*", "*")]
@@ -177,7 +209,6 @@ namespace prjToolist.Controllers
                     int tagid;
                     int.TryParse(tagItem.key, out tagid);
                     var hasTag = db.tags.Where(p => p.id == tagid && p.type == 2).Select(q => q.name).FirstOrDefault();
-                    //var hasTag = db.tags.Where(p => p.id == tagid).Select(q => q.name).FirstOrDefault();
                     if (hasTag != null)
                     {
                         vmCountDataValues r = new vmCountDataValues();
@@ -712,12 +743,6 @@ namespace prjToolist.Controllers
             };
 
             return Request.CreateResponse(HttpStatusCode.OK, result);
-        }
-
-        public class Student
-        {
-            public int Id { get; set; }
-            public string Name { get; set; }
         }
     }
 }
