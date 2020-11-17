@@ -432,10 +432,12 @@ namespace prjToolist.Controllers
         {
             var intList = db.placeLists.Select(p => p.id).ToList();
             int[] placeListArray = intList.ToArray();
+            int responseId = 0;
             Array.Sort(placeListArray);
             List<queryPlaceList> placesList = new List<queryPlaceList>();
             foreach (int i in placeListArray)
             {
+                responseId++;
                 //var placeListItem = db.placeLists.AsEnumerable().FirstOrDefault(p => p.id == i);
                 //var userListItem = db.users.AsEnumerable().FirstOrDefault(u => u.id == placeListItem.id);
                 var intPlaceRelation = db.placeRelationships.Where(p => p.placelist_id == i).Select(p => p.place_id).ToList();
@@ -457,7 +459,7 @@ namespace prjToolist.Controllers
                 var placeListItem = db.placeLists.FirstOrDefault(p => p.id == i);
                 var userListItem = db.users.FirstOrDefault(u => u.id == placeListItem.user_id);
                 queryPlaceList listItem = new queryPlaceList();
-                listItem.id = placeListItem.id;
+                listItem.id = responseId;
                 listItem.listName = placeListItem.name;
                 listItem.description = placeListItem.description;
                 listItem.privacy = placeListItem.privacy;
@@ -601,7 +603,7 @@ namespace prjToolist.Controllers
         [EnableCors("*", "*", "*")]
         public HttpResponseMessage updateMember(updateMember updateItem)
         {
-            var userModel = db.users.FirstOrDefault(u => u.email == updateItem.email && u.password == updateItem.password);
+            var userModel = db.users.FirstOrDefault(u => u.email == updateItem.email);
             var result = new
             {
                 status = 0,
