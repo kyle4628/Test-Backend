@@ -67,6 +67,8 @@ namespace prjToolist.Models
         public string address { get; set; }
         public string type { get; set; }
         public string photo_url { get; set; }
+        public int[] king_tags { get; set; }
+        public location location { get; set; }
     }
     
     /*---for query/get_place_info---*/

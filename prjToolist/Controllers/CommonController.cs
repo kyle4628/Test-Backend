@@ -240,11 +240,15 @@ namespace prjToolist.Controllers
             List<int> intersectResult = new List<int>();
             List<int> tagsList = new List<int>();
             List<int> editorIDList = new List<int>();
+            List<int> kingTags = new List<int>();
             List<listDetailPlace> resultPlaceInfo = new List<listDetailPlace>();
             List<tTag> resultTagInfo = new List<tTag>();
             placeListInfo infoItem = new placeListInfo();
             int[] tFilterid = getListInfo.filter;
             int list_createrId = 0;
+            int userlogin = 0;
+            userlogin = userFactory.userIsLoginSession(userlogin);
+            userlogin = userIsLoginCookie(userlogin);
             userFactory.userEventRecord(0, 1, db);
             var dataForm = new
             {
@@ -325,15 +329,31 @@ namespace prjToolist.Controllers
                         if (placeItem != null)
                         {
                             if (placeItem.type != null) systemTagResult.Add(placeItem.type);
-
                             listDetailPlace placeDetail = new listDetailPlace();
+                            if (userlogin == 0)
+                            {
+                                placeDetail.king_tags = kingTags.ToArray();
+                            }
+                            else
+                            {
+                                var hasKingTag = db.tagRelationships.Where(t => t.user_id == userlogin && t.place_id == i && (t.tag_id==101|| t.tag_id == 102|| t.tag_id == 103)).Select(t => t.tag_id).ToList();
+
+                                if (hasKingTag != null)
+                                {
+                                    placeDetail.king_tags = hasKingTag.ToArray();
+                                }
+                            }
+                            location detailPlaceLocation = new location();
                             placeDetail.id = placeItem.id;
                             placeDetail.gmap_id = placeItem.gmap_id;
                             placeDetail.name = placeItem.name;
                             placeDetail.phone = placeItem.phone;
                             placeDetail.address = placeItem.address;
                             placeDetail.type = placeItem.type;
-                            placeDetail.photo_url = placeItem.photo != null ? placeItem.photo : null; 
+                            placeDetail.photo_url = placeItem.photo != null ? placeItem.photo : null;
+                            detailPlaceLocation.lon = placeItem.longitude;
+                            detailPlaceLocation.lat = placeItem.latitude;
+                            placeDetail.location = detailPlaceLocation;
                             resultPlaceInfo.Add(placeDetail);
                         }
                         tagsList.AddRange(db.tagRelationships.Where(p => p.place_id == i && p.user_id == list_createrId).Select(q => q.tag_id).ToList());
@@ -416,6 +436,21 @@ namespace prjToolist.Controllers
                 }
 
             return Request.CreateResponse(HttpStatusCode.OK, result);
+        }
+
+        public int userIsLoginCookie(int userlogin)
+        {
+            var currentCookie = Request.Headers.GetCookies("session_id").FirstOrDefault();
+            if (Request.Headers.Contains("session_id"))
+            {
+                int _userlogin = 0;
+                bool userIslogin = int.TryParse(Request.Headers.GetValues("session_id").FirstOrDefault(), out _userlogin);
+                if (userIslogin)
+                {
+                    userlogin = _userlogin;
+                }
+            }
+            return userlogin;
         }
     }
 }
