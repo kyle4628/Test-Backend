@@ -98,6 +98,7 @@ namespace prjToolist.Models
         public int id { get; set; }
         public int user_id { get; set; }
         public string user_name { get; set; }
+        public int list_id { get; set; }
         public string listName { get; set; }
         public string description { get; set; }
         public int privacy { get; set; }

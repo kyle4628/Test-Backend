@@ -460,6 +460,7 @@ namespace prjToolist.Controllers
                 var userListItem = db.users.FirstOrDefault(u => u.id == placeListItem.user_id);
                 queryPlaceList listItem = new queryPlaceList();
                 listItem.id = responseId;
+                listItem.list_id = i;
                 listItem.listName = placeListItem.name;
                 listItem.description = placeListItem.description;
                 listItem.privacy = placeListItem.privacy;
@@ -630,7 +631,7 @@ namespace prjToolist.Controllers
         [EnableCors("*", "*", "*")]
         public HttpResponseMessage updatePlaceList(queryPlaceList updateItem)
         {
-            var placeListItem = db.placeLists.FirstOrDefault(p => p.id == updateItem.id);
+            var placeListItem = db.placeLists.FirstOrDefault(p => p.id == updateItem.list_id);
             var userListItem = db.users.FirstOrDefault(u => u.id == updateItem.user_id);
             placeListItem.name = updateItem.listName;
             placeListItem.description = updateItem.description;
